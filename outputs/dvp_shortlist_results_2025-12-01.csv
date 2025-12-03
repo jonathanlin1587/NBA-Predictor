@@ -1,0 +1,127 @@
+player,team,position,opponent,stat,opp_dvp_value,tier,edge_score,,,,
+Ryan Rollins,MIL,PG,WAS,PTS,26.8,WORST,1,o15.5,-123,60%,
+Ryan Rollins,MIL,PG,WAS,REB,6.9,WORST,1,o3.5,-140,70%,0.7
+Ryan Rollins,MIL,PG,WAS,AST,9.2,WORST,1,,,,
+Ryan Rollins,MIL,PG,WAS,PRA,42.9,WORST,1,o25.5,-111,60%,1
+C.J. McCollum,WAS,PG,MIL,PTS,27.2,WORST,1,o18.5,-110,50%,
+C.J. McCollum,WAS,PG,MIL,PRA,41.9,WORST,1,,,,
+Bilal Coulibaly,WAS,SG,MIL,AST,4.8,BEST,-1,,,,
+AJ Green,MIL,SF,WAS,REB,8.9,WORST,1,o2.5,-125,70%,0.625
+AJ Green,MIL,SF,WAS,PRA,37.4,WORST,1,o14.5,-125,80%,0.6
+Khris Middleton Off Inj,WAS,SF,MIL,PTS,24.3,WORST,1,,,,
+Khris Middleton Off Inj,WAS,SF,MIL,PRA,37.8,WORST,1,o18.5,-114,50%,0.75
+Giannis Antetokounmpo,MIL,PF,WAS,PTS,26.7,WORST,1,,,,
+Giannis Antetokounmpo,MIL,PF,WAS,REB,13.4,WORST,1,,,,
+Giannis Antetokounmpo,MIL,PF,WAS,AST,4.9,WORST,1,,,,
+Giannis Antetokounmpo,MIL,PF,WAS,PRA,45,WORST,1,,,,
+Kyshawn George,WAS,PF,MIL,PTS,20.6,BEST,-1,u15.5,-108,50%,
+Myles Turner,MIL,C,WAS,PTS,26.4,WORST,1,o12.5,-125,60%,
+Myles Turner,MIL,C,WAS,REB,17.4,WORST,1,,,,
+Myles Turner,MIL,C,WAS,AST,5,WORST,1,,,,
+Myles Turner,MIL,C,WAS,PRA,48.8,WORST,1,o21.5,-104,60%,
+Nickeil Alexander-Walker,ATL,PG,DET,AST,7.2,BEST,-1,,,,
+Cade Cunningham,DET,PG,ATL,REB,6.8,WORST,1,o6.5,115,70%,1.25
+Dyson Daniels,ATL,SG,DET,AST,5,BEST,-1,,,,
+Duncan Robinson,DET,SG,ATL,PTS,26,WORST,1,o11.5,-102,70%,1.25
+Zaccharie Risacher,ATL,SF,DET,PTS,20,BEST,-1,,,,
+Zaccharie Risacher,ATL,SF,DET,AST,3.7,BEST,-1,u1.5,-120,55%,0.6
+Zaccharie Risacher,ATL,SF,DET,PRA,30.9,BEST,-1,,,,
+Kristaps Porzingis,ATL,C,DET,PTS,18.9,BEST,-1,,,,
+Kristaps Porzingis,ATL,C,DET,REB,13,BEST,-1,,,,
+Kristaps Porzingis,ATL,C,DET,PRA,35.3,BEST,-1,,,,
+Andrew Nembhard,IND,PG,CLE,REB,5.3,BEST,-1,u2.5,-115,70%,0.575
+Donovan Mitchell,CLE,SG,IND,PTS,22,BEST,-1,,,,
+Donovan Mitchell,CLE,SG,IND,REB,7.2,WORST,1,,,,
+Donovan Mitchell,CLE,SG,IND,AST,4.7,BEST,-1,,,,
+Ben Sheppard,IND,SG,CLE,PTS,21.8,BEST,-1,,,,
+Ben Sheppard,IND,SG,CLE,PRA,32.9,BEST,-1,,,,
+Jaylon Tyson,CLE,SF,IND,REB,9.2,WORST,1,,,,
+Bennedict Mathurin,IND,SF,CLE,PTS,24.3,WORST,1,,,,
+Bennedict Mathurin,IND,SF,CLE,REB,9,WORST,1,,,,
+Bennedict Mathurin,IND,SF,CLE,PRA,38.1,WORST,1,,,,
+Pascal Siakam,IND,PF,CLE,PTS,25.9,WORST,1,o23.5,-110,70%,0.575
+Pascal Siakam,IND,PF,CLE,REB,12.6,WORST,1,,,,
+Pascal Siakam,IND,PF,CLE,PRA,43.1,WORST,1,o34.5,-114,70%,0.575
+Evan Mobley,CLE,C,IND,PTS,24.6,WORST,1,,,,
+Evan Mobley,CLE,C,IND,REB,16.4,WORST,1,,,,
+Evan Mobley,CLE,C,IND,PRA,45.4,WORST,1,,,,
+James Harden,LAC,PG,MIA,REB,7.4,WORST,1,o5.5,-112,60%,1
+James Harden,LAC,PG,MIA,PRA,41.2,WORST,1,o42.5,-113,60%,
+Davion Mitchell,MIA,PG,LAC,AST,9.1,WORST,1,o6.5,-122,50%,0.75
+Kris Dunn,LAC,SG,MIA,REB,7.4,WORST,1,,,,
+Kris Dunn,LAC,SG,MIA,AST,6,WORST,1,o5.5 RA,-108,70%,1
+Tyler Herro,MIA,SG,LAC,PTS,26,WORST,1,o22.5,-102,100%,1.25
+Tyler Herro,MIA,SG,LAC,PRA,38.6,WORST,1,,,,
+John Collins,LAC,PF,MIA,PTS,25,WORST,1,,,,
+John Collins,LAC,PF,MIA,REB,12.5,WORST,1,,,,
+John Collins,LAC,PF,MIA,AST,3.4,BEST,-1,,,,
+John Collins,LAC,PF,MIA,PRA,40.9,WORST,1,,,,
+Andrew Wiggins,MIA,PF,LAC,PTS,20.5,BEST,-1,,,,
+Andrew Wiggins,MIA,PF,LAC,REB,9.2,BEST,-1,,,,
+Andrew Wiggins,MIA,PF,LAC,PRA,33.2,BEST,-1,,,,
+Ivica Zubac,LAC,C,MIA,REB,16.2,WORST,1,,,,
+Josh Giddey,CHI,PG,ORL,PTS,27.9,WORST,1,,,,
+Josh Giddey,CHI,PG,ORL,PRA,42.6,WORST,1,o37.5,-113,63%,1
+Desmond Bane,ORL,SG,CHI,PTS,20.7,BEST,-1,,,,
+Desmond Bane,ORL,SG,CHI,REB,5.6,BEST,-1,,,,
+Desmond Bane,ORL,SG,CHI,PRA,31.4,BEST,-1,,,,
+Kevin Huerter,CHI,SF,ORL,AST,3.2,BEST,-1,,,,
+Kevin Huerter,CHI,SF,ORL,PRA,30.8,BEST,-1,,,,
+Franz Wagner,ORL,SF,CHI,AST,5,WORST,1,,,,
+Tristan da Silva,ORL,PF,CHI,PTS,29.4,WORST,1,,,,
+Tristan da Silva,ORL,PF,CHI,REB,13.2,WORST,1,,,,
+Tristan da Silva,ORL,PF,CHI,PRA,46.9,WORST,1,,,,
+Nikola Vucevic,CHI,C,ORL,PTS,19.1,BEST,-1,u16.5,-122,67%,0.75
+Nikola Vucevic,CHI,C,ORL,AST,2.8,BEST,-1,,,,
+Nikola Vucevic,CHI,C,ORL,PRA,35.8,BEST,-1,,,,
+Wendell Carter Jr.,ORL,C,CHI,REB,16.3,WORST,1,,,,
+Wendell Carter Jr.,ORL,C,CHI,PRA,44.4,WORST,1,,,,
+LaMelo Ball,CHA,PG,BKN,AST,9,WORST,1,o6.5,-145,70%,
+Kon Knueppel,CHA,SG,BKN,REB,5.6,BEST,-1,,,,
+Kon Knueppel,CHA,SG,BKN,AST,6.4,WORST,1,,,,
+Brandon Miller,CHA,SF,BKN,REB,8.8,WORST,1,,,,
+Brandon Miller,CHA,SF,BKN,PRA,37.6,WORST,1,,,,
+Michael Porter Jr.,BKN,SF,CHA,REB,6.7,BEST,-1,u6.5,-116,63%,0.75
+Miles Bridges,CHA,PF,BKN,PTS,26.2,WORST,1,o19.5,-102,70%,0.75
+Miles Bridges,CHA,PF,BKN,REB,11.9,WORST,1,,,,
+Miles Bridges,CHA,PF,BKN,PRA,42.9,WORST,1,o29.5,-120,70%,0.75
+Noah Clowney,BKN,PF,CHA,AST,5.3,WORST,1,,,,
+Ryan Kalkbrenner,CHA,C,BKN,AST,3.2,BEST,-1,u0.5,-125,75%,0.625
+Nicolas Claxton,BKN,C,CHA,REB,12.5,BEST,-1,u8.5,-102,60%,
+Keyonte George,UTA,PG,HOU,PRA,36.1,BEST,-1,,,,
+Amen Thompson,HOU,SG,UTA,PTS,27.4,WORST,1,,,,
+Amen Thompson,HOU,SG,UTA,AST,6,WORST,1,,,,
+Amen Thompson,HOU,SG,UTA,PRA,40.1,WORST,1,,,,
+Svi Mykhailiuk,UTA,SG,HOU,PTS,20.3,BEST,-1,,,,
+Svi Mykhailiuk,UTA,SG,HOU,REB,5.5,BEST,-1,,,,
+Svi Mykhailiuk,UTA,SG,HOU,PRA,30.9,BEST,-1,,,,
+Kevin Durant,HOU,SF,UTA,REB,6.6,BEST,-1,,,,
+Kevin Durant,HOU,SF,UTA,AST,5.9,WORST,1,,,,
+Jabari Smith Jr.,HOU,PF,UTA,AST,5.3,WORST,1,o1.5,-145,70%,0.725
+Lauri Markkanen,UTA,PF,HOU,REB,9,BEST,-1,,,,
+Lauri Markkanen,UTA,PF,HOU,AST,3.3,BEST,-1,,,,
+Lauri Markkanen,UTA,PF,HOU,PRA,33.2,BEST,-1,u32.5,-112,50%,0.575
+Jusuf Nurkic,UTA,C,HOU,REB,11.5,BEST,-1,,,,
+Ryan Nembhard,DAL,PG,DEN,REB,5.3,BEST,-1,,,,
+Jamal Murray,DEN,PG,DAL,PTS,21.5,BEST,-1,,,,
+Jamal Murray,DEN,PG,DAL,REB,7.4,WORST,1,,,,
+Cam Johnson,DEN,SG,DAL,REB,8.2,WORST,1,o4.5,106,44%,1
+Cam Johnson,DEN,SG,DAL,PRA,37.8,WORST,1,o21.5,-104,67%,0.75
+Cooper Flagg,DAL,SF,DEN,REB,6.7,BEST,-1,,,,
+PJ Washington,DAL,PF,DEN,REB,8.6,BEST,-1,,,,
+PJ Washington,DAL,PF,DEN,PRA,34.3,BEST,-1,,,,
+Spencer Jones,DEN,PF,DAL,AST,3.4,BEST,-1,,,,
+Nikola Jokic,DEN,C,DAL,PTS,24.1,WORST,1,,,,
+Nikola Jokic,DEN,C,DAL,PRA,43.9,WORST,1,,,,
+Devin Booker,PHO,PG,LAL,REB,4.8,BEST,-1,,,,
+Devin Booker,PHO,PG,LAL,AST,9.2,WORST,1,,,,
+Luka Doncic,LAL,PG,PHO,AST,7.7,BEST,-1,,,,
+Dillon Brooks,PHO,SF,LAL,PTS,26,WORST,1,o18.5,-120,70%,1
+Dillon Brooks,PHO,SF,LAL,AST,3.6,BEST,-1,,,,
+Rui Hachimura,LAL,SF,PHO,PTS,20.2,BEST,-1,,,,
+Rui Hachimura,LAL,SF,PHO,PRA,31.6,BEST,-1,,,,
+Royce O'Neale,PHO,PF,LAL,REB,9.2,BEST,-1,,,,
+Mark Williams Off Inj,PHO,C,LAL,PTS,14.8,BEST,-1,,,,
+Mark Williams Off Inj,PHO,C,LAL,REB,12.7,BEST,-1,,,,
+Mark Williams Off Inj,PHO,C,LAL,PRA,31.5,BEST,-1,,,,
+Deandre Ayton,LAL,C,PHO,AST,4.8,WORST,1,,,,

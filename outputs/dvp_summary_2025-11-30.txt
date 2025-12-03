@@ -1,0 +1,492 @@
+
+### PTS ###
+
+C — WORST (overs)
+TEAM  PTS
+ WAS 26.4
+ SAC 26.2
+ IND 24.6
+ DAL 24.1
+ POR 23.7
+
+C — BEST (unders)
+TEAM  PTS
+ LAL 14.8
+  NY 18.7
+ OKC 18.8
+ DET 18.9
+ ORL 19.1
+
+PF — WORST (overs)
+TEAM  PTS
+ CHI 29.4
+ WAS 26.7
+ CLE 26.2
+ BKN 26.2
+ MIA 25.0
+
+PF — BEST (unders)
+TEAM  PTS
+ MEM 19.2
+  SA 19.4
+ OKC 20.4
+ LAC 20.5
+ HOU 20.6
+
+PG — WORST (overs)
+TEAM  PTS
+ MEM 28.0
+ ORL 27.9
+ MIL 27.2
+  SA 27.0
+ WAS 26.8
+
+PG — BEST (unders)
+TEAM  PTS
+  NY 18.8
+ OKC 20.2
+ BOS 20.2
+ PHI 20.8
+ DAL 21.5
+
+SF — WORST (overs)
+TEAM  PTS
+ LAL 26.0
+ CLE 25.1
+  NO 25.0
+ MIL 24.3
+ MEM 24.1
+
+SF — BEST (unders)
+TEAM  PTS
+ DET 20.0
+ PHO 20.2
+ SAC 20.2
+  GS 20.3
+ OKC 20.3
+
+SG — WORST (overs)
+TEAM  PTS
+ UTA 28.1
+ SAC 26.3
+ PHI 26.2
+ ATL 26.1
+ LAC 26.0
+
+SG — BEST (unders)
+TEAM  PTS
+ CHI 20.7
+ HOU 20.7
+ CLE 21.6
+ TOR 22.0
+ IND 22.0
+
+### REB ###
+
+C — WORST (overs)
+TEAM  REB
+ WAS 17.4
+ IND 16.4
+ CHI 16.3
+ SAC 16.3
+ MIA 16.2
+
+C — BEST (unders)
+TEAM  REB
+ HOU 11.3
+ CHA 12.5
+ LAL 12.7
+ OKC 12.9
+ UTA 12.9
+
+PF — WORST (overs)
+TEAM  REB
+ WAS 13.4
+ CHI 13.2
+ MIA 12.5
+ CLE 12.5
+ BKN 11.9
+
+PF — BEST (unders)
+TEAM  REB
+ DEN  8.6
+ HOU  8.8
+  SA  8.9
+ LAC  9.2
+ LAL  9.2
+
+PG — WORST (overs)
+TEAM  REB
+ MIN  7.6
+ DAL  7.4
+ MIA  7.4
+ WAS  6.9
+  SA  6.8
+
+PG — BEST (unders)
+TEAM  REB
+ LAL  4.8
+ DEN  5.3
+ CLE  5.3
+  NO  5.5
+ BOS  5.5
+
+SF — WORST (overs)
+TEAM  REB
+ POR  9.7
+ IND  9.2
+ WAS  8.9
+ CLE  8.9
+ PHI  8.8
+
+SF — BEST (unders)
+TEAM  REB
+ UTA  6.6
+  SA  6.6
+ CHA  6.7
+  NY  6.7
+ DEN  6.7
+
+SG — WORST (overs)
+TEAM  REB
+ DAL  8.2
+ MIA  7.4
+ BOS  7.3
+ IND  7.2
+ SAC  7.2
+
+SG — BEST (unders)
+TEAM  REB
+ MIN  5.3
+ BKN  5.6
+ CHI  5.6
+ HOU  5.6
+  SA  5.7
+
+### AST ###
+
+C — WORST (overs)
+TEAM  AST
+ MEM  5.2
+ WAS  5.0
+ SAC  4.9
+  SA  4.8
+ PHO  4.8
+
+C — BEST (unders)
+TEAM  AST
+ PHI  2.3
+  NY  2.7
+ ORL  2.8
+ HOU  3.2
+ UTA  3.2
+
+PF — WORST (overs)
+TEAM  AST
+ UTA  5.3
+ CHA  5.3
+ WAS  4.9
+ LAL  4.8
+ BKN  4.8
+
+PF — BEST (unders)
+TEAM  AST
+ MIN  3.3
+ BOS  3.4
+ MIA  3.4
+ HOU  3.4
+ DAL  3.4
+
+PG — WORST (overs)
+TEAM  AST
+  NY  9.2
+ LAL  9.2
+ WAS  9.2
+ LAC  9.1
+ UTA  9.0
+
+PG — BEST (unders)
+TEAM  AST
+ OKC  6.9
+ POR  7.0
+ DET  7.2
+ MEM  7.4
+ HOU  7.6
+
+SF — WORST (overs)
+TEAM  AST
+ UTA  5.9
+  NO  5.3
+ MEM  5.1
+ CLE  5.1
+ CHI  5.0
+
+SF — BEST (unders)
+TEAM  AST
+ SAC  2.9
+ ORL  3.2
+ BOS  3.3
+ LAL  3.6
+ TOR  3.6
+
+SG — WORST (overs)
+TEAM  AST
+ SAC  7.4
+ BKN  6.4
+ MIA  6.0
+ PHI  5.9
+  GS  5.9
+
+SG — BEST (unders)
+TEAM  AST
+ OKC  4.1
+ IND  4.7
+ MIL  4.8
+ CLE  4.9
+ DET  5.0
+
+### PR ###
+
+C — WORST (overs)
+TEAM   PR
+ WAS 43.8
+ SAC 42.5
+ IND 41.0
+ CHI 40.0
+ DAL 39.7
+
+C — BEST (unders)
+TEAM   PR
+ LAL 27.5
+ OKC 31.7
+ DET 31.9
+ HOU 31.9
+  NY 32.5
+
+PF — WORST (overs)
+TEAM   PR
+ CHI 42.6
+ WAS 40.1
+ CLE 38.7
+ BKN 38.1
+ MIA 37.5
+
+PF — BEST (unders)
+TEAM   PR
+  SA 28.3
+ HOU 29.4
+ LAC 29.7
+ MEM 29.7
+ DEN 29.8
+
+PG — WORST (overs)
+TEAM   PR
+ MEM 34.4
+ ORL 34.1
+  SA 33.8
+ WAS 33.7
+ MIL 33.6
+
+PG — BEST (unders)
+TEAM   PR
+  NY 24.4
+ BOS 25.7
+ OKC 26.5
+ PHI 27.0
+ CLE 27.7
+
+SF — WORST (overs)
+TEAM   PR
+ CLE 34.0
+ LAL 33.3
+ WAS 32.9
+ MIL 32.9
+ BKN 32.8
+
+SF — BEST (unders)
+TEAM   PR
+ DET 27.2
+ PHO 27.3
+  GS 27.3
+ OKC 27.6
+ ORL 27.6
+
+SG — WORST (overs)
+TEAM   PR
+ UTA 34.6
+ SAC 33.5
+ LAC 33.0
+ ATL 32.8
+ DAL 32.7
+
+SG — BEST (unders)
+TEAM   PR
+ CHI 26.3
+ HOU 26.3
+ CLE 27.4
+ TOR 28.0
+ MIN 28.2
+
+### PA ###
+
+C — WORST (overs)
+TEAM   PA
+ WAS 31.4
+ SAC 31.1
+ IND 29.0
+ DAL 28.3
+ POR 28.2
+
+C — BEST (unders)
+TEAM   PA
+ LAL 18.8
+  NY 21.4
+ ORL 21.9
+ OKC 22.0
+ DET 22.3
+
+PF — WORST (overs)
+TEAM   PA
+ CHI 33.7
+ WAS 31.6
+ BKN 31.0
+ CLE 30.8
+ CHA 30.0
+
+PF — BEST (unders)
+TEAM   PA
+ MEM 23.5
+  SA 23.7
+ LAC 24.0
+ HOU 24.0
+ OKC 24.5
+
+PG — WORST (overs)
+TEAM   PA
+ ORL 36.4
+ WAS 36.0
+ MIL 35.5
+ UTA 35.4
+ MEM 35.4
+
+PG — BEST (unders)
+TEAM   PA
+ OKC 27.1
+  NY 28.0
+ BOS 28.5
+ PHI 29.2
+ DAL 29.4
+
+SF — WORST (overs)
+TEAM   PA
+  NO 30.3
+ CLE 30.2
+ LAL 29.6
+ MEM 29.2
+ MIL 29.2
+
+SF — BEST (unders)
+TEAM   PA
+ SAC 23.1
+ DET 23.7
+  GS 24.0
+ ORL 24.0
+ PHO 24.5
+
+SG — WORST (overs)
+TEAM   PA
+ UTA 33.9
+ SAC 33.7
+ PHI 32.1
+ LAC 31.6
+ ATL 31.2
+
+SG — BEST (unders)
+TEAM   PA
+ CHI 25.8
+ HOU 25.8
+ CLE 26.5
+ IND 26.7
+ OKC 27.4
+
+### PRA ###
+
+C — WORST (overs)
+TEAM  PRA
+ WAS 48.8
+ SAC 47.4
+ IND 45.4
+ CHI 44.4
+ DAL 43.9
+
+C — BEST (unders)
+TEAM  PRA
+ LAL 31.5
+ OKC 34.9
+ HOU 35.1
+  NY 35.2
+ DET 35.3
+
+PF — WORST (overs)
+TEAM  PRA
+ CHI 46.9
+ WAS 45.0
+ CLE 43.3
+ BKN 42.9
+ MIA 40.9
+
+PF — BEST (unders)
+TEAM  PRA
+  SA 32.6
+ HOU 32.8
+ LAC 33.2
+ MEM 34.0
+ DEN 34.3
+
+PG — WORST (overs)
+TEAM  PRA
+ WAS 42.9
+ ORL 42.6
+ MIL 41.9
+ MEM 41.8
+ UTA 41.7
+
+PG — BEST (unders)
+TEAM  PRA
+ OKC 33.4
+  NY 33.6
+ BOS 34.0
+ PHI 35.4
+ HOU 36.2
+
+SF — WORST (overs)
+TEAM  PRA
+ CLE 39.1
+ MIL 37.8
+ BKN 37.6
+  NO 37.5
+ WAS 37.4
+
+SF — BEST (unders)
+TEAM  PRA
+ SAC 30.7
+ ORL 30.8
+ DET 30.9
+  GS 31.0
+ PHO 31.6
+
+SG — WORST (overs)
+TEAM  PRA
+ SAC 40.9
+ UTA 40.4
+ LAC 38.6
+ PHI 38.2
+ ATL 37.9
+
+SG — BEST (unders)
+TEAM  PRA
+ CHI 31.4
+ HOU 31.4
+ CLE 32.3
+ TOR 33.4
+ MIN 33.4

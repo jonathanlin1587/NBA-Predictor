@@ -1,0 +1,50 @@
+player,team,position,opponent,stat,opp_dvp_value,tier,edge_score
+James Harden,LAC,PG,ORL,PTS,27.6,WORST,1
+James Harden,LAC,PG,ORL,PRA,42.2,WORST,1
+Kris Dunn,LAC,SG,ORL,AST,4.6,BEST,-1
+Kobe Sanders,LAC,SF,ORL,AST,3.3,BEST,-1
+Franz Wagner,ORL,SF,LAC,PTS,19.9,BEST,-1
+Franz Wagner,ORL,SF,LAC,PRA,31.7,BEST,-1
+Tristan da Silva,ORL,PF,LAC,PTS,19.3,BEST,-1
+Tristan da Silva,ORL,PF,LAC,REB,8.8,BEST,-1
+Tristan da Silva,ORL,PF,LAC,PRA,32.0,BEST,-1
+Ivica Zubac,LAC,C,ORL,PTS,19.0,BEST,-1
+Ivica Zubac,LAC,C,ORL,REB,12.7,BEST,-1
+Ivica Zubac,LAC,C,ORL,PRA,34.8,BEST,-1
+Wendell Carter Jr.,ORL,C,LAC,PTS,25.5,WORST,1
+De'Aaron Fox,SAS,PG,ATL,PTS,21.0,BEST,-1
+De'Aaron Fox,SAS,PG,ATL,REB,7.3,WORST,1
+Devin Vassell,SAS,SG,ATL,PTS,26.7,WORST,1
+Devin Vassell,SAS,SG,ATL,PRA,39.0,WORST,1
+Tyrese Maxey,PHI,PG,MIL,REB,7.2,WORST,1
+Tyrese Maxey,PHI,PG,MIL,PRA,41.4,WORST,1
+Ryan Rollins,MIL,PG,PHI,PTS,19.1,BEST,-1
+Ryan Rollins,MIL,PG,PHI,PRA,32.7,BEST,-1
+VJ Edgecombe,PHI,SG,MIL,AST,4.8,BEST,-1
+AJ Green,MIL,SG,PHI,PTS,26.9,WORST,1
+Paul George,PHI,SF,MIL,PTS,25.1,WORST,1
+Paul George,PHI,SF,MIL,REB,9.0,WORST,1
+Paul George,PHI,SF,MIL,PRA,38.7,WORST,1
+Gary Trent,MIL,SF,PHI,REB,9.0,WORST,1
+Joel Embiid,PHI,C,MIL,PRA,35.8,BEST,-1
+Myles Turner,MIL,C,PHI,AST,2.6,BEST,-1
+Russell Westbrook,SAC,PG,MEM,PTS,29.0,WORST,1
+Russell Westbrook,SAC,PG,MEM,PRA,43.0,WORST,1
+Vince Williams Jr.,MEM,PG,SAC,AST,7.7,BEST,-1
+Zach LaVine,SAC,SG,MEM,REB,7.1,WORST,1
+Jaylen Wells,MEM,SG,SAC,PTS,27.1,WORST,1
+Jaylen Wells,MEM,SG,SAC,REB,7.1,WORST,1
+Jaylen Wells,MEM,SG,SAC,AST,7.1,WORST,1
+Jaylen Wells,MEM,SG,SAC,PRA,41.3,WORST,1
+DeMar DeRozan,SAC,SF,MEM,AST,5.2,WORST,1
+Cedric Coward,MEM,SF,SAC,PTS,19.7,BEST,-1
+Cedric Coward,MEM,SF,SAC,AST,3.1,BEST,-1
+Cedric Coward,MEM,SF,SAC,PRA,30.7,BEST,-1
+Precious Achiuwa,SAC,PF,MEM,PTS,20.3,BEST,-1
+Precious Achiuwa,SAC,PF,MEM,AST,5.2,WORST,1
+Santi Aldama,MEM,PF,SAC,PTS,25.9,WORST,1
+Santi Aldama,MEM,PF,SAC,AST,5.3,WORST,1
+Zach Edey,MEM,C,SAC,PTS,24.2,WORST,1
+Zach Edey,MEM,C,SAC,REB,16.3,WORST,1
+Zach Edey,MEM,C,SAC,AST,4.9,WORST,1
+Zach Edey,MEM,C,SAC,PRA,45.4,WORST,1

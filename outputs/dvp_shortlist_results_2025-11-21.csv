@@ -1,0 +1,117 @@
+player,team,position,opponent,stat,opp_dvp_value,tier,edge_score
+Andrew Nembhard,IND,PG,CLE,REB,5.2,BEST,-1
+Darius Garland,CLE,PG,IND,PTS,27.5,WORST,1
+Darius Garland,CLE,PG,IND,PRA,42.7,WORST,1
+Bennedict Mathurin,IND,SG,CLE,PTS,21.7,BEST,-1
+Bennedict Mathurin,IND,SG,CLE,PRA,33.0,BEST,-1
+Donovan Mitchell,CLE,SG,IND,AST,4.9,BEST,-1
+Ben Sheppard,IND,SF,CLE,REB,8.9,WORST,1
+Ben Sheppard,IND,SF,CLE,AST,5.1,WORST,1
+Ben Sheppard,IND,SF,CLE,PRA,38.5,WORST,1
+Pascal Siakam,IND,PF,CLE,PTS,27.5,WORST,1
+Pascal Siakam,IND,PF,CLE,REB,13.3,WORST,1
+Pascal Siakam,IND,PF,CLE,PRA,45.3,WORST,1
+Isaiah Jackson,IND,C,CLE,PTS,19.1,BEST,-1
+Jarrett Allen,CLE,C,IND,PTS,25.2,WORST,1
+Jarrett Allen,CLE,C,IND,REB,16.6,WORST,1
+Jarrett Allen,CLE,C,IND,PRA,46.0,WORST,1
+Immanuel Quickley,TOR,PG,WAS,PTS,28.0,WORST,1
+Immanuel Quickley,TOR,PG,WAS,PRA,43.6,WORST,1
+Bilal Coulibaly,WAS,SG,TOR,PTS,21.3,BEST,-1
+Bilal Coulibaly,WAS,SG,TOR,PRA,32.6,BEST,-1
+Brandon Ingram,TOR,SF,WAS,REB,8.9,WORST,1
+Scottie Barnes,TOR,PF,WAS,PTS,26.9,WORST,1
+Scottie Barnes,TOR,PF,WAS,REB,13.2,WORST,1
+Scottie Barnes,TOR,PF,WAS,AST,5.1,WORST,1
+Scottie Barnes,TOR,PF,WAS,PRA,45.2,WORST,1
+Jakob Poeltl,TOR,C,WAS,PTS,25.2,WORST,1
+Jakob Poeltl,TOR,C,WAS,REB,17.5,WORST,1
+Jakob Poeltl,TOR,C,WAS,AST,5.3,WORST,1
+Jakob Poeltl,TOR,C,WAS,PRA,48.0,WORST,1
+Egor Demin,BKN,PG,BOS,PTS,19.8,BEST,-1
+Egor Demin,BKN,PG,BOS,REB,5.1,BEST,-1
+Egor Demin,BKN,PG,BOS,PRA,33.4,BEST,-1
+Derrick White,BOS,PG,BKN,AST,9.6,WORST,1
+Terance Mann,BKN,SG,BOS,PTS,21.8,BEST,-1
+Terance Mann,BKN,SG,BOS,REB,7.5,WORST,1
+Payton Pritchard,BOS,SG,BKN,AST,6.4,WORST,1
+Michael Porter Jr.,BKN,SF,BOS,AST,3.0,BEST,-1
+Jaylen Brown,BOS,SF,BKN,PTS,26.3,WORST,1
+Jaylen Brown,BOS,SF,BKN,PRA,39.6,WORST,1
+Noah Clowney,BKN,PF,BOS,AST,3.3,BEST,-1
+Jordan Walsh,BOS,PF,BKN,REB,12.2,WORST,1
+Jordan Walsh,BOS,PF,BKN,PRA,42.5,WORST,1
+Josh Giddey,CHI,PG,MIA,REB,8.2,WORST,1
+Josh Giddey,CHI,PG,MIA,PRA,41.3,WORST,1
+Norman Powell,MIA,SG,CHI,PTS,20.5,BEST,-1
+Norman Powell,MIA,SG,CHI,REB,5.5,BEST,-1
+Norman Powell,MIA,SG,CHI,PRA,30.9,BEST,-1
+Kevin Huerter,CHI,SG,MIA,REB,7.4,WORST,1
+Kevin Huerter,CHI,SG,MIA,AST,6.2,WORST,1
+Isaac Okoro,CHI,SF,MIA,REB,9.0,WORST,1
+Jaime Jaquez Jr.,MIA,PF,CHI,PTS,30.1,WORST,1
+Jaime Jaquez Jr.,MIA,PF,CHI,REB,12.6,WORST,1
+Jaime Jaquez Jr.,MIA,PF,CHI,PRA,47.1,WORST,1
+Matas Buzelis,CHI,PF,MIA,REB,12.8,WORST,1
+Matas Buzelis,CHI,PF,MIA,AST,2.8,BEST,-1
+Bam Adebayo,MIA,C,CHI,REB,16.6,WORST,1
+Bam Adebayo,MIA,C,CHI,AST,4.7,WORST,1
+Bam Adebayo,MIA,C,CHI,PRA,45.2,WORST,1
+Jeremiah Fears,NOR,PG,DAL,REB,7.7,WORST,1
+Herb Jones,NOR,SG,DAL,REB,8.0,WORST,1
+Herb Jones,NOR,SG,DAL,AST,4.8,BEST,-1
+Trey Murphy,NOR,SF,DAL,PTS,20.0,BEST,-1
+Derik Queen,NOR,C,DAL,REB,16.0,WORST,1
+Devin Booker,PHO,PG,MIN,REB,7.4,WORST,1
+Devin Booker,PHO,PG,MIN,AST,9.1,WORST,1
+Dillon Brooks,PHO,SG,MIN,REB,5.7,BEST,-1
+Jaden McDaniels,MIN,SF,PHO,REB,6.8,BEST,-1
+Ryan Dunn,PHO,PF,MIN,REB,9.2,BEST,-1
+Ryan Dunn,PHO,PF,MIN,AST,3.3,BEST,-1
+Mark Williams,PHO,C,MIN,AST,4.9,WORST,1
+Amen Thompson,HOU,PG,DEN,AST,7.8,BEST,-1
+Amen Thompson,HOU,PG,DEN,PRA,35.8,BEST,-1
+Cam Johnson,DEN,SG,HOU,PTS,20.4,BEST,-1
+Cam Johnson,DEN,SG,HOU,REB,5.4,BEST,-1
+Cam Johnson,DEN,SG,HOU,PRA,31.2,BEST,-1
+Peyton Watson,DEN,SF,HOU,PTS,25.1,WORST,1
+Peyton Watson,DEN,SF,HOU,PRA,37.0,WORST,1
+Jabari Smith Jr.,HOU,SF,DEN,REB,6.1,BEST,-1
+Aaron Gordon,DEN,PF,HOU,REB,8.8,BEST,-1
+Aaron Gordon,DEN,PF,HOU,AST,3.2,BEST,-1
+Aaron Gordon,DEN,PF,HOU,PRA,34.3,BEST,-1
+Alperen Sengun,HOU,PF,DEN,REB,8.3,BEST,-1
+Alperen Sengun,HOU,PF,DEN,PRA,34.4,BEST,-1
+Nikola Jokic,DEN,C,HOU,PTS,19.0,BEST,-1
+Nikola Jokic,DEN,C,HOU,REB,10.9,BEST,-1
+Nikola Jokic,DEN,C,HOU,AST,2.8,BEST,-1
+Nikola Jokic,DEN,C,HOU,PRA,32.7,BEST,-1
+Stephen Curry Off Inj,GSW,PG,POR,AST,6.8,BEST,-1
+Will Richard,GSW,SG,POR,PTS,26.5,WORST,1
+Will Richard,GSW,SG,POR,REB,5.7,BEST,-1
+Will Richard,GSW,SG,POR,AST,6.1,WORST,1
+Moses Moody,GSW,SF,POR,REB,9.4,WORST,1
+Moses Moody,GSW,SF,POR,AST,5.4,WORST,1
+Draymond Green,GSW,C,POR,PTS,25.7,WORST,1
+Draymond Green,GSW,C,POR,PRA,43.7,WORST,1
+Shai Gilgeous-Alexander,OKC,PG,UTA,AST,9.1,WORST,1
+Keyonte George,UTA,PG,OKC,PTS,20.0,BEST,-1
+Keyonte George,UTA,PG,OKC,AST,7.1,BEST,-1
+Keyonte George,UTA,PG,OKC,PRA,33.7,BEST,-1
+Cason Wallace Off Inj,OKC,SG,UTA,PTS,28.6,WORST,1
+Cason Wallace Off Inj,OKC,SG,UTA,AST,6.3,WORST,1
+Cason Wallace Off Inj,OKC,SG,UTA,PRA,41.2,WORST,1
+Svi Mykhailiuk,UTA,SG,OKC,AST,3.8,BEST,-1
+Svi Mykhailiuk,UTA,SG,OKC,PRA,32.7,BEST,-1
+Luguentz Dort,OKC,SF,UTA,PTS,19.6,BEST,-1
+Luguentz Dort,OKC,SF,UTA,REB,6.5,BEST,-1
+Luguentz Dort,OKC,SF,UTA,AST,5.4,WORST,1
+Luguentz Dort,OKC,SF,UTA,PRA,31.5,BEST,-1
+Chet Holmgren,OKC,PF,UTA,AST,5.6,WORST,1
+Lauri Markkanen,UTA,PF,OKC,PTS,20.1,BEST,-1
+Lauri Markkanen,UTA,PF,OKC,PRA,34.4,BEST,-1
+Isaiah Hartenstein,OKC,C,UTA,AST,2.8,BEST,-1
+Jusuf Nurkic,UTA,C,OKC,PTS,18.6,BEST,-1
+Jusuf Nurkic,UTA,C,OKC,REB,12.2,BEST,-1
+Jusuf Nurkic,UTA,C,OKC,AST,2.9,BEST,-1
+Jusuf Nurkic,UTA,C,OKC,PRA,33.7,BEST,-1

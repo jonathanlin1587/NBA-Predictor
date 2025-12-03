@@ -1,0 +1,17 @@
+player,team,position,opponent,stat,opp_dvp_value,tier,edge_score
+Donovan Mitchell,CLE,PG,MEM,PTS,29.2,WORST,1
+Donovan Mitchell,CLE,PG,MEM,PRA,43.1,WORST,1
+Jakob Poeltl,TOR,C,IND,REB,16.1,WORST,1
+Jakob Poeltl,TOR,C,IND,PRA,43.8,WORST,1
+Chet Holmgren,OKC,PF,CHA,PTS,27.2,WORST,1
+Chet Holmgren,OKC,PF,CHA,AST,6.0,WORST,1
+Chet Holmgren,OKC,PF,CHA,PRA,42.5,WORST,1
+Miles Bridges,CHA,PF,OKC,PTS,19.7,BEST,-1
+Miles Bridges,CHA,PF,OKC,PRA,33.1,BEST,-1
+Anthony Edwards,MIN,SG,DEN,PTS,22.3,BEST,-1
+Anthony Edwards,MIN,SG,DEN,PRA,33.4,BEST,-1
+Rudy Gobert,MIN,C,DEN,AST,2.7,BEST,-1
+Austin Reaves,LAL,SG,MIL,AST,4.7,BEST,-1
+Myles Turner,MIL,C,LAL,PTS,15.5,BEST,-1
+Myles Turner,MIL,C,LAL,REB,12.7,BEST,-1
+Myles Turner,MIL,C,LAL,PRA,31.8,BEST,-1

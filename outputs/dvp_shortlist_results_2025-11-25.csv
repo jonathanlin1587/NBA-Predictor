@@ -1,0 +1,38 @@
+player,team,position,opponent,stat,opp_dvp_value,tier,edge_score,,,,
+Nickeil Alexander-Walker,ATL,PG,WAS,PTS,27,WORST,1,o18.5,-104,,
+Nickeil Alexander-Walker,ATL,PG,WAS,PRA,42.3,WORST,1,o25.5,-110,,1
+Zaccharie Risacher,ATL,SF,WAS,PTS,24.4,WORST,1,,,,
+Zaccharie Risacher,ATL,SF,WAS,REB,9.2,WORST,1,,,,
+Zaccharie Risacher,ATL,SF,WAS,PRA,38.1,WORST,1,,,,
+Jalen Johnson,ATL,PF,WAS,PTS,27.4,WORST,1,                                                                                                                                                                              ,-132,,1
+Jalen Johnson,ATL,PF,WAS,REB,13.5,WORST,1,o9.5,-112,alt 7+,
+Jalen Johnson,ATL,PF,WAS,AST,4.9,WORST,1,,,alt 7+,alt 15+ RA
+Jalen Johnson,ATL,PF,WAS,PRA,45.8,WORST,1,o41.5,-115,alt 30+,
+Kristaps Porzingis Off Inj,ATL,C,WAS,PTS,25.7,WORST,1,,,,
+Kristaps Porzingis Off Inj,ATL,C,WAS,REB,17.8,WORST,1,,,,
+Kristaps Porzingis Off Inj,ATL,C,WAS,AST,5.2,WORST,1,,,,
+Kristaps Porzingis Off Inj,ATL,C,WAS,PRA,48.7,WORST,1,,,,
+Jalen Suggs Off Inj,ORL,PG,PHI,PTS,18.8,BEST,-1,u17.5,-125,,
+Jalen Suggs Off Inj,ORL,PG,PHI,PRA,33.6,BEST,-1,,,,
+Tyrese Maxey,PHI,PG,ORL,PTS,27.1,WORST,1,o30.5,-120,alt 24+,1
+Tyrese Maxey,PHI,PG,ORL,PRA,41.7,WORST,1,,,alt 35+,
+Justin Edwards,PHI,SF,ORL,AST,3.3,BEST,-1,,,,
+Justin Edwards,PHI,SF,ORL,PRA,31.1,BEST,-1,,,,
+Wendell Carter Jr. Off Inj,ORL,C,PHI,AST,2.3,BEST,-1,,,,
+Joel Embiid,PHI,C,ORL,PTS,19.5,BEST,-1,u18.5,-121,,
+Joel Embiid,PHI,C,ORL,AST,2.8,BEST,-1,,,,
+Joel Embiid,PHI,C,ORL,PRA,35.6,BEST,-1,,,,
+James Harden,LAC,PG,LAL,REB,5,BEST,-1,,,,
+James Harden,LAC,PG,LAL,AST,9.7,WORST,1,o8.5,118,alt 6+,1
+Luka Doncic,LAL,PG,LAC,AST,8.9,WORST,1,,,alt 6+,
+Austin Reaves,LAL,SG,LAC,PTS,26.3,WORST,1,o22.5,-127,,
+Austin Reaves,LAL,SG,LAC,REB,7.1,WORST,1,o4.5,135,,0.37
+Austin Reaves,LAL,SG,LAC,PRA,39.3,WORST,1,o30.5,-116,,1.25
+Kawhi Leonard,LAC,SF,LAL,PTS,25.7,WORST,1,o19.5,-119,,1
+Kawhi Leonard,LAC,SF,LAL,AST,3.5,BEST,-1,,,,
+John Collins,LAC,PF,LAL,PTS,25.6,WORST,1,,,,
+John Collins,LAC,PF,LAL,AST,4.8,WORST,1,,,,
+Rui Hachimura,LAL,PF,LAC,PTS,19.1,BEST,-1,,,,
+Rui Hachimura,LAL,PF,LAC,PRA,32.2,BEST,-1,,,,
+Ivica Zubac,LAC,C,LAL,PTS,14.7,BEST,-1,,,,
+Ivica Zubac,LAC,C,LAL,PRA,31.4,BEST,-1,,,,
