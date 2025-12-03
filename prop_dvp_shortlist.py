@@ -9,9 +9,9 @@ from typing import List, Dict, Any
 # ---------------------------------------------------
 # File paths (edit date if needed)
 # ---------------------------------------------------
-DVP_FILE = "outputs/dvp_summary_2025-12-02.txt"
-LINEUPS_FILE = "outputs/lineups_2025-12-02.csv"
-SCHEDULE_FILE = "outputs/schedule_2025-12-02.csv"
+DVP_FILE = "outputs/dvp_summary_2025-12-03.txt"
+LINEUPS_FILE = "outputs/lineups_2025-12-03.csv"
+SCHEDULE_FILE = "outputs/schedule_2025-12-03.csv"
 
 # ---------------------------------------------------
 # Data structures
