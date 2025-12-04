@@ -1,0 +1,4356 @@
+{
+  "justin_champagnie": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -118,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 145,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -200,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -200,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 152,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "payton_pritchard": {
+    "PTS": {
+      "over": {
+        "line": 23.5,
+        "odds": 104,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 23.5,
+        "odds": -139,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 125,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": -135,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 100,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "marvin_bagley_iii": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": -140,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 270,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -400,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "cam_whitmore": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 128,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 0.5,
+        "odds": -175,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 165,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -200,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "carlton_carrington": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -135,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -140,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -150,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -135,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "josh_minott": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -127,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -152,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 115,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "kyshawn_george": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": -162,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": 117,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -129,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 110,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 4.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 110,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -190,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 140,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "sam_hauser": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": -165,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -150,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 121,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -183,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 150,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "neemias_queta": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": 116,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": -159,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": 104,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 127,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "anfernee_simons": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": 107,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -143,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 114,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "khris_middleton": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -152,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": 112,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -148,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -207,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 165,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "derrick_white": {
+    "PTS": {
+      "over": {
+        "line": 20.5,
+        "odds": -143,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 20.5,
+        "odds": 108,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -118,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -152,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 122,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -145,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "c.j._mccollum": {
+    "PTS": {
+      "over": {
+        "line": 20.5,
+        "odds": 116,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 20.5,
+        "odds": -159,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 117,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -129,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -129,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 112,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "jordan_walsh": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": 114,
+        "book": "BetRivers",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 112,
+        "book": "FanDuel",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -124,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -150,
+        "book": "BetMGM",
+        "game": "Boston Celtics @ Washington Wizards"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 133,
+        "book": "DraftKings",
+        "game": "Boston Celtics @ Washington Wizards"
+      }
+    }
+  },
+  "will_richard": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 120,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -160,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 174,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -220,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "joel_embiid": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -104,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -166,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 183,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -190,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "jared_mccain": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -115,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 145,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -164,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -144,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "jonathan_kuminga": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 115,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -139,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -155,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 115,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "buddy_hield": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -115,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 135,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -185,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -155,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 120,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -155,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 120,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "quentin_grimes": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": -148,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": 110,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 106,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -140,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -143,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -140,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "tyrese_maxey": {
+    "PTS": {
+      "over": {
+        "line": 30.5,
+        "odds": 110,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 30.5,
+        "odds": -150,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -155,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -142,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 115,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 107,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -132,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "draymond_green": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": -155,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": 112,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -155,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 117,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 102,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "brandin_podziemski": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -130,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -105,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -155,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 124,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 134,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -157,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "moses_moody": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": 108,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -115,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 107,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 110,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -145,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 120,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -140,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "vj_edgecombe": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": 123,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -114,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 133,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 130,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -157,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "jimmy_butler": {
+    "PTS": {
+      "over": {
+        "line": 22.5,
+        "odds": -103,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 22.5,
+        "odds": -130,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": 113,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -149,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -139,
+        "book": "BetRivers",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "justin_edwards": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -175,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -150,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 110,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -118,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "quinten_post": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -115,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -118,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 115,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -155,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -118,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "gary_payton_ii": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -155,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 115,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -140,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "andre_drummond": {
+    "PTS": {
+      "over": {
+        "line": 5.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 8.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 0.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 230,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -325,
+        "book": "BetMGM",
+        "game": "Golden State Warriors @ Philadelphia 76ers"
+      }
+    }
+  },
+  "ace_bailey": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": 115,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": -159,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 135,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -185,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -175,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -129,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "noah_clowney": {
+    "PTS": {
+      "over": {
+        "line": 18.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 18.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 110,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -150,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 115,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 110,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "kyle_filipowski": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": 115,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -157,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": 112,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 135,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -185,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -235,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 175,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "tyrese_martin": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -154,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 132,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -132,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 135,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -103,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "nicolas_claxton": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 8.5,
+        "odds": -103,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 120,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "egor_demin": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -137,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": 104,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -148,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 125,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -184,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 139,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "isaiah_collier": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 115,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -152,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 160,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -220,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "lauri_markkanen": {
+    "PTS": {
+      "over": {
+        "line": 25.5,
+        "odds": -148,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 25.5,
+        "odds": 110,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -178,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 140,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -155,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 133,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "jusuf_nurkic": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": -130,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -129,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 114,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 140,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -190,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "brice_sensabaugh": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 140,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -190,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -155,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 136,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "keyonte_george": {
+    "PTS": {
+      "over": {
+        "line": 22.5,
+        "odds": 123,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 22.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -121,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -125,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "ziaire_williams": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -127,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": 107,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 180,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -250,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 165,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -220,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "danny_wolf": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": 105,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -141,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 108,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 150,
+        "book": "BetRivers",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -153,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "svi_mykhailiuk": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -135,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -125,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "terance_mann": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": -118,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -130,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -157,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 120,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 166,
+        "book": "DraftKings",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -220,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "day'ron_sharpe": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -118,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 225,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -325,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "ben_saraf": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": 110,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -150,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -185,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 135,
+        "book": "BetMGM",
+        "game": "Utah Jazz @ Brooklyn Nets"
+      }
+    }
+  },
+  "dalton_knecht": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -175,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 0.5,
+        "odds": -225,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 165,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 120,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -138,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "scottie_barnes": {
+    "PTS": {
+      "over": {
+        "line": 22.5,
+        "odds": 112,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 22.5,
+        "odds": -152,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 8.5,
+        "odds": 114,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -140,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 115,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -134,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 150,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -165,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "gabe_vincent": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -108,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 1.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -140,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -200,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 145,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -109,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "immanuel_quickley": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -157,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": 114,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 107,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -141,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 7.5,
+        "odds": 115,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -120,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "lebron_james": {
+    "PTS": {
+      "over": {
+        "line": 23.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 23.5,
+        "odds": -165,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 8.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -145,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 138,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "deandre_ayton": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": -157,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": 115,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": -120,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "ja'kobe_walter": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -145,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 142,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 170,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -235,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "sandro_mamukelashvili": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": 125,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -135,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 150,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -210,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "brandon_ingram": {
+    "PTS": {
+      "over": {
+        "line": 23.5,
+        "odds": -107,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 23.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -115,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -159,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 126,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -140,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 110,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "rui_hachimura": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 116,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -153,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -135,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -105,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "austin_reaves": {
+    "PTS": {
+      "over": {
+        "line": 29.5,
+        "odds": 102,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 29.5,
+        "odds": -136,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 113,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -132,
+        "book": "BetRivers",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -146,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 110,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -157,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "gradey_dick": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -108,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": 126,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 0.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 170,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -235,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "jake_laravia": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -150,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 140,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -190,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -220,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 160,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "collin_murray-boyles": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": 100,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 110,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -145,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -175,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "jamal_shead": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -124,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 1.5,
+        "odds": -140,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 110,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -133,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 145,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -190,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "jaxson_hayes": {
+    "PTS": {
+      "over": {
+        "line": 4.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -150,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 110,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 0.5,
+        "odds": -225,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 165,
+        "book": "BetMGM",
+        "game": "Los Angeles Lakers @ Toronto Raptors"
+      }
+    }
+  },
+  "donte_divincenzo": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": -115,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": 102,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 115,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -107,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "jose_alvarado": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": -165,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": 118,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -109,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 116,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -147,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 120,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "jeremiah_fears": {
+    "PTS": {
+      "over": {
+        "line": 15.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 15.5,
+        "odds": 100,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 120,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -143,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -225,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 170,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "julius_randle": {
+    "PTS": {
+      "over": {
+        "line": 20.5,
+        "odds": -148,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 20.5,
+        "odds": 110,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -130,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 116,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -137,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 115,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "jaden_mcdaniels": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": -120,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": 100,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -118,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 132,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -157,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 150,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -173,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "mike_conley": {
+    "PTS": {
+      "over": {
+        "line": 4.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 1.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -130,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -220,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 160,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "derik_queen": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": 118,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -162,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": -107,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -110,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -175,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 130,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 230,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -325,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "trey_murphy_iii": {
+    "PTS": {
+      "over": {
+        "line": 18.5,
+        "odds": -167,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 18.5,
+        "odds": 123,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -135,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 124,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -150,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -125,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "rudy_gobert": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -148,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": 110,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 10.5,
+        "odds": -143,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": 108,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -152,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "jordan_hawkins": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 105,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 1.5,
+        "odds": -190,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 140,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 0.5,
+        "odds": -200,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 145,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 182,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -207,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "saddiq_bey": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 130,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -140,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -162,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 140,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "anthony_edwards": {
+    "PTS": {
+      "over": {
+        "line": 28.5,
+        "odds": -122,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 28.5,
+        "odds": -109,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -146,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 120,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 4.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 105,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "micah_peavy": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -176,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 133,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": 130,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -165,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -105,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -125,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  },
+  "naz_reid": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": 107,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": -143,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 110,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -136,
+        "book": "DraftKings",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 140,
+        "book": "BetMGM",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -180,
+        "book": "BetRivers",
+        "game": "Minnesota Timberwolves @ New Orleans Pelicans"
+      }
+    }
+  }
+}

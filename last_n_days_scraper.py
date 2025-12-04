@@ -350,10 +350,12 @@ def main():
     
     args = parser.parse_args()
     
-    # Default output filename
+    # Default output filename - save to date folder
     if args.output is None:
         today = datetime.now().strftime("%Y-%m-%d")
-        args.output = os.path.join(OUTPUT_DIR, f"last_{args.days}_days_{today}.csv")
+        date_dir = os.path.join(OUTPUT_DIR, today)
+        os.makedirs(date_dir, exist_ok=True)
+        args.output = os.path.join(date_dir, f"last_{args.days}_days_{today}.csv")
     
     print(f"🏀 Fetching last {args.days} days of NBA stats from Basketball-Reference...")
     

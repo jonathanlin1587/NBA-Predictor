@@ -1,0 +1,6 @@
+player,team,opponent,stat,direction,recent_avg,dvp_value,line,edge_pct,recommendation
+Cade Cunningham,DET,MIL,PTS,OVER,30.4,27.2,27.5,10.5,STRONG OVER ✓✓
+Cade Cunningham,DET,MIL,PRA,OVER,46.8,41.9,42.5,10.1,STRONG OVER ✓✓
+Bam Adebayo,MIA,DAL,PTS,OVER,18.8,24.8,9.5,97.9,STRONG OVER ✓✓
+Davion Mitchell,MIA,DAL,PTS,UNDER,8.2,21.4,9.5,13.7,STRONG UNDER ✓✓
+De'Aaron Fox,SAS,ORL,PTS,OVER,25.8,27.8,25.5,1.2,LEAN OVER ✓

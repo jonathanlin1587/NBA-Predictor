@@ -46,6 +46,13 @@ def parse_games(data: dict, tz="America/Toronto") -> pd.DataFrame:
         })
     return pd.DataFrame(rows).sort_values(["time_local","away"])
 
+def get_date_output_dir(date_str: str) -> str:
+    """Get the output directory for a specific date, creating it if needed."""
+    date_dir = os.path.join(OUTPUT_DIR, date_str)
+    os.makedirs(date_dir, exist_ok=True)
+    return date_dir
+
+
 def main():
     if len(sys.argv) >= 2:
         yyyymmdd = sys.argv[1]
@@ -56,9 +63,9 @@ def main():
     df = parse_games(data)
 
     # --- make sure output folder exists ---
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
     today_str = datetime.strptime(yyyymmdd, "%Y%m%d").strftime("%Y-%m-%d")
-    out_csv = os.path.join(OUTPUT_DIR, f"schedule_{today_str}.csv")
+    date_dir = get_date_output_dir(today_str)
+    out_csv = os.path.join(date_dir, f"schedule_{today_str}.csv")
 
     df.to_csv(out_csv, index=False)
     print(f"✅ Saved {out_csv}\n")

@@ -561,7 +561,9 @@ def export_analyzed(analyzed: List[tuple]):
         return
     
     today = datetime.now().strftime("%Y-%m-%d")
-    filename = os.path.join(OUTPUT_DIR, f"analyzed_plays_{today}.csv")
+    date_dir = get_date_output_dir(today)
+    os.makedirs(date_dir, exist_ok=True)
+    filename = os.path.join(date_dir, f"analyzed_plays_{today}.csv")
     
     fieldnames = [
         "player", "team", "opponent", "stat", "direction",
@@ -598,7 +600,9 @@ def export_top_plays(plays: Dict[str, List[Play]]):
         return
     
     today = datetime.now().strftime("%Y-%m-%d")
-    filename = os.path.join(OUTPUT_DIR, f"top_plays_{today}.csv")
+    date_dir = get_date_output_dir(today)
+    os.makedirs(date_dir, exist_ok=True)
+    filename = os.path.join(date_dir, f"top_plays_{today}.csv")
     
     fieldnames = [
         "rank", "player", "team", "position", "opponent", "stat", "direction",
@@ -652,18 +656,49 @@ def export_top_plays(plays: Dict[str, List[Play]]):
 # Main
 # ---------------------------------------------------
 
+def get_date_output_dir(date_str: str = None) -> str:
+    """Get the output directory for a specific date."""
+    if date_str is None:
+        date_str = datetime.now().strftime("%Y-%m-%d")
+    return os.path.join(OUTPUT_DIR, date_str)
+
+
+def extract_date_from_filename(filepath: str) -> str:
+    """Extract date (YYYY-MM-DD) from filename."""
+    import re
+    filename = os.path.basename(filepath)
+    # Match date pattern in filename
+    match = re.search(r'(\d{4}-\d{2}-\d{2})', filename)
+    if match:
+        return match.group(1)
+    return "0000-00-00"
+
+
 def find_latest_file(prefix: str, directory: str = OUTPUT_DIR) -> Optional[str]:
-    """Find the most recent file with given prefix."""
+    """Find the most recent file with given prefix, searching in date subfolders."""
     files = []
-    for f in os.listdir(directory):
-        if f.startswith(prefix) and f.endswith(".csv"):
-            files.append(os.path.join(directory, f))
+    
+    # First, check if directory has date subfolders
+    if os.path.exists(directory):
+        for item in os.listdir(directory):
+            item_path = os.path.join(directory, item)
+            
+            # Check in date subfolders (YYYY-MM-DD format)
+            if os.path.isdir(item_path) and len(item) == 10 and item[4] == '-':
+                for f in os.listdir(item_path):
+                    if f.startswith(prefix) and f.endswith(".csv"):
+                        files.append(os.path.join(item_path, f))
+            
+            # Also check root directory for backwards compatibility
+            elif os.path.isfile(item_path):
+                if item.startswith(prefix) and item.endswith(".csv"):
+                    files.append(item_path)
     
     if not files:
         return None
     
-    # Sort by modification time, newest first
-    files.sort(key=os.path.getmtime, reverse=True)
+    # Sort by date in filename (newest first), not modification time
+    files.sort(key=extract_date_from_filename, reverse=True)
     return files[0]
 
 

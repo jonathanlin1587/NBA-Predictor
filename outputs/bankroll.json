@@ -1,0 +1,7 @@
+{
+  "starting_bankroll": 500.0,
+  "unit_size": 10.0,
+  "history": [],
+  "daily_limit": 250.0,
+  "daily_loss_limit": 250.0
+}

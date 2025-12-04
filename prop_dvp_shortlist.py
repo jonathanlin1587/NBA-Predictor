@@ -7,11 +7,25 @@ from typing import List, Dict, Any
 
 
 # ---------------------------------------------------
-# File paths (edit date if needed)
+# File paths - auto-detect based on today's date
 # ---------------------------------------------------
-DVP_FILE = "outputs/dvp_summary_2025-12-03.txt"
-LINEUPS_FILE = "outputs/lineups_2025-12-03.csv"
-SCHEDULE_FILE = "outputs/schedule_2025-12-03.csv"
+from datetime import datetime as dt
+
+def get_today_date() -> str:
+    """Get today's date in YYYY-MM-DD format."""
+    return dt.now().strftime("%Y-%m-%d")
+
+def get_date_dir(date_str: str = None) -> str:
+    """Get the output directory for a specific date."""
+    if date_str is None:
+        date_str = get_today_date()
+    return f"outputs/{date_str}"
+
+# Default to today's date
+_today = get_today_date()
+DVP_FILE = f"outputs/{_today}/dvp_summary_{_today}.txt"
+LINEUPS_FILE = f"outputs/{_today}/lineups_{_today}.csv"
+SCHEDULE_FILE = f"outputs/{_today}/schedule_{_today}.csv"
 
 # ---------------------------------------------------
 # Data structures
@@ -367,7 +381,10 @@ def export_results_to_csv(candidates: List[Dict[str, Any]], filename: str = None
     """
     if filename is None:
         today = datetime.now().strftime("%Y-%m-%d")
-        filename = f"outputs/dvp_shortlist_results_{today}.csv"
+        date_dir = get_date_dir(today)
+        import os
+        os.makedirs(date_dir, exist_ok=True)
+        filename = f"{date_dir}/dvp_shortlist_results_{today}.csv"
     
     if not candidates:
         print("No candidates to export.")
