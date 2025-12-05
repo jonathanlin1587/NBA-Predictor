@@ -10,6 +10,7 @@ import os
 import json
 import subprocess
 import sys
+import re
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
@@ -24,6 +25,90 @@ from prop_analyzer import (
     OUTPUT_DIR,
     MIN_GAMES,
 )
+
+
+@st.cache_data(ttl=300)
+def load_dvp_ratings():
+    """
+    Load today's full DVP ratings from JSON.
+    Structure: dvp[stat][position][team] = {"value": float, "rank": int, "tier": str}
+    """
+    today = datetime.now().strftime("%Y-%m-%d")
+    
+    # Try loading full JSON first (has all 30 teams)
+    json_file = os.path.join(OUTPUT_DIR, today, f"dvp_full_{today}.json")
+    if os.path.exists(json_file):
+        try:
+            with open(json_file, "r") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    
+    # Fallback: parse the summary text file (only has top/bottom 5)
+    txt_file = os.path.join(OUTPUT_DIR, today, f"dvp_summary_{today}.txt")
+    if os.path.exists(txt_file):
+        return parse_dvp_summary(txt_file)
+    
+    return {}
+
+
+def parse_dvp_summary(filepath: str) -> Dict[str, Dict[str, Dict[str, Dict[str, Any]]]]:
+    """
+    Fallback parser for old-style DVP summary text files.
+    Only contains top/bottom 5 teams per category.
+    """
+    if not os.path.exists(filepath):
+        return {}
+    
+    with open(filepath, "r") as f:
+        text = f.read()
+    
+    dvp = {}
+    stat = None
+    pos = None
+    mode = None
+    rank = 0
+    lines = text.splitlines()
+    i = 0
+
+    while i < len(lines):
+        line = lines[i].strip()
+
+        m = re.match(r"###\s+([A-Z0-9]+)\s+###", line)
+        if m:
+            stat = m.group(1)
+            dvp.setdefault(stat, {})
+            i += 1
+            continue
+
+        m = re.match(r"([A-Z]{1,2})\s+—\s+(WORST|BEST)", line)
+        if m and stat:
+            pos = m.group(1)
+            mode = m.group(2)
+            dvp[stat].setdefault(pos, {})
+            rank = 0
+            i += 2
+
+            while i < len(lines):
+                l2 = lines[i].rstrip()
+                if not l2.strip():
+                    break
+
+                m2 = re.match(r"\s*([A-Z]{2,3})\s+([\d.]+)", l2)
+                if m2:
+                    team = m2.group(1)
+                    val = float(m2.group(2))
+                    rank += 1
+                    dvp[stat][pos][team] = {"value": val, "tier": mode, "rank": rank}
+                    i += 1
+                    continue
+                else:
+                    break
+            continue
+
+        i += 1
+
+    return dvp
 
 # ---------------------------------------------------
 # Config & Constants
@@ -283,6 +368,306 @@ def calculate_profit(pick: Dict) -> float:
 
 
 # ---------------------------------------------------
+# Player Analyzer Function
+# ---------------------------------------------------
+def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, bankroll: float, odds_df):
+    """Show full analyzer view for a specific player."""
+    st.markdown(f"## 🔍 Player Analyzer: {player_name}")
+    
+    # Load DVP ratings
+    dvp_ratings = load_dvp_ratings()
+    
+    # Load lineups to get player position and opponent
+    lineups_df = load_lineups_data()
+    
+    # Get player's team, position, opponent from plays or lineups
+    player_team = ""
+    player_opponent = ""
+    player_position = ""
+    
+    # First try from plays
+    for play in all_plays:
+        if player_name.lower() in play.player.lower():
+            player_team = play.team
+            player_opponent = play.opponent
+            player_position = play.position
+            break
+    
+    # If not found in plays, try lineups
+    if lineups_df is not None and not lineups_df.empty and (not player_team or not player_position):
+        player_last = player_name.lower().split()[-1]
+        match = lineups_df[lineups_df["player"].str.lower().str.contains(player_last, na=False)]
+        if not match.empty:
+            row = match.iloc[0]
+            player_team = row.get("team", player_team)
+            player_position = row.get("position", player_position)
+            # Get opponent from away/home teams
+            if row.get("team") == row.get("away_team"):
+                player_opponent = row.get("home_team", player_opponent)
+            else:
+                player_opponent = row.get("away_team", player_opponent)
+    
+    # Helper to safely get float from player_data (handles both key styles)
+    def get_stat(primary_key, fallback_key=None):
+        val = player_data.get(primary_key)
+        if val is None and fallback_key:
+            val = player_data.get(fallback_key)
+        try:
+            return float(val) if val is not None else 0.0
+        except (ValueError, TypeError):
+            return 0.0
+    
+    # Get stats using correct keys from CSV: pts, reb, ast, fg3, stl, blk, mpg
+    pts = get_stat('pts')
+    reb = get_stat('reb', 'trb')  # CSV uses 'reb'
+    ast = get_stat('ast')
+    fg3 = get_stat('fg3')
+    stl = get_stat('stl')
+    blk = get_stat('blk')
+    mpg = get_stat('mpg', 'mp')  # CSV uses 'mpg'
+    
+    # Player Stats Card
+    st.markdown("""
+    <div style='background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 1.5rem; border-radius: 12px; color: white; margin-bottom: 1rem;'>
+        <h3 style='margin: 0; color: #f0f0f0;'>📊 Recent Stats (L10)</h3>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    col1, col2, col3, col4, col5, col6 = st.columns(6)
+    with col1:
+        st.metric("PTS", f"{pts:.1f}")
+    with col2:
+        st.metric("REB", f"{reb:.1f}")
+    with col3:
+        st.metric("AST", f"{ast:.1f}")
+    with col4:
+        st.metric("3PM", f"{fg3:.1f}")
+    with col5:
+        st.metric("STL", f"{stl:.1f}")
+    with col6:
+        st.metric("MPG", f"{mpg:.0f}")
+    
+    if player_team and player_opponent:
+        st.info(f"🏀 {player_team} vs {player_opponent}")
+    
+    st.divider()
+    
+    # Find player's plays from the system
+    player_plays = [p for p in all_plays if player_name.lower() in p.player.lower()]
+    
+    if player_plays:
+        st.markdown("### 🎯 Available Plays from DVP Analysis")
+        for play in player_plays:
+            direction = "OVER" if play.score > 0 else "UNDER"
+            emoji = "🟢" if direction == "OVER" else "🔴"
+            st.write(f"{emoji} **{play.stat}** {direction} | Proj: {play.projected:.1f} | Score: {play.score:.1f}")
+    
+    st.divider()
+    
+    # Custom Line Analyzer for each stat
+    st.markdown("### 🎯 Custom Line Analyzer")
+    st.caption("Enter lines to analyze any stat for this player")
+    
+    stat_options = ["PTS", "REB", "AST", "3PM", "PRA", "PR", "PA", "RA", "STL", "BLK"]
+    selected_stat = st.selectbox("Select Stat", stat_options, key="player_analyzer_stat")
+    
+    # Get player's average for selected stat (using correct scraper keys)
+    if selected_stat == "PRA":
+        avg = pts + reb + ast
+    elif selected_stat == "PR":
+        avg = pts + reb
+    elif selected_stat == "PA":
+        avg = pts + ast
+    elif selected_stat == "RA":
+        avg = reb + ast
+    elif selected_stat == "PTS":
+        avg = pts
+    elif selected_stat == "REB":
+        avg = reb
+    elif selected_stat == "AST":
+        avg = ast
+    elif selected_stat == "3PM":
+        avg = fg3
+    elif selected_stat == "STL":
+        avg = stl
+    elif selected_stat == "BLK":
+        avg = blk
+    else:
+        avg = 0.0
+    
+    # Look up DVP rating for this matchup
+    dvp_info = None
+    dvp_value = None
+    dvp_tier = None
+    dvp_rank = None
+    
+    # Map stat names to DVP stat names
+    dvp_stat_map = {"3PM": "3PM", "PTS": "PTS", "REB": "REB", "AST": "AST", "STL": "STL", "BLK": "BLK", "PRA": "PRA", "PR": "PR", "PA": "PA", "RA": "RA"}
+    dvp_stat = dvp_stat_map.get(selected_stat, selected_stat)
+    
+    if dvp_ratings and player_position and player_opponent:
+        stat_dvp = dvp_ratings.get(dvp_stat, {})
+        pos_dvp = stat_dvp.get(player_position, {})
+        dvp_info = pos_dvp.get(player_opponent)
+        if dvp_info:
+            dvp_value = dvp_info.get("value")
+            dvp_tier = dvp_info.get("tier")
+            dvp_rank = dvp_info.get("rank")
+    
+    # Display stats with DVP info
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric(f"L10 Avg {selected_stat}", f"{avg:.1f}")
+    with col2:
+        if dvp_value:
+            st.metric(f"DVP Allows ({player_position})", f"{dvp_value:.1f}")
+        else:
+            st.metric("DVP", "N/A")
+    with col3:
+        if dvp_tier and dvp_rank:
+            if dvp_tier == "WORST":
+                tier_emoji = "🔥"
+                tier_label = "SMASH"
+            elif dvp_tier == "MID":
+                tier_emoji = "⚪"
+                tier_label = "NEUTRAL"
+            else:
+                tier_emoji = "🧊"
+                tier_label = "FADE"
+            st.metric(f"Matchup", f"{tier_emoji} #{dvp_rank}/30 {tier_label}")
+        else:
+            st.metric("Matchup", "N/A")
+    
+    # Show DVP insight
+    if dvp_info:
+        if dvp_tier == "WORST":
+            st.success(f"🔥 **Great matchup!** {player_opponent} ranks #{dvp_rank}/30 WORST vs {player_position}s in {selected_stat} (allows {dvp_value:.1f})")
+        elif dvp_tier == "MID":
+            st.info(f"⚪ **Neutral matchup.** {player_opponent} ranks #{dvp_rank}/30 vs {player_position}s in {selected_stat} (allows {dvp_value:.1f})")
+        else:
+            st.warning(f"🧊 **Tough matchup!** {player_opponent} ranks #{dvp_rank}/30 BEST vs {player_position}s in {selected_stat} (allows {dvp_value:.1f})")
+    
+    # Look up live odds if available
+    live_line, live_odds_val, live_book = None, -110, None
+    if odds_df is not None and not odds_df.empty:
+        player_last = player_name.lower().split()[-1]
+        match = odds_df[(odds_df["player"].str.lower().str.contains(player_last)) & (odds_df["stat"] == selected_stat)]
+        if not match.empty:
+            live_line = match.iloc[0]["line"]
+            live_odds_val = int(match.iloc[0]["odds"])
+            live_book = match.iloc[0]["book"]
+            st.success(f"📡 Found Line: **{live_line}** @ **{live_odds_val:+d}** on **{live_book}**")
+    
+    # Direction selection
+    direction = st.radio("Direction", ["OVER", "UNDER"], horizontal=True, key="player_dir")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        default_line = float(live_line) if live_line else float(avg)
+        line = st.number_input("Line", value=default_line, step=0.5, key="player_line")
+    with col2:
+        default_odds = live_odds_val if live_line else -110
+        odds = st.number_input("Odds", value=default_odds, step=5, key="player_odds")
+    
+    if avg > 0 and line > 0:
+        # Calculate projection - blend L10 avg with DVP if available
+        if dvp_value and mpg > 0:
+            # Use the calculate_projection function from prop_analyzer
+            projected = calculate_projection(avg, dvp_value, dvp_tier or "WORST", player_mpg=mpg)
+            st.caption(f"📊 Projection: {projected:.1f} (blended from L10 {avg:.1f} + DVP {dvp_value:.1f})")
+        else:
+            projected = avg
+            st.caption(f"📊 Projection: {projected:.1f} (L10 avg only - no DVP data)")
+        
+        result = calculate_edge(projected, line, direction)
+        edge_pct = result["edge_pct"]
+        
+        decimal_odds = american_to_decimal(int(odds))
+        implied_prob = decimal_to_implied_prob(decimal_odds)
+        win_prob = estimate_win_probability(edge_pct)
+        kelly = calculate_kelly(win_prob, decimal_odds, fraction=0.25)
+        kelly_bet = bankroll * (kelly['kelly_adjusted'] / 100) if bankroll > 0 else 0
+        edge_over_book = (win_prob - implied_prob) * 100
+        
+        # Show recommendation
+        if result["color"] == "green":
+            st.success(f"### {result['recommendation']} | Edge: {edge_pct:+.1f}%")
+        elif result["color"] == "blue":
+            st.info(f"### {result['recommendation']} | Edge: {edge_pct:+.1f}%")
+        elif result["color"] == "orange":
+            st.warning(f"### {result['recommendation']} | Edge: {edge_pct:+.1f}%")
+        else:
+            st.error(f"### {result['recommendation']} | Edge: {edge_pct:+.1f}%")
+        
+        # Kelly Analysis Box
+        st.markdown("""
+        <div style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1rem; border-radius: 10px; margin: 1rem 0;'>
+            <h4 style='color: white; margin: 0;'>📊 Kelly Criterion Analysis</h4>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        col1, col2, col3, col4, col5, col6 = st.columns(6)
+        with col1:
+            st.metric("Win %", f"{win_prob*100:.1f}%")
+        with col2:
+            st.metric("Book %", f"{implied_prob*100:.1f}%")
+        with col3:
+            st.metric("Edge", f"{edge_over_book:+.1f}%")
+        with col4:
+            st.metric("Kelly %", f"{kelly['kelly_adjusted']:.2f}%")
+        with col5:
+            st.metric("Kelly Bet", f"${kelly_bet:.2f}")
+        with col6:
+            st.metric("Full Kelly", f"${bankroll * kelly['kelly_full'] / 100:.2f}")
+        
+        st.divider()
+        
+        # Bet amount and add to picks
+        col1, col2, col3 = st.columns([2, 1, 1])
+        with col1:
+            bet_amt = st.number_input(
+                "💵 Your Bet Amount",
+                min_value=0.0,
+                max_value=bankroll if bankroll > 0 else 10000.0,
+                value=round(kelly_bet, 2) if kelly_bet > 0 else 25.0,
+                step=5.0,
+                key="player_bet",
+                help=f"Kelly suggests ${kelly_bet:.2f}"
+            )
+        with col2:
+            potential_win = bet_amt * (decimal_odds - 1)
+            st.metric("Win $", f"${potential_win:.2f}")
+        with col3:
+            st.metric("Total $", f"${bet_amt + potential_win:.2f}")
+        
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("➕ Add to Picks", type="primary", key="player_add_pick", use_container_width=True):
+                add_pick({
+                    "player": player_name, "stat": selected_stat, "direction": direction,
+                    "opponent": player_opponent, "projection": projected, "line": line,
+                    "odds": int(odds), "edge_%": round(edge_pct, 1), "bet_amount": round(bet_amt, 2),
+                    "recommendation": result["recommendation"],
+                    "win_prob_%": round(win_prob * 100, 1),
+                    "kelly_%": round(kelly['kelly_adjusted'], 2),
+                    "kelly_bet": round(kelly_bet, 2),
+                    "implied_prob_%": round(implied_prob * 100, 1),
+                })
+                st.success(f"✅ Added {player_name} {selected_stat} {direction}!")
+                st.balloons()
+        with col2:
+            if st.button("🎰 Add to Parlay", key="player_add_parlay", use_container_width=True):
+                if "parlay_legs" not in st.session_state:
+                    st.session_state.parlay_legs = []
+                st.session_state.parlay_legs.append({
+                    "player": player_name, "stat": selected_stat, "direction": direction,
+                    "opponent": player_opponent, "line": line, "odds": int(odds),
+                    "projection": projected, "win_prob": win_prob
+                })
+                st.success(f"🎰 Added to parlay! ({len(st.session_state.parlay_legs)} legs)")
+
+
+# ---------------------------------------------------
 # Main App
 # ---------------------------------------------------
 def main():
@@ -325,7 +710,7 @@ def main():
         
         # Sidebar Tools
         st.markdown("### 🛠️ Tools")
-        sidebar_tool = st.radio("", ["📊 Data Status", "🔍 Player Search", "🎰 Parlay Builder", "📤 Export"], label_visibility="collapsed")
+        sidebar_tool = st.radio("", ["📊 Data Status", "🎰 Parlay Builder", "📤 Export"], label_visibility="collapsed")
         
         st.divider()
         
@@ -336,19 +721,6 @@ def main():
                 st.caption(f"{'✅' if exists else '❌'} {key.replace('_', ' ').title()}")
             st.caption(f"📂 {os.path.basename(dvp_file)}")
             st.caption(f"📊 {len(plays)} matchups")
-        
-        elif sidebar_tool == "🔍 Player Search":
-            st.markdown("#### 🔍 Player Search")
-            search_name = st.text_input("Search player", placeholder="e.g., LeBron")
-            if search_name and stats_db:
-                matches = [k for k in stats_db.keys() if search_name.lower() in k.lower()]
-                if matches:
-                    for name in matches[:5]:
-                        data = stats_db[name]
-                        st.markdown(f"**{name}**")
-                        st.caption(f"PTS: {data.get('PTS', 0):.1f} | REB: {data.get('REB', 0):.1f} | AST: {data.get('AST', 0):.1f}")
-                else:
-                    st.info("No players found")
         
         elif sidebar_tool == "🎰 Parlay Builder":
             st.markdown("#### 🎰 Quick Parlay")
@@ -375,6 +747,9 @@ def main():
                 potential_win = parlay_bet * (combined_odds - 1)
                 st.info(f"Potential Win: **${potential_win:.2f}**")
                 
+                def clear_parlay():
+                    st.session_state.parlay_legs = []
+                
                 col1, col2 = st.columns(2)
                 with col1:
                     if st.button("💾 Save", key="save_parlay"):
@@ -391,9 +766,7 @@ def main():
                         st.session_state.parlay_legs = []
                         st.success("Saved!")
                 with col2:
-                    if st.button("🗑️ Clear", key="clear_parlay"):
-                        st.session_state.parlay_legs = []
-                        st.rerun()
+                    st.button("🗑️ Clear", key="clear_parlay", on_click=clear_parlay)
             else:
                 st.info("Add plays from Analyzer")
         
@@ -410,24 +783,25 @@ def main():
                 st.info("No picks to export")
         
         st.divider()
-        if st.button("🔄 Fetch Fresh Data", type="primary", use_container_width=True):
-            st.session_state.fetching = True
-            st.rerun()
         
-        if st.session_state.get("fetching"):
+        def start_fetch():
+            st.session_state.fetching = True
+        
+        if not st.session_state.get("fetching"):
+            st.button("🔄 Fetch Fresh Data", type="primary", use_container_width=True, on_click=start_fetch)
+        else:
             progress_bar = st.progress(0)
             status_text = st.empty()
             results = run_all_scrapers(lambda p, m: (progress_bar.progress(p), status_text.text(m)))
             st.session_state.fetching = False
             st.cache_data.clear()
-            st.success("Done!")
-            st.rerun()
+            st.success("Done! Refresh the page to see new data.")
     
     top_plays = filter_top_plays(plays, top_n)
     
     # Create tabs
-    tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
-        "📅 Today", "📈 Overs", "📉 Unders", "🎯 Analyzer", "📋 Picks", "💰 Odds", "📊 Analytics"
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
+        "📅 Today", "📈 Overs", "📉 Unders", "🎯 Analyzer", "🔍 Search", "📋 Picks", "💰 Odds", "📊 Analytics"
     ])
     
     # Tab 1: Today's Games
@@ -590,31 +964,58 @@ def main():
         all_plays_list = [(p, "OVER", "🟢") for p in top_plays["overs"]] + [(p, "UNDER", "🔴") for p in top_plays["unders"]]
         
         if all_plays_list:
+            total = len(all_plays_list)
+            
+            # Create dropdown options for all plays
+            play_options = []
+            for i, (p, d, e) in enumerate(all_plays_list):
+                play_options.append(f"{i+1}. {e} {p.player} - {p.stat} {d} (vs {p.opponent})")
+            
+            # Initialize play index in session state if needed
             if "play_index" not in st.session_state:
                 st.session_state.play_index = 0
             
-            total = len(all_plays_list)
-            idx = max(0, min(st.session_state.play_index, total - 1))
+            # Ensure index is valid
+            st.session_state.play_index = max(0, min(st.session_state.play_index, total - 1))
+            idx = st.session_state.play_index
+            
+            # Dropdown selector - use index from session state
+            selected_idx = st.selectbox(
+                "Jump to play",
+                options=range(total),
+                index=idx,
+                format_func=lambda i: play_options[i],
+                key="play_dropdown",
+                label_visibility="collapsed"
+            )
+            
+            # Update session state from dropdown (no rerun needed - selectbox handles it)
+            if selected_idx != st.session_state.play_index:
+                st.session_state.play_index = selected_idx
+            
+            idx = st.session_state.play_index
+            
+            # Navigation buttons - use callbacks to avoid full page rerun
+            def go_first():
+                st.session_state.play_index = 0
+            def go_prev():
+                st.session_state.play_index = max(0, st.session_state.play_index - 1)
+            def go_next():
+                st.session_state.play_index = min(total - 1, st.session_state.play_index + 1)
+            def go_last():
+                st.session_state.play_index = total - 1
             
             col1, col2, col3, col4, col5 = st.columns([1, 1, 2, 1, 1])
             with col1:
-                if st.button("⏮️", key="first"):
-                    st.session_state.play_index = 0
-                    st.rerun()
+                st.button("⏮️", key="first", on_click=go_first)
             with col2:
-                if st.button("◀️", key="prev"):
-                    st.session_state.play_index = max(0, idx - 1)
-                    st.rerun()
+                st.button("◀️", key="prev", on_click=go_prev)
             with col3:
                 st.markdown(f"<h4 style='text-align:center'>{idx + 1} / {total}</h4>", unsafe_allow_html=True)
             with col4:
-                if st.button("▶️", key="next"):
-                    st.session_state.play_index = min(total - 1, idx + 1)
-                    st.rerun()
+                st.button("▶️", key="next", on_click=go_next)
             with col5:
-                if st.button("⏭️", key="last"):
-                    st.session_state.play_index = total - 1
-                    st.rerun()
+                st.button("⏭️", key="last", on_click=go_last)
             
             play, direction, emoji = all_plays_list[idx]
             
@@ -743,8 +1144,47 @@ def main():
                         })
                         st.success(f"🎰 Added to parlay! ({len(st.session_state.parlay_legs)} legs)")
     
-    # Tab 5: My Picks
+    # Tab 5: Player Search
     with tab5:
+        st.subheader("🔍 Player Search & Analyzer")
+        st.caption("Search any player to see their stats, DVP matchup, and analyze lines")
+        
+        search_name = st.text_input("Search player name", placeholder="e.g., LeBron, Curry, Tatum", key="tab_search")
+        
+        if search_name and stats_db:
+            matches = [k for k in stats_db.keys() if search_name.lower() in k.lower()]
+            if matches:
+                selected_player = st.selectbox("Select player", matches[:15], key="tab_player_select")
+                if selected_player:
+                    player_data = stats_db[selected_player]
+                    display_name = player_data.get("player", selected_player)
+                    
+                    st.divider()
+                    
+                    # Show full player analyzer
+                    show_player_analyzer(
+                        display_name,
+                        player_data,
+                        plays,
+                        bankroll,
+                        load_odds_data()
+                    )
+            else:
+                st.info("No players found matching that name")
+        else:
+            st.info("👆 Enter a player name above to search")
+            
+            # Show some quick stats about available data
+            if stats_db:
+                st.markdown("---")
+                st.markdown(f"**📊 {len(stats_db)} players** in database")
+                
+                # Show sample players
+                sample_players = list(stats_db.keys())[:10]
+                st.caption("Sample players: " + ", ".join([stats_db[p].get("player", p) for p in sample_players]))
+    
+    # Tab 6: My Picks
+    with tab6:
         st.subheader("📋 My Picks")
         picks = load_picks()
         
@@ -931,8 +1371,8 @@ def main():
         else:
             st.info("No picks yet. Add some from the Analyzer tab!")
     
-    # Tab 6: Live Odds
-    with tab6:
+    # Tab 7: Live Odds
+    with tab7:
         st.subheader("💰 Live Odds")
         odds_df = load_odds_data()
         
@@ -954,8 +1394,8 @@ def main():
         else:
             st.warning("No odds data. Click 'Fetch Fresh Data' in sidebar.")
     
-    # Tab 7: Analytics
-    with tab7:
+    # Tab 8: Analytics
+    with tab8:
         st.subheader("📊 Analytics Dashboard")
         picks = load_picks()
         

@@ -10,6 +10,7 @@ Usage:
 import re
 import os
 import sys
+import json
 import pandas as pd
 import subprocess
 import argparse
@@ -88,6 +89,60 @@ def top_bottom_by_pos(df: pd.DataFrame, stat: str, n: int = 5):
         results.append((pos, stat, "WORST (overs)", worst))
         results.append((pos, stat, "BEST (unders)", best))
     return results
+
+
+def full_rankings_by_pos(df: pd.DataFrame, stat: str):
+    """
+    Get full 1-30 rankings for each position for a stat.
+    Returns: list of (position, stat, DataFrame with TEAM, stat value, and RANK)
+    Rank 1 = WORST defense (highest value = good for overs)
+    Rank 30 = BEST defense (lowest value = good for unders)
+    """
+    results = []
+    for pos, sub in df.groupby("POSITION"):
+        sub = sub.dropna(subset=[stat])
+        # Sort descending: highest value = rank 1 (worst defense)
+        s_desc = sub.sort_values(stat, ascending=False).reset_index(drop=True)
+        s_desc = s_desc[["TEAM", stat]].copy()
+        s_desc["RANK"] = range(1, len(s_desc) + 1)
+        results.append((pos, stat, s_desc))
+    return results
+
+
+def build_full_dvp_dict(df: pd.DataFrame) -> dict:
+    """
+    Build a complete DVP dictionary with all teams ranked 1-30.
+    Structure: dvp[stat][position][team] = {"value": float, "rank": int, "tier": str}
+    
+    Tier logic:
+    - Rank 1-10: "WORST" (bad defense = good for overs)
+    - Rank 11-20: "MID" (average)
+    - Rank 21-30: "BEST" (good defense = good for unders)
+    """
+    dvp = {}
+    for stat in ["PTS", "REB", "AST", "PR", "PA", "PRA"]:
+        dvp[stat] = {}
+        for pos, stat_name, rankings_df in full_rankings_by_pos(df, stat):
+            dvp[stat][pos] = {}
+            for _, row in rankings_df.iterrows():
+                team = row["TEAM"]
+                value = row[stat]
+                rank = row["RANK"]
+                
+                # Determine tier based on rank
+                if rank <= 10:
+                    tier = "WORST"
+                elif rank <= 20:
+                    tier = "MID"
+                else:
+                    tier = "BEST"
+                
+                dvp[stat][pos][team] = {
+                    "value": round(value, 1),
+                    "rank": int(rank),
+                    "tier": tier
+                }
+    return dvp
 
 def fetch_dvp_from_web() -> pd.DataFrame:
     """
@@ -255,12 +310,13 @@ def main():
             print(f"\n{pos} — {kind}")
             print(table.to_string(index=False))
 
-    # Save to file
+    # Save to files
     today = datetime.now().strftime("%Y-%m-%d")
     date_dir = os.path.join("outputs", today)
     os.makedirs(date_dir, exist_ok=True)
+    
+    # Save summary text file (top/bottom 5)
     out_path = os.path.join(date_dir, f"dvp_summary_{today}.txt")
-
     with open(out_path, "w") as f:
         for stat in ["PTS", "REB", "AST", "PR", "PA", "PRA"]:
             f.write(f"\n### {stat} ###\n")
@@ -268,8 +324,21 @@ def main():
                 f.write(f"\n{pos} — {kind}\n")
                 f.write(table.to_string(index=False))
                 f.write("\n")
-    
     print(f"\n💾 Saved summary to {out_path}")
+    
+    # Save FULL rankings JSON (all 30 teams per position/stat)
+    full_dvp = build_full_dvp_dict(df)
+    json_path = os.path.join(date_dir, f"dvp_full_{today}.json")
+    with open(json_path, "w") as f:
+        json.dump(full_dvp, f, indent=2)
+    print(f"💾 Saved full DVP rankings to {json_path}")
+    
+    # Print sample of full rankings
+    print("\n📊 Sample full rankings (PTS for C position):")
+    if "PTS" in full_dvp and "C" in full_dvp["PTS"]:
+        for team, data in sorted(full_dvp["PTS"]["C"].items(), key=lambda x: x[1]["rank"]):
+            tier_emoji = "🔥" if data["tier"] == "WORST" else ("⚪" if data["tier"] == "MID" else "🧊")
+            print(f"  #{data['rank']:2d} {team}: {data['value']:.1f} {tier_emoji} {data['tier']}")
 
 
 if __name__ == "__main__":

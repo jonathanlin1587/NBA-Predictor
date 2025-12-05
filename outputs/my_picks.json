@@ -249,8 +249,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 00:49",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 15.9
   },
   {
     "player": "Noah Clowney",
@@ -268,8 +268,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 00:52",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 6.973214285714285
   },
   {
     "player": "Jeremiah Fears",
@@ -287,8 +287,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 00:53",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 2.9115044247787614
   },
   {
     "player": "Jordan Walsh",
@@ -306,8 +306,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:32",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 15.600000000000001
   },
   {
     "player": "Tyrese Martin",
@@ -325,8 +325,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:34",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -12.5
   },
   {
     "player": "Neemias Queta",
@@ -344,8 +344,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:39",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -10.0
   },
   {
     "player": "Neemias Queta",
@@ -363,8 +363,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:39",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -6.25
   },
   {
     "player": "Jordan Walsh",
@@ -382,8 +382,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:40",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 5.0
   },
   {
     "player": "Tyrese Martin",
@@ -401,8 +401,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:41",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -15.0
   },
   {
     "player": "Jordan Walsh",
@@ -420,8 +420,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:43",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 5.0
   },
   {
     "player": "Jordan Walsh",
@@ -439,8 +439,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:44",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 5.000000000000001
   },
   {
     "player": "Jordan Walsh",
@@ -458,8 +458,8 @@
     "recommendation": "STRONG OVER \u2713\u2713",
     "added_at": "2025-12-04 01:45",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 9.01639344262295
   },
   {
     "player": "Sandro Mamukelashvili",
@@ -477,8 +477,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 01:50",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -12.5
   },
   {
     "player": "Sandro Mamukelashvili",
@@ -496,8 +496,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 01:51",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -15.0
   },
   {
     "player": "Brandon Ingram",
@@ -515,8 +515,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 01:52",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -10.0
   },
   {
     "player": "Brandin Podziemski",
@@ -534,8 +534,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 01:53",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 9.433962264150944
   },
   {
     "player": "Brandin Podziemski",
@@ -553,8 +553,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 01:54",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 8.064516129032258
   },
   {
     "player": "Austin Reaves",
@@ -572,8 +572,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 01:57",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -10.0
   },
   {
     "player": "Austin Reaves",
@@ -591,8 +591,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 01:59",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "lost",
+    "profit": -7.5
   },
   {
     "player": "Michael Porter Jr.",
@@ -629,8 +629,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 02:02",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 9.49367088607595
   },
   {
     "player": "Kyshawn George",
@@ -648,8 +648,8 @@
     "recommendation": "STRONG UNDER \u2713\u2713",
     "added_at": "2025-12-04 02:04",
     "date": "2025-12-04",
-    "result": "pending",
-    "profit": 0.0
+    "result": "won",
+    "profit": 5.005
   },
   {
     "player": "Noah Clowney",
@@ -667,6 +667,329 @@
     "kelly_bet": 31.25,
     "implied_prob_%": 60.0,
     "added_at": "2025-12-04 15:50",
+    "result": "won",
+    "profit": 9.999999999999998
+  },
+  {
+    "player": "Julian Champagnie",
+    "stat": "REB",
+    "direction": "OVER",
+    "opponent": "CLE",
+    "projection": 6.7,
+    "line": 5.5,
+    "odds": 128,
+    "edge_%": 21.8,
+    "bet_amount": 10.0,
+    "recommendation": "STRONG OVER \u2713\u2713",
+    "win_prob_%": 60.9,
+    "kelly_%": 6.25,
+    "kelly_bet": 31.25,
+    "implied_prob_%": 43.9,
+    "added_at": "2025-12-05 01:22",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Julian Champagnie",
+    "stat": "REB",
+    "direction": "OVER",
+    "opponent": "CLE",
+    "projection": 6.7,
+    "line": 4.5,
+    "odds": -158,
+    "edge_%": 48.9,
+    "bet_amount": 15.0,
+    "recommendation": "STRONG OVER \u2713\u2713",
+    "win_prob_%": 74.4,
+    "kelly_%": 6.25,
+    "kelly_bet": 31.25,
+    "implied_prob_%": 61.2,
+    "added_at": "2025-12-05 01:22",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Ivica Zubac",
+    "stat": "AST",
+    "direction": "OVER",
+    "opponent": "MEM",
+    "projection": 4.0,
+    "line": 3.5,
+    "odds": 116,
+    "edge_%": 14.3,
+    "bet_amount": 12.5,
+    "recommendation": "STRONG OVER \u2713\u2713",
+    "win_prob_%": 57.1,
+    "kelly_%": 5.05,
+    "kelly_bet": 25.25,
+    "implied_prob_%": 46.3,
+    "added_at": "2025-12-05 01:31",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Ausar Thompson",
+    "stat": "REB",
+    "direction": "OVER",
+    "opponent": "POR",
+    "projection": 6.5,
+    "line": 5.5,
+    "odds": -138,
+    "edge_%": 18.2,
+    "bet_amount": 10.0,
+    "recommendation": "STRONG OVER \u2713\u2713",
+    "win_prob_%": 59.1,
+    "kelly_%": 0.66,
+    "kelly_bet": 3.3,
+    "implied_prob_%": 58.0,
+    "added_at": "2025-12-05 01:33",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Julian Champagnie",
+    "stat": "PRA",
+    "direction": "OVER",
+    "opponent": "CLE",
+    "projection": 22.7,
+    "line": 18.5,
+    "odds": -110,
+    "edge_%": 22.7,
+    "bet_amount": 5.5,
+    "recommendation": "STRONG OVER \u2713\u2713",
+    "win_prob_%": 61.4,
+    "kelly_%": 4.71,
+    "kelly_bet": 23.55,
+    "implied_prob_%": 52.4,
+    "added_at": "2025-12-05 01:36",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Jaylen Wells",
+    "stat": "PTS",
+    "direction": "OVER",
+    "opponent": "LAC",
+    "projection": 17.5,
+    "line": 11.5,
+    "odds": -115,
+    "edge_%": 52.2,
+    "bet_amount": 5.75,
+    "recommendation": "STRONG OVER \u2713\u2713",
+    "win_prob_%": 75.0,
+    "kelly_%": 6.25,
+    "kelly_bet": 31.25,
+    "implied_prob_%": 53.5,
+    "added_at": "2025-12-05 01:38",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Jaylen Wells",
+    "stat": "PTS",
+    "direction": "OVER",
+    "opponent": "LAC",
+    "projection": 17.5,
+    "line": 11.5,
+    "odds": -127,
+    "edge_%": 52.2,
+    "bet_amount": 12.5,
+    "recommendation": "STRONG OVER \u2713\u2713",
+    "win_prob_%": 75.0,
+    "kelly_%": 6.25,
+    "kelly_bet": 31.25,
+    "implied_prob_%": 55.9,
+    "added_at": "2025-12-05 01:39",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Pascal Siakam",
+    "stat": "REB",
+    "direction": "OVER",
+    "opponent": "CHI",
+    "projection": 7.5,
+    "line": 6.5,
+    "odds": -121,
+    "edge_%": 15.4,
+    "bet_amount": 8.12,
+    "recommendation": "STRONG OVER \u2713\u2713",
+    "win_prob_%": 57.7,
+    "kelly_%": 1.62,
+    "kelly_bet": 8.12,
+    "implied_prob_%": 54.8,
+    "added_at": "2025-12-05 01:41",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Rui Hachimura",
+    "stat": "AST",
+    "direction": "UNDER",
+    "opponent": "BOS",
+    "projection": 0.9,
+    "line": 1.5,
+    "odds": 140,
+    "edge_%": 40.0,
+    "bet_amount": 15.0,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 70.0,
+    "kelly_%": 6.25,
+    "kelly_bet": 31.25,
+    "implied_prob_%": 41.7,
+    "added_at": "2025-12-05 01:44",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Kon Knueppel",
+    "stat": "PRA",
+    "direction": "UNDER",
+    "opponent": "TOR",
+    "projection": 22.8,
+    "line": 25.5,
+    "odds": -118,
+    "edge_%": 10.6,
+    "bet_amount": 3.18,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 55.3,
+    "kelly_%": 0.64,
+    "kelly_bet": 3.18,
+    "implied_prob_%": 54.1,
+    "added_at": "2025-12-05 01:50",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Kon Knueppel",
+    "stat": "PTS",
+    "direction": "UNDER",
+    "opponent": "TOR",
+    "projection": 14.5,
+    "line": 16.5,
+    "odds": -102,
+    "edge_%": 12.1,
+    "bet_amount": 14.0,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 56.1,
+    "kelly_%": 2.81,
+    "kelly_bet": 14.05,
+    "implied_prob_%": 50.5,
+    "added_at": "2025-12-05 01:51",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Tyler Herro",
+    "stat": "AST",
+    "direction": "UNDER",
+    "opponent": "ORL",
+    "projection": 3.0,
+    "line": 3.5,
+    "odds": -103,
+    "edge_%": 14.3,
+    "bet_amount": 16.25,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 57.1,
+    "kelly_%": 3.25,
+    "kelly_bet": 16.25,
+    "implied_prob_%": 50.7,
+    "added_at": "2025-12-05 01:53",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Bam Adebayo",
+    "stat": "AST",
+    "direction": "UNDER",
+    "opponent": "ORL",
+    "projection": 1.9,
+    "line": 2.5,
+    "odds": -102,
+    "edge_%": 24.0,
+    "bet_amount": 15.0,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 62.0,
+    "kelly_%": 5.81,
+    "kelly_bet": 29.05,
+    "implied_prob_%": 50.5,
+    "added_at": "2025-12-05 01:54",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Bennedict Mathurin",
+    "stat": "PRA",
+    "direction": "UNDER",
+    "opponent": "CHI",
+    "projection": 22.2,
+    "line": 29.5,
+    "odds": -104,
+    "edge_%": 24.7,
+    "bet_amount": 20.0,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 62.4,
+    "kelly_%": 5.81,
+    "kelly_bet": 29.05,
+    "implied_prob_%": 51.0,
+    "added_at": "2025-12-05 01:56",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Ajay Mitchell",
+    "stat": "AST",
+    "direction": "UNDER",
+    "opponent": "DAL",
+    "projection": 2.7,
+    "line": 3.5,
+    "odds": -138,
+    "edge_%": 22.9,
+    "bet_amount": 10.0,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 61.4,
+    "kelly_%": 2.05,
+    "kelly_bet": 10.25,
+    "implied_prob_%": 58.0,
+    "added_at": "2025-12-05 01:57",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Bennedict Mathurin",
+    "stat": "PTS",
+    "direction": "UNDER",
+    "opponent": "CHI",
+    "projection": 15.1,
+    "line": 21.5,
+    "odds": -121,
+    "edge_%": 29.8,
+    "bet_amount": 12.5,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 64.9,
+    "kelly_%": 5.6,
+    "kelly_bet": 27.99,
+    "implied_prob_%": 54.8,
+    "added_at": "2025-12-05 01:58",
+    "result": "pending",
+    "profit": 0.0
+  },
+  {
+    "player": "Bennedict Mathurin",
+    "stat": "REB",
+    "direction": "UNDER",
+    "opponent": "CHI",
+    "projection": 4.1,
+    "line": 5.5,
+    "odds": 108,
+    "edge_%": 25.5,
+    "bet_amount": 7.5,
+    "recommendation": "STRONG UNDER \u2713\u2713",
+    "win_prob_%": 62.7,
+    "kelly_%": 6.25,
+    "kelly_bet": 31.25,
+    "implied_prob_%": 48.1,
+    "added_at": "2025-12-05 01:59",
     "result": "pending",
     "profit": 0.0
   }

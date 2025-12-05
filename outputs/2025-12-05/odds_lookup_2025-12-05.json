@@ -1,0 +1,6896 @@
+{
+  "deandre_ayton": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -115,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 10.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -123,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 154,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -210,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "jaylen_brown": {
+    "PTS": {
+      "over": {
+        "line": 28.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 28.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": 112,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -125,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -132,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 154,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -186,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "anfernee_simons": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -148,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 112,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 127,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "jake_laravia": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 110,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -146,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "neemias_queta": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": 102,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": 103,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -136,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "dalton_knecht": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "gabe_vincent": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -132,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -152,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "jordan_walsh": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -145,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "austin_reaves": {
+    "PTS": {
+      "over": {
+        "line": 31.5,
+        "odds": -115,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 31.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -123,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 8.5,
+        "odds": -142,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "payton_pritchard": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -109,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -149,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 4.5,
+        "odds": -146,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 117,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -135,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 106,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "rui_hachimura": {
+    "PTS": {
+      "over": {
+        "line": 15.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 15.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -148,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -188,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 140,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -170,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 130,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "sam_hauser": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -138,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -198,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 146,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "marcus_smart": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 126,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -168,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -131,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "derrick_white": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 122,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -161,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -155,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -169,
+        "book": "DraftKings",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "Los Angeles Lakers @ Boston Celtics"
+      }
+    }
+  },
+  "franz_wagner": {
+    "PTS": {
+      "over": {
+        "line": 23.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 23.5,
+        "odds": -109,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": 109,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -144,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -147,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 111,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 122,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -161,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "tyler_herro": {
+    "PTS": {
+      "over": {
+        "line": 21.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 21.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -123,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -127,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "desmond_bane": {
+    "PTS": {
+      "over": {
+        "line": 21.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 21.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -156,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 118,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 4.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 135,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -179,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "norman_powell": {
+    "PTS": {
+      "over": {
+        "line": 20.5,
+        "odds": -121,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 20.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -167,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 126,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -150,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "bam_adebayo": {
+    "PTS": {
+      "over": {
+        "line": 18.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 18.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 8.5,
+        "odds": -133,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -128,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 135,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -179,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "paolo_banchero": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -108,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -133,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -157,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 119,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "andrew_wiggins": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -141,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 107,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -143,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 109,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -142,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 108,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "jalen_suggs": {
+    "PTS": {
+      "over": {
+        "line": 15.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 15.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -132,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 4.5,
+        "odds": -126,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 110,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -145,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "anthony_black": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": -128,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -179,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 135,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 159,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -212,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "wendell_carter_jr": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 8.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 183,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -246,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "davion_mitchell": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -126,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Miami Heat @ Orlando Magic"
+      }
+    }
+  },
+  "jonas_valanciunas": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": 107,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -132,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "nikola_jokic": {
+    "PTS": {
+      "over": {
+        "line": 29.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 29.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 12.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -129,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 10.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -157,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 119,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "cameron_johnson": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -161,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -140,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 110,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 130,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -158,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "jalen_johnson": {
+    "PTS": {
+      "over": {
+        "line": 21.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 21.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 7.5,
+        "odds": 112,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -148,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 110,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -132,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "peyton_watson": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -188,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 141,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 138,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -174,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "jamal_murray": {
+    "PTS": {
+      "over": {
+        "line": 23.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 23.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -150,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 106,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "bruce_brown": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -184,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 148,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "tim_hardaway_jr": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "mouhamed_gueye": {
+    "PTS": {
+      "over": {
+        "line": 4.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 142,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -192,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "zaccharie_risacher": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -121,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 129,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -166,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 124,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "nickeil_alexander-walker": {
+    "PTS": {
+      "over": {
+        "line": 19.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 19.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -134,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -148,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 146,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -171,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "dyson_daniels": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -109,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -148,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": 112,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": -148,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "kristaps_porzingis": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -125,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 109,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "onyeka_okongwu": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": -144,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -180,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 158,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -215,
+        "book": "FanDuel",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "vit_krejci": {
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -165,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 125,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "luke_kennard": {
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 121,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -160,
+        "book": "DraftKings",
+        "game": "Denver Nuggets @ Atlanta Hawks"
+      }
+    }
+  },
+  "jakob_poeltl": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 8.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "lamelo_ball": {
+    "PTS": {
+      "over": {
+        "line": 19.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 19.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 8.5,
+        "odds": 110,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -146,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "ja'kobe_walter": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -132,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 142,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -192,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "kon_knueppel": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -180,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "miles_bridges": {
+    "PTS": {
+      "over": {
+        "line": 20.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 20.5,
+        "odds": -132,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -148,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 112,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -140,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 106,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 148,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -200,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "scottie_barnes": {
+    "PTS": {
+      "over": {
+        "line": 22.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 22.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 8.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "immanuel_quickley": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": -132,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -172,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -140,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 106,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "jamal_shead": {
+    "PTS": {
+      "over": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "ryan_kalkbrenner": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "sandro_mamukelashvili": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -132,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -158,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "brandon_ingram": {
+    "PTS": {
+      "over": {
+        "line": 23.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 23.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -152,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "brandon_miller": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -174,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -158,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Charlotte Hornets @ Toronto Raptors"
+      }
+    }
+  },
+  "harrison_barnes": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -128,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 103,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 140,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -165,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -158,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 130,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "keldon_johnson": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -144,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 112,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -220,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 182,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "jaylon_tyson": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": -128,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -154,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 132,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -166,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -174,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "julian_champagnie": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 112,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -147,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 144,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -191,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "jeremy_sochan": {
+    "PTS": {
+      "over": {
+        "line": 4.5,
+        "odds": -134,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 105,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 106,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "devin_vassell": {
+    "PTS": {
+      "over": {
+        "line": 15.5,
+        "odds": -124,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 15.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 119,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 141,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -172,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "luke_kornet": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -130,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 115,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -144,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "lonzo_ball": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -162,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 4.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -178,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 148,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "dean_wade": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 125,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 162,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -213,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "de'andre_hunter": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -123,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -115,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -144,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 120,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -152,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "donovan_mitchell": {
+    "PTS": {
+      "over": {
+        "line": 30.5,
+        "odds": -108,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 30.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": -134,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": -134,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "de'aaron_fox": {
+    "PTS": {
+      "over": {
+        "line": 25.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 25.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -136,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 138,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -174,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "dylan_harper": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -150,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 0.5,
+        "odds": -194,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 0.5,
+        "odds": 154,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "evan_mobley": {
+    "PTS": {
+      "over": {
+        "line": 19.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 19.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": -121,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -161,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 124,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -158,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "craig_porter_jr": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -149,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -161,
+        "book": "DraftKings",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 130,
+        "book": "FanDuel",
+        "game": "San Antonio Spurs @ Cleveland Cavaliers"
+      }
+    }
+  },
+  "toumani_camara": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": -114,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "deni_avdija": {
+    "PTS": {
+      "over": {
+        "line": 24.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 24.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 7.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 127,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "jalen_duren": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": -111,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 11.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": 102,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 154,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -210,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "duncan_robinson": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": 140,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -153,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "donovan_clingan": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": -139,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": 106,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "shaedon_sharpe": {
+    "PTS": {
+      "over": {
+        "line": 19.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 19.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -138,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "ausar_thompson": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -138,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "cade_cunningham": {
+    "PTS": {
+      "over": {
+        "line": 27.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 27.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -126,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 8.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -178,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 135,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "tobias_harris": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 110,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 117,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "isaiah_stewart_ii": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "jerami_grant": {
+    "PTS": {
+      "over": {
+        "line": 18.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 18.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 105,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 140,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -179,
+        "book": "DraftKings",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "jaden_ivey": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": 148,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -200,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 162,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -220,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "kris_murray": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -148,
+        "book": "FanDuel",
+        "game": "Portland Trail Blazers @ Detroit Pistons"
+      }
+    }
+  },
+  "bennedict_mathurin": {
+    "PTS": {
+      "over": {
+        "line": 21.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 21.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -140,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 118,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -184,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 138,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "isaiah_jackson": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -132,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -148,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 112,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "t.j._mcconnell": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 142,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -192,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -138,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "jarace_walker": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": -125,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -138,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "andrew_nembhard": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -121,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -140,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -146,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 111,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 105,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "jay_huff": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 146,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -194,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "pascal_siakam": {
+    "PTS": {
+      "over": {
+        "line": 24.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 24.5,
+        "odds": -109,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -152,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 118,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -126,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "josh_giddey": {
+    "PTS": {
+      "over": {
+        "line": 24.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 24.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 10.5,
+        "odds": -123,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -107,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 9.5,
+        "odds": -109,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -167,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 126,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "coby_white": {
+    "PTS": {
+      "over": {
+        "line": 23.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 23.5,
+        "odds": -108,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 109,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -144,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 4.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -155,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 117,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "nikola_vucevic": {
+    "PTS": {
+      "over": {
+        "line": 20.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 20.5,
+        "odds": -114,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 10.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -128,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -137,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -165,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 125,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "matas_buzelis": {
+    "PTS": {
+      "over": {
+        "line": 15.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 15.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -144,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 110,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "ayo_dosunmu": {
+    "PTS": {
+      "over": {
+        "line": 15.5,
+        "odds": -114,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 15.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 130,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -172,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -126,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -121,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -109,
+        "book": "DraftKings",
+        "game": "Indiana Pacers @ Chicago Bulls"
+      }
+    }
+  },
+  "amen_thompson": {
+    "PTS": {
+      "over": {
+        "line": 18.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 18.5,
+        "odds": -125,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": 102,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -138,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "jabari_smith_jr": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -188,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 148,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "kevin_durant": {
+    "PTS": {
+      "over": {
+        "line": 24.5,
+        "odds": -124,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 24.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 116,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -144,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 124,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -184,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 140,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "mark_williams": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 8.5,
+        "odds": -118,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "royce_o'neale": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -131,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": 103,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 131,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -173,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "jordan_goodwin": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -129,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -124,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "steven_adams": {
+    "PTS": {
+      "over": {
+        "line": 5.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 7.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "aaron_holiday": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -123,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "collin_gillespie": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 5.5,
+        "odds": 130,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -174,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 142,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -192,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "grayson_allen": {
+    "PTS": {
+      "over": {
+        "line": 16.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 16.5,
+        "odds": -120,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 142,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -135,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "alperen_sengun": {
+    "PTS": {
+      "over": {
+        "line": 22.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 22.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": 109,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -144,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -143,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "josh_okogie": {
+    "PTS": {
+      "over": {
+        "line": 6.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -116,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -154,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "dillon_brooks": {
+    "PTS": {
+      "over": {
+        "line": 22.5,
+        "odds": -115,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 22.5,
+        "odds": -111,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -168,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 127,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -166,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 124,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Phoenix Suns @ Houston Rockets"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 104,
+        "book": "DraftKings",
+        "game": "Phoenix Suns @ Houston Rockets"
+      }
+    }
+  },
+  "nicolas_batum": {
+    "PTS": {
+      "over": {
+        "line": 4.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -158,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "cam_christie": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "jaylen_wells": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": -127,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -168,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 130,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -154,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 124,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "cedric_coward": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -166,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 124,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -119,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -127,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "santi_aldama": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -152,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -158,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 118,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 162,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -220,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "kawhi_leonard": {
+    "PTS": {
+      "over": {
+        "line": 25.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 25.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 128,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -172,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 128,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -169,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 152,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -187,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "jaren_jackson_jr": {
+    "PTS": {
+      "over": {
+        "line": 20.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 20.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 148,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -200,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -196,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 148,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "zach_edey": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": -127,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 12.5,
+        "odds": -104,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -126,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "cam_spencer": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -138,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -148,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 112,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "vincent_williams_jr": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": -111,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -115,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -180,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 7.5,
+        "odds": 113,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -149,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "john_collins": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 115,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "ivica_zubac": {
+    "PTS": {
+      "over": {
+        "line": 15.5,
+        "odds": -126,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 15.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 12.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -134,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "james_harden": {
+    "PTS": {
+      "over": {
+        "line": 26.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 26.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -121,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 8.5,
+        "odds": -144,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 106,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -126,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "kris_dunn": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -122,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -113,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 126,
+        "book": "DraftKings",
+        "game": "Los Angeles Clippers @ Memphis Grizzlies"
+      }
+    }
+  },
+  "tyrese_maxey": {
+    "PTS": {
+      "over": {
+        "line": 30.5,
+        "odds": -111,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 30.5,
+        "odds": -114,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -160,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 121,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": 116,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -152,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": -152,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 115,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "kevin_porter_jr.": {
+    "PTS": {
+      "over": {
+        "line": 20.5,
+        "odds": -121,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 20.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -141,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 107,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -106,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -124,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 118,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -156,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "ryan_rollins": {
+    "PTS": {
+      "over": {
+        "line": 19.5,
+        "odds": -115,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 19.5,
+        "odds": -111,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 100,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -131,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -150,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 103,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -136,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "paul_george": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": -127,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": -101,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": 106,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -139,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -135,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 102,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 113,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -149,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "a.j._green": {
+    "PTS": {
+      "over": {
+        "line": 12.5,
+        "odds": 103,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 12.5,
+        "odds": -131,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 107,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -140,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 102,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -134,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 3.5,
+        "odds": 109,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -144,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "myles_turner": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": -129,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": 101,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -148,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": 112,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -148,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 112,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "kyle_kuzma": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": -114,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -112,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": -117,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 112,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -148,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "vj_edgecombe": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -103,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -123,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -138,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 105,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": -151,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 114,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 108,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -143,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "andre_drummond": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": 103,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -131,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 11.5,
+        "odds": 103,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -136,
+        "book": "DraftKings",
+        "game": "Philadelphia 76ers @ Milwaukee Bucks"
+      }
+    }
+  },
+  "chet_holmgren": {
+    "PTS": {
+      "over": {
+        "line": 17.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 17.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 9.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 1.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 140,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -188,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "p.j._washington": {
+    "PTS": {
+      "over": {
+        "line": 13.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 13.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -152,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": 114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "max_christie": {
+    "PTS": {
+      "over": {
+        "line": 8.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 8.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": 148,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -200,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -174,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 130,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "cooper_flagg": {
+    "PTS": {
+      "over": {
+        "line": 15.5,
+        "odds": -130,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 15.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 6.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 110,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -146,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 164,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -225,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "klay_thompson": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": -132,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 100,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "aaron_wiggins": {
+    "PTS": {
+      "over": {
+        "line": 10.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 2.5,
+        "odds": -182,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "shai_gilgeous-alexander": {
+    "PTS": {
+      "over": {
+        "line": 32.5,
+        "odds": -104,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 32.5,
+        "odds": -128,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 4.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 6.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 6.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": -144,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "isaiah_joe": {
+    "PTS": {
+      "over": {
+        "line": 9.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 9.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 2.5,
+        "odds": 116,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -154,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "jalen_williams": {
+    "PTS": {
+      "over": {
+        "line": 19.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 19.5,
+        "odds": -118,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": 110,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -146,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 4.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 4.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 178,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -245,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "cason_wallace": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": 134,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -180,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 154,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -210,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 164,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -225,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "naji_marshall": {
+    "PTS": {
+      "over": {
+        "line": 11.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 11.5,
+        "odds": -138,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 5.5,
+        "odds": -106,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 5.5,
+        "odds": -125,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -122,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 152,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -205,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "anthony_davis": {
+    "PTS": {
+      "over": {
+        "line": 21.5,
+        "odds": -120,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 21.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 10.5,
+        "odds": -144,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 10.5,
+        "odds": 108,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -138,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "d'angelo_russell": {
+    "PTS": {
+      "over": {
+        "line": 7.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 7.5,
+        "odds": -114,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 2.5,
+        "odds": 124,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 2.5,
+        "odds": -166,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "3PM": {
+      "over": {
+        "line": 1.5,
+        "odds": 178,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 1.5,
+        "odds": -245,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  },
+  "ajay_mitchell": {
+    "PTS": {
+      "over": {
+        "line": 14.5,
+        "odds": 102,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 14.5,
+        "odds": -136,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "REB": {
+      "over": {
+        "line": 3.5,
+        "odds": -162,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": 122,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    },
+    "AST": {
+      "over": {
+        "line": 3.5,
+        "odds": 104,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      },
+      "under": {
+        "line": 3.5,
+        "odds": -138,
+        "book": "FanDuel",
+        "game": "Dallas Mavericks @ Oklahoma City Thunder"
+      }
+    }
+  }
+}

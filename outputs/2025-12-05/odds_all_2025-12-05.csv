@@ -1,0 +1,1399 @@
+date,game,player,stat,line,direction,odds,book,is_best
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,PTS,17.5,Over,100,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,PTS,17.5,Under,-132,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,PTS,29.5,Over,-102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,PTS,29.5,Under,-130,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,PTS,12.5,Over,102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,PTS,12.5,Under,-136,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jake LaRavia,PTS,11.5,Over,-130,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jake LaRavia,PTS,11.5,Under,-102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Neemias Queta,PTS,10.5,Over,-104,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Neemias Queta,PTS,10.5,Under,-128,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Dalton Knecht,PTS,7.5,Over,-108,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Dalton Knecht,PTS,7.5,Under,-122,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Gabe Vincent,PTS,6.5,Over,104,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Gabe Vincent,PTS,6.5,Under,-138,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jordan Walsh,PTS,6.5,Over,-114,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jordan Walsh,PTS,6.5,Under,-114,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,PTS,31.5,Over,-130,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,PTS,31.5,Under,-102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,PTS,16.5,Over,-120,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,PTS,16.5,Under,-110,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,PTS,15.5,Over,-108,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,PTS,15.5,Under,-122,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Sam Hauser,PTS,7.5,Over,104,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Sam Hauser,PTS,7.5,Under,-138,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,PTS,8.5,Over,-120,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,PTS,8.5,Under,-110,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,PTS,17.5,Over,100,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,PTS,17.5,Under,-132,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,PTS,31.5,Over,-115,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,PTS,31.5,Under,-111,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,PTS,28.5,Over,-120,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,PTS,28.5,Under,-106,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,PTS,17.5,Over,-111,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,PTS,17.5,Under,-115,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,PTS,17.5,Over,-104,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,PTS,17.5,Under,-122,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,PTS,16.5,Over,-109,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,PTS,16.5,Under,-117,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,PTS,15.5,Over,-110,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,PTS,15.5,Under,-116,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,PTS,12.5,Over,-107,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,PTS,12.5,Under,-119,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Neemias Queta,PTS,10.5,Over,102,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Neemias Queta,PTS,10.5,Under,-130,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,PTS,8.5,Over,-123,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,PTS,8.5,Under,-104,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jordan Walsh,PTS,6.5,Over,-120,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jordan Walsh,PTS,6.5,Under,-106,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Gabe Vincent,PTS,6.5,Over,104,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Gabe Vincent,PTS,6.5,Under,-132,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,REB,5.5,Over,-125,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,REB,5.5,Under,-106,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,REB,6.5,Over,112,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,REB,6.5,Under,-148,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,REB,4.5,Over,134,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,REB,4.5,Under,-180,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,REB,10.5,Over,102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,REB,10.5,Under,-136,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,REB,3.5,Over,-162,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,REB,3.5,Under,122,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,REB,2.5,Over,-130,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,REB,2.5,Under,-102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Neemias Queta,REB,8.5,Over,-152,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Neemias Queta,REB,8.5,Under,114,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,REB,4.5,Over,122,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,REB,4.5,Under,-162,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jordan Walsh,REB,5.5,Over,128,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jordan Walsh,REB,5.5,Under,-172,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jake LaRavia,REB,5.5,Over,110,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jake LaRavia,REB,5.5,Under,-146,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,REB,10.5,Over,-107,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,REB,10.5,Under,-123,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Neemias Queta,REB,9.5,Over,103,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Neemias Queta,REB,9.5,Under,-136,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,REB,6.5,Over,-106,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,REB,6.5,Under,-125,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,REB,5.5,Over,-123,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,REB,5.5,Under,-107,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jordan Walsh,REB,5.5,Over,110,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jordan Walsh,REB,5.5,Under,-145,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,REB,4.5,Over,112,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,REB,4.5,Under,-148,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,REB,4.5,Over,113,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,REB,4.5,Under,-149,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,REB,4.5,Over,122,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,REB,4.5,Under,-161,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,AST,8.5,Over,-152,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,AST,8.5,Under,114,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,AST,3.5,Over,126,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,AST,3.5,Under,-168,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,AST,5.5,Over,118,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,AST,5.5,Under,-158,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jake LaRavia,AST,2.5,Over,-136,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jake LaRavia,AST,2.5,Under,102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,AST,2.5,Over,154,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Deandre Ayton,AST,2.5,Under,-210,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,AST,4.5,Over,-146,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,AST,4.5,Under,110,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,AST,2.5,Over,-148,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,AST,2.5,Under,112,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,AST,1.5,Over,-188,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,AST,1.5,Under,140,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,AST,5.5,Over,100,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,AST,5.5,Under,-132,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,AST,8.5,Over,-142,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,AST,8.5,Under,108,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,AST,5.5,Over,104,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,AST,5.5,Under,-137,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,AST,5.5,Over,118,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,AST,5.5,Under,-155,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,AST,4.5,Over,-154,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,AST,4.5,Under,117,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,3PM,2.5,Over,154,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,3PM,2.5,Under,-210,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Sam Hauser,3PM,1.5,Over,-198,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Sam Hauser,3PM,1.5,Under,146,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,3PM,1.5,Over,102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,3PM,1.5,Under,-136,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,3PM,2.5,Over,-174,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,3PM,2.5,Under,128,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,3PM,3.5,Over,-102,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,3PM,3.5,Under,-130,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Gabe Vincent,3PM,1.5,Over,118,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Gabe Vincent,3PM,1.5,Under,-158,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jake LaRavia,3PM,1.5,Over,-136,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jake LaRavia,3PM,1.5,Under,102,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,3PM,1.5,Over,-174,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,3PM,1.5,Under,130,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Dalton Knecht,3PM,1.5,Over,-125,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Dalton Knecht,3PM,1.5,Under,-106,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,3PM,2.5,Over,-140,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,3PM,2.5,Under,106,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,3PM,2.5,Over,116,FanDuel,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,3PM,2.5,Under,-154,FanDuel,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,3PM,3.5,Over,100,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Austin Reaves,3PM,3.5,Under,-132,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,3PM,2.5,Over,-169,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Derrick White,3PM,2.5,Under,128,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,3PM,2.5,Over,-135,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Payton Pritchard,3PM,2.5,Under,103,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,3PM,2.5,Over,127,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Anfernee Simons,3PM,2.5,Under,-168,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,3PM,2.5,Over,140,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Jaylen Brown,3PM,2.5,Under,-186,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,3PM,1.5,Over,-170,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Rui Hachimura,3PM,1.5,Under,129,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,3PM,1.5,Over,100,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Marcus Smart,3PM,1.5,Under,-131,DraftKings,True
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Gabe Vincent,3PM,1.5,Over,115,DraftKings,False
+2025-12-05,Los Angeles Lakers @ Boston Celtics,Gabe Vincent,3PM,1.5,Under,-152,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Franz Wagner,PTS,23.5,Over,-117,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Franz Wagner,PTS,23.5,Under,-109,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Tyler Herro,PTS,21.5,Over,-122,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Tyler Herro,PTS,21.5,Under,-105,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Desmond Bane,PTS,21.5,Over,-113,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Desmond Bane,PTS,21.5,Under,-112,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Norman Powell,PTS,20.5,Over,-121,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Norman Powell,PTS,20.5,Under,-106,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Bam Adebayo,PTS,18.5,Over,-119,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Bam Adebayo,PTS,18.5,Under,-107,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Paolo Banchero,PTS,16.5,Over,-118,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Paolo Banchero,PTS,16.5,Under,-108,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Andrew Wiggins,PTS,16.5,Over,-116,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Andrew Wiggins,PTS,16.5,Under,-110,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Jalen Suggs,PTS,15.5,Over,-110,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Jalen Suggs,PTS,15.5,Under,-116,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Anthony Black,PTS,13.5,Over,100,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Anthony Black,PTS,13.5,Under,-128,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Wendell Carter Jr,PTS,11.5,Over,-113,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Wendell Carter Jr,PTS,11.5,Under,-113,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Davion Mitchell,PTS,8.5,Over,-119,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Davion Mitchell,PTS,8.5,Under,-107,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Bam Adebayo,REB,8.5,Over,-133,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Bam Adebayo,REB,8.5,Under,101,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Wendell Carter Jr,REB,8.5,Over,-117,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Wendell Carter Jr,REB,8.5,Under,-112,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Paolo Banchero,REB,6.5,Over,101,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Paolo Banchero,REB,6.5,Under,-133,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Franz Wagner,REB,6.5,Over,109,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Franz Wagner,REB,6.5,Under,-144,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Desmond Bane,REB,4.5,Over,-156,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Desmond Bane,REB,4.5,Under,118,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Andrew Wiggins,REB,4.5,Over,-141,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Andrew Wiggins,REB,4.5,Under,107,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Tyler Herro,REB,4.5,Over,-107,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Tyler Herro,REB,4.5,Under,-123,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Jalen Suggs,REB,3.5,Over,-132,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Jalen Suggs,REB,3.5,Under,100,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Anthony Black,REB,3.5,Over,-113,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Anthony Black,REB,3.5,Under,-117,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Norman Powell,REB,2.5,Over,-167,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Norman Powell,REB,2.5,Under,126,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Davion Mitchell,REB,2.5,Over,-120,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Davion Mitchell,REB,2.5,Under,-110,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Davion Mitchell,AST,6.5,Over,-126,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Davion Mitchell,AST,6.5,Under,-105,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Desmond Bane,AST,4.5,Over,-151,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Desmond Bane,AST,4.5,Under,114,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Jalen Suggs,AST,4.5,Over,-126,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Jalen Suggs,AST,4.5,Under,-105,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Franz Wagner,AST,3.5,Over,-147,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Franz Wagner,AST,3.5,Under,111,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Tyler Herro,AST,3.5,Over,-127,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Tyler Herro,AST,3.5,Under,-103,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Anthony Black,AST,2.5,Over,-179,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Anthony Black,AST,2.5,Under,135,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Paolo Banchero,AST,2.5,Over,-157,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Paolo Banchero,AST,2.5,Under,119,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Andrew Wiggins,AST,2.5,Over,-143,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Andrew Wiggins,AST,2.5,Under,109,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Bam Adebayo,AST,2.5,Over,-128,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Bam Adebayo,AST,2.5,Under,-102,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Norman Powell,3PM,2.5,Over,-150,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Norman Powell,3PM,2.5,Under,114,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Tyler Herro,3PM,2.5,Over,-117,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Tyler Herro,3PM,2.5,Under,-112,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Jalen Suggs,3PM,2.5,Over,110,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Jalen Suggs,3PM,2.5,Under,-145,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Desmond Bane,3PM,2.5,Over,135,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Desmond Bane,3PM,2.5,Under,-179,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Andrew Wiggins,3PM,1.5,Over,-142,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Andrew Wiggins,3PM,1.5,Under,108,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Franz Wagner,3PM,1.5,Over,122,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Franz Wagner,3PM,1.5,Under,-161,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Bam Adebayo,3PM,1.5,Over,135,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Bam Adebayo,3PM,1.5,Under,-179,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Anthony Black,3PM,1.5,Over,159,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Anthony Black,3PM,1.5,Under,-212,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Wendell Carter Jr,3PM,1.5,Over,183,DraftKings,True
+2025-12-05,Miami Heat @ Orlando Magic,Wendell Carter Jr,3PM,1.5,Under,-246,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jonas Valanciunas,PTS,8.5,Over,100,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jonas Valanciunas,PTS,8.5,Under,-132,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,PTS,29.5,Over,-102,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,PTS,29.5,Under,-130,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,PTS,14.5,Over,-108,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,PTS,14.5,Under,-122,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,PTS,21.5,Over,-110,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,PTS,21.5,Under,-120,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,PTS,12.5,Over,-114,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,PTS,12.5,Under,-114,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,PTS,23.5,Over,100,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,PTS,23.5,Under,-132,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,PTS,8.5,Over,-104,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,PTS,8.5,Under,-128,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Tim Hardaway Jr,PTS,12.5,Over,-122,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Tim Hardaway Jr,PTS,12.5,Under,-108,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Mouhamed Gueye,PTS,4.5,Over,-114,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Mouhamed Gueye,PTS,4.5,Under,-114,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,PTS,11.5,Over,-112,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,PTS,11.5,Under,-118,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,PTS,19.5,Over,-114,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,PTS,19.5,Under,-114,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,PTS,12.5,Over,-118,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,PTS,12.5,Under,-112,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,PTS,15.5,Over,-108,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,PTS,15.5,Under,-122,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Onyeka Okongwu,PTS,17.5,Over,-106,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Onyeka Okongwu,PTS,17.5,Under,-125,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,PTS,29.5,Over,-110,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,PTS,29.5,Under,-116,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,PTS,23.5,Over,-110,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,PTS,23.5,Under,-116,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,PTS,21.5,Over,-103,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,PTS,21.5,Under,-123,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,PTS,19.5,Over,-123,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,PTS,19.5,Under,-104,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,PTS,16.5,Over,-102,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,PTS,16.5,Under,-125,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,PTS,14.5,Over,-102,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,PTS,14.5,Under,-125,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,PTS,12.5,Over,-117,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,PTS,12.5,Under,-109,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Tim Hardaway Jr,PTS,12.5,Over,-116,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Tim Hardaway Jr,PTS,12.5,Under,-110,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,PTS,12.5,Over,-105,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,PTS,12.5,Under,-121,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,PTS,12.5,Over,-101,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,PTS,12.5,Under,-126,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,PTS,8.5,Over,100,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,PTS,8.5,Under,-128,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jonas Valanciunas,PTS,8.5,Over,107,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jonas Valanciunas,PTS,8.5,Under,-137,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,REB,4.5,Over,122,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,REB,4.5,Under,-162,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,REB,3.5,Over,-104,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,REB,3.5,Under,-128,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jonas Valanciunas,REB,4.5,Over,-162,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jonas Valanciunas,REB,4.5,Under,122,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,REB,9.5,Over,-114,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,REB,9.5,Under,-114,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,REB,12.5,Over,102,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,REB,12.5,Under,-136,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,REB,5.5,Over,-132,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,REB,5.5,Under,100,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Onyeka Okongwu,REB,7.5,Over,-144,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Onyeka Okongwu,REB,7.5,Under,108,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,REB,5.5,Over,-102,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,REB,5.5,Under,-130,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,REB,3.5,Over,122,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,REB,3.5,Under,-162,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,REB,3.5,Over,-152,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,REB,3.5,Under,114,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,REB,6.5,Over,-122,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,REB,6.5,Under,-108,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Mouhamed Gueye,REB,3.5,Over,142,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Mouhamed Gueye,REB,3.5,Under,-192,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,REB,3.5,Over,-158,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,REB,3.5,Under,118,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,REB,12.5,Over,-102,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,REB,12.5,Under,-129,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,REB,9.5,Over,-130,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,REB,9.5,Under,-101,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,REB,6.5,Over,-123,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,REB,6.5,Under,-107,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,REB,5.5,Over,-125,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,REB,5.5,Under,-105,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,REB,5.5,Over,-116,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,REB,5.5,Under,-113,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,REB,4.5,Over,122,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,REB,4.5,Under,-161,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,REB,3.5,Over,-150,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,REB,3.5,Under,114,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,REB,3.5,Over,-134,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,REB,3.5,Under,102,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,REB,3.5,Over,101,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,REB,3.5,Under,-133,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,REB,3.5,Over,129,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,REB,3.5,Under,-170,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,AST,10.5,Over,-122,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,AST,10.5,Under,-108,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,AST,1.5,Over,-200,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,AST,1.5,Under,148,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,AST,1.5,Over,-188,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,AST,1.5,Under,140,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,AST,6.5,Over,-108,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,AST,6.5,Under,-122,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,AST,2.5,Over,-140,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,AST,2.5,Under,106,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,AST,1.5,Over,-166,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,AST,1.5,Under,124,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Onyeka Okongwu,AST,3.5,Over,134,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Onyeka Okongwu,AST,3.5,Under,-180,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,AST,3.5,Over,-158,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,AST,3.5,Under,118,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,AST,6.5,Over,112,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,AST,6.5,Under,-148,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,AST,2.5,Over,-128,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,AST,2.5,Under,-104,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,AST,6.5,Over,-144,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,AST,6.5,Under,108,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,AST,10.5,Over,-119,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,AST,10.5,Under,-110,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,AST,7.5,Over,112,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,AST,7.5,Under,-148,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,AST,6.5,Over,-110,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,AST,6.5,Under,-120,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,AST,6.5,Over,114,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,AST,6.5,Under,-150,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,AST,3.5,Over,-148,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,AST,3.5,Under,113,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,AST,2.5,Over,-145,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,AST,2.5,Under,110,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,AST,2.5,Over,-143,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,AST,2.5,Under,109,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,AST,1.5,Over,-188,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,AST,1.5,Under,141,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,AST,1.5,Over,-184,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Bruce Brown,AST,1.5,Under,138,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,3PM,2.5,Over,130,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,3PM,2.5,Under,-174,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,3PM,2.5,Over,-136,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,3PM,2.5,Under,102,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Tim Hardaway Jr,3PM,2.5,Over,-122,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Tim Hardaway Jr,3PM,2.5,Under,-108,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,3PM,1.5,Over,138,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,3PM,1.5,Under,-186,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,3PM,1.5,Over,-158,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,3PM,1.5,Under,118,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,3PM,1.5,Over,-104,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,3PM,1.5,Under,-128,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,3PM,1.5,Over,-120,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,3PM,1.5,Under,-110,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,3PM,1.5,Over,110,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,3PM,1.5,Under,-146,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Onyeka Okongwu,3PM,2.5,Over,158,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Onyeka Okongwu,3PM,2.5,Under,-215,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,3PM,3.5,Over,146,FanDuel,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,3PM,3.5,Under,-198,FanDuel,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,3PM,3.5,Over,129,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nickeil Alexander-Walker,3PM,3.5,Under,-171,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,3PM,2.5,Over,-140,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jamal Murray,3PM,2.5,Under,106,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Tim Hardaway Jr,3PM,2.5,Over,-131,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Tim Hardaway Jr,3PM,2.5,Under,100,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,3PM,2.5,Over,119,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Cameron Johnson,3PM,2.5,Under,-158,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Vit Krejci,3PM,1.5,Over,-165,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Vit Krejci,3PM,1.5,Under,125,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,3PM,1.5,Over,-157,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Nikola Jokic,3PM,1.5,Under,119,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,3PM,1.5,Over,-129,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Zaccharie Risacher,3PM,1.5,Under,-102,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,3PM,1.5,Over,-103,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Kristaps Porzingis,3PM,1.5,Under,-128,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,3PM,1.5,Over,100,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Jalen Johnson,3PM,1.5,Under,-132,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Luke Kennard,3PM,1.5,Over,121,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Luke Kennard,3PM,1.5,Under,-160,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,3PM,1.5,Over,131,DraftKings,False
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Peyton Watson,3PM,1.5,Under,-174,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,3PM,0.5,Over,112,DraftKings,True
+2025-12-05,Denver Nuggets @ Atlanta Hawks,Dyson Daniels,3PM,0.5,Under,-148,DraftKings,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jakob Poeltl,PTS,10.5,Over,-130,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jakob Poeltl,PTS,10.5,Under,-102,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,LaMelo Ball,PTS,19.5,Over,-108,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,LaMelo Ball,PTS,19.5,Under,-122,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ja'Kobe Walter,PTS,8.5,Over,100,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ja'Kobe Walter,PTS,8.5,Under,-132,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Kon Knueppel,PTS,16.5,Over,-130,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Kon Knueppel,PTS,16.5,Under,-102,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Miles Bridges,PTS,20.5,Over,100,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Miles Bridges,PTS,20.5,Under,-132,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Scottie Barnes,PTS,22.5,Over,-122,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Scottie Barnes,PTS,22.5,Under,-108,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Immanuel Quickley,PTS,17.5,Over,-132,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Immanuel Quickley,PTS,17.5,Under,100,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jamal Shead,PTS,5.5,Over,-125,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jamal Shead,PTS,5.5,Under,-106,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ryan Kalkbrenner,PTS,7.5,Over,102,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ryan Kalkbrenner,PTS,7.5,Under,-136,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Sandro Mamukelashvili,PTS,10.5,Over,100,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Sandro Mamukelashvili,PTS,10.5,Under,-132,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Ingram,PTS,23.5,Over,-112,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Ingram,PTS,23.5,Under,-118,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Miller,PTS,17.5,Over,-108,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Miller,PTS,17.5,Under,-122,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Sandro Mamukelashvili,REB,5.5,Over,118,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Sandro Mamukelashvili,REB,5.5,Under,-158,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,LaMelo Ball,REB,5.5,Over,-106,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,LaMelo Ball,REB,5.5,Under,-125,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ryan Kalkbrenner,REB,6.5,Over,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ryan Kalkbrenner,REB,6.5,Under,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Ingram,REB,5.5,Over,-125,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Ingram,REB,5.5,Under,-106,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jakob Poeltl,REB,8.5,Over,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jakob Poeltl,REB,8.5,Under,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Miles Bridges,REB,5.5,Over,-148,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Miles Bridges,REB,5.5,Under,112,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ja'Kobe Walter,REB,3.5,Over,142,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ja'Kobe Walter,REB,3.5,Under,-192,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Immanuel Quickley,REB,4.5,Over,128,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Immanuel Quickley,REB,4.5,Under,-172,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Scottie Barnes,REB,8.5,Over,116,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Scottie Barnes,REB,8.5,Under,-154,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Miller,REB,2.5,Over,-174,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Miller,REB,2.5,Under,128,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Kon Knueppel,REB,4.5,Over,-136,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Kon Knueppel,REB,4.5,Under,102,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jamal Shead,AST,5.5,Over,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jamal Shead,AST,5.5,Under,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Miles Bridges,AST,2.5,Over,-140,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Miles Bridges,AST,2.5,Under,106,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Ingram,AST,3.5,Over,-152,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Ingram,AST,3.5,Under,114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Scottie Barnes,AST,5.5,Over,-154,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Scottie Barnes,AST,5.5,Under,116,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Kon Knueppel,AST,3.5,Over,122,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Kon Knueppel,AST,3.5,Under,-162,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,LaMelo Ball,AST,8.5,Over,110,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,LaMelo Ball,AST,8.5,Under,-146,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Miller,AST,2.5,Over,-158,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Miller,AST,2.5,Under,118,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jakob Poeltl,AST,2.5,Over,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Jakob Poeltl,AST,2.5,Under,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Immanuel Quickley,AST,6.5,Over,-140,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Immanuel Quickley,AST,6.5,Under,106,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Immanuel Quickley,3PM,2.5,Over,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Immanuel Quickley,3PM,2.5,Under,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,LaMelo Ball,3PM,2.5,Over,-128,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,LaMelo Ball,3PM,2.5,Under,-104,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Kon Knueppel,3PM,2.5,Over,-180,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Kon Knueppel,3PM,2.5,Under,134,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Miller,3PM,2.5,Over,-130,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Miller,3PM,2.5,Under,-102,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Miles Bridges,3PM,2.5,Over,148,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Miles Bridges,3PM,2.5,Under,-200,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Scottie Barnes,3PM,1.5,Over,-102,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Scottie Barnes,3PM,1.5,Under,-130,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ja'Kobe Walter,3PM,1.5,Over,116,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Ja'Kobe Walter,3PM,1.5,Under,-154,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Ingram,3PM,1.5,Over,-114,FanDuel,True
+2025-12-05,Charlotte Hornets @ Toronto Raptors,Brandon Ingram,3PM,1.5,Under,-114,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,PTS,11.5,Over,-125,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,PTS,11.5,Under,-106,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,PTS,11.5,Over,-125,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,PTS,11.5,Under,-106,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,PTS,13.5,Over,-132,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,PTS,13.5,Under,100,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,PTS,10.5,Over,-114,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,PTS,10.5,Under,-114,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jeremy Sochan,PTS,4.5,Over,-136,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jeremy Sochan,PTS,4.5,Under,102,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,PTS,16.5,Over,-102,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,PTS,16.5,Under,-130,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,PTS,6.5,Over,-112,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,PTS,6.5,Under,-118,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,PTS,8.5,Over,-104,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,PTS,8.5,Under,-128,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,PTS,6.5,Over,-110,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,PTS,6.5,Under,-120,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,PTS,16.5,Over,-136,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,PTS,16.5,Under,102,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,PTS,29.5,Over,-106,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,PTS,29.5,Under,-125,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,PTS,25.5,Over,-130,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,PTS,25.5,Under,-102,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,PTS,13.5,Over,-118,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,PTS,13.5,Under,-112,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,PTS,19.5,Over,-120,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,PTS,19.5,Under,-110,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,PTS,6.5,Over,100,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,PTS,6.5,Under,-132,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,PTS,30.5,Over,-108,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,PTS,30.5,Under,-118,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,PTS,25.5,Over,-119,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,PTS,25.5,Under,-107,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,PTS,19.5,Over,-120,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,PTS,19.5,Under,-106,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,PTS,16.5,Over,-123,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,PTS,16.5,Under,-103,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,PTS,15.5,Over,-124,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,PTS,15.5,Under,-103,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,PTS,14.5,Over,-106,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,PTS,14.5,Under,-120,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,PTS,13.5,Over,-128,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,PTS,13.5,Under,101,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,PTS,12.5,Over,-106,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,PTS,12.5,Under,-120,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,PTS,12.5,Over,100,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,PTS,12.5,Under,-128,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,PTS,10.5,Over,-126,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,PTS,10.5,Under,-101,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,PTS,8.5,Over,-105,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,PTS,8.5,Under,-122,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,PTS,6.5,Over,-123,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,PTS,6.5,Under,-104,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,PTS,6.5,Over,-113,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,PTS,6.5,Under,-113,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,PTS,6.5,Over,-107,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,PTS,6.5,Under,-119,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jeremy Sochan,PTS,4.5,Over,-134,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jeremy Sochan,PTS,4.5,Under,105,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,REB,9.5,Over,-136,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,REB,9.5,Under,102,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,REB,3.5,Over,-125,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,REB,3.5,Under,-106,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,REB,4.5,Over,134,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,REB,4.5,Under,-180,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,REB,2.5,Over,-154,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,REB,2.5,Under,116,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,REB,5.5,Over,-144,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,REB,5.5,Under,108,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,REB,4.5,Over,-120,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,REB,4.5,Under,-110,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,REB,3.5,Over,-136,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,REB,3.5,Under,102,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jeremy Sochan,REB,3.5,Over,-114,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jeremy Sochan,REB,3.5,Under,-114,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,REB,4.5,Over,122,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,REB,4.5,Under,-162,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,REB,5.5,Over,-158,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,REB,5.5,Under,118,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,REB,2.5,Over,-102,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,REB,2.5,Under,-130,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,REB,3.5,Over,100,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,REB,3.5,Under,-132,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,REB,4.5,Over,-136,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,REB,4.5,Under,102,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,REB,4.5,Over,-158,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,REB,4.5,Under,118,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,REB,5.5,Over,-158,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,REB,5.5,Under,118,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,REB,9.5,Over,-121,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,REB,9.5,Under,-108,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,REB,6.5,Over,-101,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,REB,6.5,Under,-130,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,REB,5.5,Over,-154,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,REB,5.5,Under,117,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,REB,5.5,Over,-147,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,REB,5.5,Under,112,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,REB,5.5,Over,112,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,REB,5.5,Under,-147,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,REB,4.5,Over,-137,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,REB,4.5,Under,104,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,REB,4.5,Over,-115,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,REB,4.5,Under,-114,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,REB,4.5,Over,122,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,REB,4.5,Under,-162,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,REB,4.5,Over,125,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,REB,4.5,Under,-165,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,REB,3.5,Over,-150,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,REB,3.5,Under,114,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,REB,3.5,Over,-136,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,REB,3.5,Under,103,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,REB,3.5,Over,-110,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,REB,3.5,Under,-120,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jeremy Sochan,REB,3.5,Over,106,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jeremy Sochan,REB,3.5,Under,-139,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,REB,2.5,Over,-149,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,REB,2.5,Under,113,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,REB,2.5,Over,-112,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,REB,2.5,Under,-117,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,AST,2.5,Over,108,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,AST,2.5,Under,-144,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,AST,4.5,Over,-125,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,AST,4.5,Under,-106,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,AST,3.5,Over,-172,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,AST,3.5,Under,128,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,AST,2.5,Over,-174,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,AST,2.5,Under,130,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,AST,2.5,Over,116,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,AST,2.5,Under,-154,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,AST,3.5,Over,134,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,AST,3.5,Under,-180,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,AST,5.5,Over,-154,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,AST,5.5,Under,116,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,AST,5.5,Over,-144,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,AST,5.5,Under,108,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,AST,2.5,Over,140,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,AST,2.5,Under,-188,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,AST,2.5,Over,108,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,AST,2.5,Under,-144,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,AST,2.5,Over,124,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,AST,2.5,Under,-166,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,AST,6.5,Over,104,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,AST,6.5,Under,-136,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,AST,5.5,Over,-134,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,AST,5.5,Under,101,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,AST,4.5,Over,-128,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,AST,4.5,Under,-103,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,AST,3.5,Over,-161,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,AST,3.5,Under,122,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,AST,3.5,Over,114,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,AST,3.5,Under,-150,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,AST,2.5,Over,-161,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Craig Porter Jr,AST,2.5,Under,122,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,AST,2.5,Over,114,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,AST,2.5,Under,-151,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,AST,2.5,Over,115,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Luke Kornet,AST,2.5,Under,-151,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,AST,2.5,Over,119,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,AST,2.5,Under,-157,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,AST,2.5,Over,125,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,AST,2.5,Under,-165,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,AST,2.5,Over,132,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,AST,2.5,Under,-174,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,3PM,1.5,Over,124,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,3PM,1.5,Under,-166,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,3PM,1.5,Over,-158,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,3PM,1.5,Under,118,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,3PM,0.5,Over,-250,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,3PM,0.5,Under,182,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,3PM,2.5,Over,128,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,3PM,2.5,Under,-172,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,3PM,3.5,Over,-136,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,3PM,3.5,Under,102,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,3PM,1.5,Over,-180,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,3PM,1.5,Under,134,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,3PM,1.5,Over,-178,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,3PM,1.5,Under,132,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,3PM,2.5,Over,120,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,3PM,2.5,Under,-160,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,3PM,1.5,Over,-180,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,3PM,1.5,Under,134,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,3PM,1.5,Over,162,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,3PM,1.5,Under,-220,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,3PM,2.5,Over,130,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,3PM,2.5,Under,-174,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,3PM,0.5,Over,-210,FanDuel,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,3PM,0.5,Under,154,FanDuel,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,3PM,3.5,Over,-134,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Donovan Mitchell,3PM,3.5,Under,102,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,3PM,2.5,Over,115,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Andre Hunter,3PM,2.5,Under,-152,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,3PM,2.5,Over,138,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,De'Aaron Fox,3PM,2.5,Under,-184,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,3PM,2.5,Over,141,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Devin Vassell,3PM,2.5,Under,-187,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,3PM,2.5,Over,144,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Julian Champagnie,3PM,2.5,Under,-191,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,3PM,1.5,Over,-197,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Lonzo Ball,3PM,1.5,Under,148,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,3PM,1.5,Over,-174,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Jaylon Tyson,3PM,1.5,Under,131,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,3PM,1.5,Over,-172,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Harrison Barnes,3PM,1.5,Under,130,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,3PM,1.5,Over,120,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Evan Mobley,3PM,1.5,Under,-158,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,3PM,1.5,Over,160,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dean Wade,3PM,1.5,Under,-213,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,3PM,0.5,Over,-220,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Keldon Johnson,3PM,0.5,Under,165,DraftKings,False
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,3PM,0.5,Over,-194,DraftKings,True
+2025-12-05,San Antonio Spurs @ Cleveland Cavaliers,Dylan Harper,3PM,0.5,Under,146,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,PTS,13.5,Over,-128,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,PTS,13.5,Under,-104,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,PTS,24.5,Over,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,PTS,24.5,Under,-114,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,PTS,17.5,Over,-114,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,PTS,17.5,Under,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,PTS,10.5,Over,-106,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,PTS,10.5,Under,-125,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Donovan Clingan,PTS,9.5,Over,102,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Donovan Clingan,PTS,9.5,Under,-136,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Shaedon Sharpe,PTS,19.5,Over,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Shaedon Sharpe,PTS,19.5,Under,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,PTS,10.5,Over,-118,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,PTS,10.5,Under,-112,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,PTS,27.5,Over,-118,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,PTS,27.5,Under,-112,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,PTS,14.5,Over,-104,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,PTS,14.5,Under,-125,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Isaiah Stewart II,PTS,7.5,Over,-104,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Isaiah Stewart II,PTS,7.5,Under,-128,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,PTS,18.5,Over,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,PTS,18.5,Under,-114,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jaden Ivey,PTS,8.5,Over,-128,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jaden Ivey,PTS,8.5,Under,-104,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Kris Murray,PTS,6.5,Over,-104,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Kris Murray,PTS,6.5,Under,-128,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,PTS,27.5,Over,-124,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,PTS,27.5,Under,-103,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,PTS,24.5,Over,-119,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,PTS,24.5,Under,-107,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,PTS,18.5,Over,-122,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,PTS,18.5,Under,-104,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,PTS,17.5,Over,-111,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,PTS,17.5,Under,-115,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,PTS,14.5,Over,-112,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,PTS,14.5,Under,-114,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,PTS,14.5,Over,-108,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,PTS,14.5,Under,-118,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,PTS,10.5,Over,-121,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,PTS,10.5,Under,-105,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,PTS,10.5,Over,-108,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,PTS,10.5,Under,-118,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Donovan Clingan,PTS,9.5,Over,-116,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Donovan Clingan,PTS,9.5,Under,-110,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Donovan Clingan,REB,10.5,Over,116,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Donovan Clingan,REB,10.5,Under,-154,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Isaiah Stewart II,REB,5.5,Over,-125,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Isaiah Stewart II,REB,5.5,Under,-106,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,REB,2.5,Over,140,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,REB,2.5,Under,-188,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,REB,6.5,Over,-102,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,REB,6.5,Under,-130,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Shaedon Sharpe,REB,4.5,Over,122,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Shaedon Sharpe,REB,4.5,Under,-162,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jaden Ivey,REB,2.5,Over,148,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jaden Ivey,REB,2.5,Under,-200,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,REB,3.5,Over,-125,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,REB,3.5,Under,-106,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,REB,4.5,Over,-146,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,REB,4.5,Under,110,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,REB,5.5,Over,-132,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,REB,5.5,Under,100,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,REB,5.5,Over,-154,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,REB,5.5,Under,116,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Kris Murray,REB,4.5,Over,114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Kris Murray,REB,4.5,Under,-148,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,REB,7.5,Over,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,REB,7.5,Under,-114,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,REB,11.5,Over,-122,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,REB,11.5,Under,-110,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,REB,11.5,Over,-135,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,REB,11.5,Under,102,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Donovan Clingan,REB,9.5,Over,-139,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Donovan Clingan,REB,9.5,Under,106,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,REB,7.5,Over,-126,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,REB,7.5,Under,-104,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,REB,6.5,Over,-117,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,REB,6.5,Under,-112,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,REB,6.5,Over,-104,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,REB,6.5,Under,-126,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,REB,5.5,Over,-138,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,REB,5.5,Under,105,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,REB,4.5,Over,-116,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,REB,4.5,Under,-113,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,REB,3.5,Over,-138,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,REB,3.5,Under,105,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,REB,2.5,Over,116,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,REB,2.5,Under,-153,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,AST,2.5,Over,-102,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,AST,2.5,Under,-130,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,AST,8.5,Over,-104,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,AST,8.5,Under,-128,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,AST,2.5,Over,154,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jalen Duren,AST,2.5,Under,-210,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,AST,7.5,Over,-114,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,AST,7.5,Under,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Shaedon Sharpe,AST,2.5,Over,-102,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Shaedon Sharpe,AST,2.5,Under,-130,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,AST,2.5,Over,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,AST,2.5,Under,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,AST,2.5,Over,116,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Ausar Thompson,AST,2.5,Under,-154,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,AST,8.5,Over,-107,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,AST,8.5,Under,-122,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,AST,7.5,Over,-101,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,AST,7.5,Under,-130,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,3PM,1.5,Over,-178,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,3PM,1.5,Under,132,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,3PM,2.5,Over,-110,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,3PM,2.5,Under,-120,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Shaedon Sharpe,3PM,1.5,Over,-138,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Shaedon Sharpe,3PM,1.5,Under,104,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,3PM,2.5,Over,-114,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,3PM,2.5,Under,-114,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,3PM,2.5,Over,122,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,3PM,2.5,Under,-162,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,3PM,2.5,Over,140,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,3PM,2.5,Under,-188,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,3PM,1.5,Over,116,FanDuel,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,3PM,1.5,Under,-154,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jaden Ivey,3PM,1.5,Over,162,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jaden Ivey,3PM,1.5,Under,-220,FanDuel,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,3PM,2.5,Over,-128,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Toumani Camara,3PM,2.5,Under,-103,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,3PM,2.5,Over,-104,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Duncan Robinson,3PM,2.5,Under,-127,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,3PM,2.5,Over,127,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Deni Avdija,3PM,2.5,Under,-168,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,3PM,2.5,Over,135,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Jerami Grant,3PM,2.5,Under,-179,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,3PM,1.5,Over,-179,DraftKings,False
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Cade Cunningham,3PM,1.5,Under,135,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,3PM,1.5,Over,117,DraftKings,True
+2025-12-05,Portland Trail Blazers @ Detroit Pistons,Tobias Harris,3PM,1.5,Under,-154,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,PTS,21.5,Over,-110,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,PTS,21.5,Under,-120,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Isaiah Jackson,PTS,8.5,Over,100,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Isaiah Jackson,PTS,8.5,Under,-132,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,T.J. McConnell,PTS,11.5,Over,-118,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,T.J. McConnell,PTS,11.5,Under,-112,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,PTS,10.5,Over,-102,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,PTS,10.5,Under,-130,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,PTS,16.5,Over,-108,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,PTS,16.5,Under,-122,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,PTS,10.5,Over,-114,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,PTS,10.5,Under,-114,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,PTS,24.5,Over,-112,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,PTS,24.5,Under,-118,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,PTS,24.5,Over,-117,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,PTS,24.5,Under,-109,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Josh Giddey,PTS,24.5,Over,-107,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Josh Giddey,PTS,24.5,Under,-119,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Coby White,PTS,23.5,Over,-118,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Coby White,PTS,23.5,Under,-108,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,PTS,21.5,Over,-105,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,PTS,21.5,Under,-121,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Nikola Vucevic,PTS,20.5,Over,-112,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Nikola Vucevic,PTS,20.5,Under,-114,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,PTS,16.5,Over,-105,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,PTS,16.5,Under,-121,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Matas Buzelis,PTS,15.5,Over,-122,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Matas Buzelis,PTS,15.5,Under,-104,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Ayo Dosunmu,PTS,15.5,Over,-114,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Ayo Dosunmu,PTS,15.5,Under,-112,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,PTS,10.5,Over,-104,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,PTS,10.5,Under,-122,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,PTS,9.5,Over,-125,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,PTS,9.5,Under,-102,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,REB,4.5,Over,-102,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,REB,4.5,Under,-130,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,T.J. McConnell,REB,3.5,Over,142,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,T.J. McConnell,REB,3.5,Under,-192,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,REB,6.5,Over,-152,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,REB,6.5,Under,114,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Isaiah Jackson,REB,5.5,Over,-148,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Isaiah Jackson,REB,5.5,Under,112,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,REB,4.5,Over,-162,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,REB,4.5,Under,122,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,REB,5.5,Over,-144,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,REB,5.5,Under,108,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,REB,2.5,Over,-154,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,REB,2.5,Under,116,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Josh Giddey,REB,10.5,Over,-123,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Josh Giddey,REB,10.5,Under,-107,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Nikola Vucevic,REB,10.5,Over,-102,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Nikola Vucevic,REB,10.5,Under,-128,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,REB,6.5,Over,-117,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,REB,6.5,Under,-112,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,REB,5.5,Over,-140,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,REB,5.5,Under,106,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Matas Buzelis,REB,5.5,Over,-116,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Matas Buzelis,REB,5.5,Under,-113,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,REB,4.5,Over,-133,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,REB,4.5,Under,101,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,REB,4.5,Over,-122,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,REB,4.5,Under,-108,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Coby White,REB,3.5,Over,109,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Coby White,REB,3.5,Under,-144,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Ayo Dosunmu,REB,3.5,Over,130,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Ayo Dosunmu,REB,3.5,Under,-172,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,REB,2.5,Over,-140,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,REB,2.5,Under,107,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,AST,2.5,Over,102,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,AST,2.5,Under,-136,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,AST,6.5,Over,-146,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,AST,6.5,Under,110,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,T.J. McConnell,AST,5.5,Over,104,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,T.J. McConnell,AST,5.5,Under,-138,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,AST,3.5,Over,-152,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,AST,3.5,Under,114,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Josh Giddey,AST,9.5,Over,-109,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Josh Giddey,AST,9.5,Under,-120,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,AST,6.5,Over,-147,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,AST,6.5,Under,111,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Coby White,AST,4.5,Over,-117,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Coby White,AST,4.5,Under,-112,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,AST,3.5,Over,-156,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,AST,3.5,Under,118,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Ayo Dosunmu,AST,3.5,Over,-104,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Ayo Dosunmu,AST,3.5,Under,-126,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Nikola Vucevic,AST,3.5,Over,104,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Nikola Vucevic,AST,3.5,Under,-137,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,AST,2.5,Over,118,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,AST,2.5,Under,-156,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,3PM,1.5,Over,108,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,3PM,1.5,Under,-144,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,3PM,1.5,Over,118,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,3PM,1.5,Under,-158,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,3PM,1.5,Over,-136,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,3PM,1.5,Under,102,FanDuel,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,3PM,1.5,Over,-210,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,3PM,1.5,Under,154,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,3PM,2.5,Over,158,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,3PM,2.5,Under,-215,FanDuel,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Coby White,3PM,2.5,Over,-155,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Coby White,3PM,2.5,Under,117,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,3PM,2.5,Over,146,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jay Huff,3PM,2.5,Under,-194,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,3PM,1.5,Over,-184,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Bennedict Mathurin,3PM,1.5,Under,138,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Josh Giddey,3PM,1.5,Over,-167,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Josh Giddey,3PM,1.5,Under,126,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Nikola Vucevic,3PM,1.5,Over,-165,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Nikola Vucevic,3PM,1.5,Under,125,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Matas Buzelis,3PM,1.5,Over,-144,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Matas Buzelis,3PM,1.5,Under,110,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,3PM,1.5,Over,-139,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Andrew Nembhard,3PM,1.5,Under,105,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Ayo Dosunmu,3PM,1.5,Over,-121,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Ayo Dosunmu,3PM,1.5,Under,-109,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,3PM,1.5,Over,-105,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Pascal Siakam,3PM,1.5,Under,-126,DraftKings,True
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,3PM,1.5,Over,105,DraftKings,False
+2025-12-05,Indiana Pacers @ Chicago Bulls,Jarace Walker,3PM,1.5,Under,-138,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,PTS,17.5,Over,-118,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,PTS,17.5,Under,-110,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,PTS,14.5,Over,-106,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,PTS,14.5,Under,-125,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,PTS,25.5,Over,-102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,PTS,25.5,Under,-130,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Mark Williams,PTS,10.5,Over,-114,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Mark Williams,PTS,10.5,Under,-114,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,PTS,10.5,Over,100,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,PTS,10.5,Under,-132,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jordan Goodwin,PTS,7.5,Over,-128,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jordan Goodwin,PTS,7.5,Under,-104,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Steven Adams,PTS,5.5,Over,-130,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Steven Adams,PTS,5.5,Under,-102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Aaron Holiday,PTS,8.5,Over,-128,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Aaron Holiday,PTS,8.5,Under,-102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Collin Gillespie,PTS,16.5,Over,102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Collin Gillespie,PTS,16.5,Under,-136,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,PTS,15.5,Over,-130,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,PTS,15.5,Under,-102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,PTS,22.5,Over,-118,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,PTS,22.5,Under,-112,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Josh Okogie,PTS,6.5,Over,-102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Josh Okogie,PTS,6.5,Under,-130,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,PTS,21.5,Over,-128,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,PTS,21.5,Under,-104,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,PTS,24.5,Over,-124,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,PTS,24.5,Under,-103,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,PTS,22.5,Over,-126,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,PTS,22.5,Under,-101,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,PTS,22.5,Over,-115,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,PTS,22.5,Under,-111,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,PTS,18.5,Over,-102,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,PTS,18.5,Under,-125,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,PTS,16.5,Over,-106,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,PTS,16.5,Under,-120,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,PTS,14.5,Over,-116,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,PTS,14.5,Under,-110,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Mark Williams,PTS,10.5,Over,-101,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Mark Williams,PTS,10.5,Under,-126,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,PTS,8.5,Over,-131,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,PTS,8.5,Under,103,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Aaron Holiday,PTS,8.5,Over,-123,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Aaron Holiday,PTS,8.5,Under,-103,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jordan Goodwin,PTS,7.5,Over,-112,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jordan Goodwin,PTS,7.5,Under,-113,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Josh Okogie,PTS,6.5,Over,-110,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Josh Okogie,PTS,6.5,Under,-116,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,REB,4.5,Over,-136,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,REB,4.5,Under,102,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Steven Adams,REB,7.5,Over,-114,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Steven Adams,REB,7.5,Under,-114,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,REB,6.5,Over,-114,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,REB,6.5,Under,-114,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,REB,8.5,Over,-146,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,REB,8.5,Under,110,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,REB,2.5,Over,-114,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,REB,2.5,Under,-114,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Josh Okogie,REB,3.5,Over,122,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Josh Okogie,REB,3.5,Under,-162,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Mark Williams,REB,8.5,Over,-130,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Mark Williams,REB,8.5,Under,-102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,REB,7.5,Over,-102,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,REB,7.5,Under,-130,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,REB,5.5,Over,128,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,REB,5.5,Under,-172,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,REB,3.5,Over,142,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,REB,3.5,Under,-192,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Collin Gillespie,REB,3.5,Over,-136,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Collin Gillespie,REB,3.5,Under,102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,REB,9.5,Over,109,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,REB,9.5,Under,-144,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Mark Williams,REB,8.5,Over,-118,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Mark Williams,REB,8.5,Under,-111,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,REB,7.5,Over,102,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,REB,7.5,Under,-135,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,REB,6.5,Over,-119,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,REB,6.5,Under,-110,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,REB,4.5,Over,-153,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,REB,4.5,Under,116,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,REB,4.5,Over,-119,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,REB,4.5,Under,-110,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jordan Goodwin,REB,3.5,Over,-129,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jordan Goodwin,REB,3.5,Under,-102,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Josh Okogie,REB,3.5,Over,117,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Josh Okogie,REB,3.5,Under,-154,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,REB,2.5,Over,-168,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,REB,2.5,Under,127,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,REB,2.5,Over,-126,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,REB,2.5,Under,-105,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,AST,5.5,Over,114,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,AST,5.5,Under,-152,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,AST,6.5,Over,122,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,AST,6.5,Under,-162,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,AST,3.5,Over,-144,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,AST,3.5,Under,108,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Collin Gillespie,AST,5.5,Over,130,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Collin Gillespie,AST,5.5,Under,-174,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,AST,1.5,Over,-166,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,AST,1.5,Under,124,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,AST,1.5,Over,-122,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,AST,1.5,Under,-108,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,AST,3.5,Over,-102,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,AST,3.5,Under,-130,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,AST,2.5,Over,-162,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,AST,2.5,Under,122,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,AST,6.5,Over,108,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Alperen Sengun,AST,6.5,Under,-143,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,AST,5.5,Over,105,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Amen Thompson,AST,5.5,Under,-138,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,AST,3.5,Over,-164,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,AST,3.5,Under,124,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,AST,3.5,Over,-137,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,AST,3.5,Under,104,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,AST,3.5,Over,131,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,AST,3.5,Under,-173,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jordan Goodwin,AST,2.5,Over,-124,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jordan Goodwin,AST,2.5,Under,-106,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,AST,1.5,Over,-117,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,AST,1.5,Under,-113,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,3PM,1.5,Over,-200,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,3PM,1.5,Under,148,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,3PM,2.5,Over,-108,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,3PM,2.5,Under,-122,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,3PM,2.5,Over,-108,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,3PM,2.5,Under,-122,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Collin Gillespie,3PM,3.5,Over,142,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Collin Gillespie,3PM,3.5,Under,-192,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,3PM,3.5,Over,142,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,3PM,3.5,Under,-192,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,3PM,1.5,Over,-188,FanDuel,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,3PM,1.5,Under,140,FanDuel,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,3PM,3.5,Over,102,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Grayson Allen,3PM,3.5,Under,-135,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,3PM,2.5,Over,-138,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Dillon Brooks,3PM,2.5,Under,104,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,3PM,2.5,Over,-101,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Royce O'Neale,3PM,2.5,Under,-131,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,3PM,1.5,Over,-188,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Jabari Smith Jr,3PM,1.5,Under,141,DraftKings,False
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,3PM,1.5,Over,-184,DraftKings,True
+2025-12-05,Phoenix Suns @ Houston Rockets,Kevin Durant,3PM,1.5,Under,139,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Nicolas Batum,PTS,4.5,Over,102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Nicolas Batum,PTS,4.5,Under,-136,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cam Christie,PTS,7.5,Over,-125,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cam Christie,PTS,7.5,Under,-106,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,PTS,12.5,Over,-114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,PTS,12.5,Under,-114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,PTS,12.5,Over,-108,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,PTS,12.5,Under,-122,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Santi Aldama,PTS,11.5,Over,102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Santi Aldama,PTS,11.5,Under,-136,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,PTS,25.5,Over,-118,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,PTS,25.5,Under,-112,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,PTS,20.5,Over,-114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,PTS,20.5,Under,-114,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Zach Edey,PTS,13.5,Over,-114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Zach Edey,PTS,13.5,Under,-114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cam Spencer,PTS,10.5,Over,-104,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cam Spencer,PTS,10.5,Under,-128,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,PTS,10.5,Over,102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,PTS,10.5,Under,-136,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,John Collins,PTS,13.5,Over,102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,John Collins,PTS,13.5,Under,-136,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,PTS,15.5,Over,-132,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,PTS,15.5,Under,100,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,PTS,26.5,Over,-114,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,PTS,26.5,Under,-114,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,PTS,8.5,Over,-102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,PTS,8.5,Under,-130,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,PTS,26.5,Over,-112,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,PTS,26.5,Under,-113,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,PTS,25.5,Over,-112,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,PTS,25.5,Under,-114,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,PTS,20.5,Over,-121,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,PTS,20.5,Under,-105,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,PTS,15.5,Over,-126,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,PTS,15.5,Under,-101,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Zach Edey,PTS,14.5,Over,-101,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Zach Edey,PTS,14.5,Under,-127,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,PTS,12.5,Over,-120,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,PTS,12.5,Under,-106,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,PTS,11.5,Over,-127,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,PTS,11.5,Under,100,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,PTS,9.5,Over,-111,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,PTS,9.5,Under,-115,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,PTS,8.5,Over,-105,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,PTS,8.5,Under,-122,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,REB,2.5,Over,-174,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,REB,2.5,Under,130,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,REB,5.5,Over,-102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,REB,5.5,Under,-130,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,REB,4.5,Over,-166,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,REB,4.5,Under,124,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,John Collins,REB,6.5,Over,118,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,John Collins,REB,6.5,Under,-158,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Zach Edey,REB,11.5,Over,-136,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Zach Edey,REB,11.5,Under,102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Santi Aldama,REB,5.5,Over,114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Santi Aldama,REB,5.5,Under,-152,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,REB,5.5,Over,-106,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,REB,5.5,Under,-125,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,REB,2.5,Over,-114,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,REB,2.5,Under,-114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,REB,5.5,Over,128,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,REB,5.5,Under,-172,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,REB,12.5,Over,102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,REB,12.5,Under,-136,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,REB,4.5,Over,134,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,REB,4.5,Under,-180,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Zach Edey,REB,12.5,Over,-104,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Zach Edey,REB,12.5,Under,-126,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,REB,12.5,Over,101,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,REB,12.5,Under,-134,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,John Collins,REB,5.5,Over,-151,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,John Collins,REB,5.5,Under,115,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,REB,5.5,Over,-109,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,REB,5.5,Under,-121,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,REB,5.5,Over,-101,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,REB,5.5,Under,-131,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,REB,2.5,Over,-168,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,REB,2.5,Under,127,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,REB,2.5,Over,-113,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,REB,2.5,Under,-117,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,AST,2.5,Over,-130,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,AST,2.5,Under,-102,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Santi Aldama,AST,2.5,Over,-158,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Santi Aldama,AST,2.5,Under,118,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,AST,2.5,Over,-154,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,AST,2.5,Under,116,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,AST,2.5,Over,148,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,AST,2.5,Under,-200,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,AST,2.5,Over,-172,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,AST,2.5,Under,128,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,AST,6.5,Over,-132,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,AST,6.5,Under,100,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,AST,2.5,Over,-108,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,AST,2.5,Under,-122,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cam Spencer,AST,3.5,Over,104,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cam Spencer,AST,3.5,Under,-138,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,AST,8.5,Over,-152,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,AST,8.5,Under,114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,AST,8.5,Over,-144,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,AST,8.5,Under,109,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,AST,7.5,Over,113,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,AST,7.5,Under,-149,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,AST,3.5,Over,128,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,AST,3.5,Under,-169,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,AST,2.5,Over,-166,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kris Dunn,AST,2.5,Under,126,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,AST,2.5,Over,-132,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Ivica Zubac,AST,2.5,Under,100,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,AST,2.5,Over,-111,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,AST,2.5,Under,-119,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,3PM,1.5,Over,-166,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,3PM,1.5,Under,124,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,3PM,1.5,Over,-114,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,3PM,1.5,Under,-114,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,3PM,1.5,Over,-130,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,3PM,1.5,Under,-102,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Santi Aldama,3PM,1.5,Over,162,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Santi Aldama,3PM,1.5,Under,-220,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,3PM,2.5,Over,152,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,3PM,2.5,Under,-205,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cam Spencer,3PM,1.5,Over,-148,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cam Spencer,3PM,1.5,Under,112,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,3PM,3.5,Over,106,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,3PM,3.5,Under,-140,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Nicolas Batum,3PM,1.5,Over,118,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Nicolas Batum,3PM,1.5,Under,-158,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,3PM,1.5,Over,-200,FanDuel,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,3PM,1.5,Under,148,FanDuel,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,3PM,3.5,Over,-105,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,James Harden,3PM,3.5,Under,-126,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,3PM,2.5,Over,141,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Kawhi Leonard,3PM,2.5,Under,-187,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,3PM,1.5,Over,-196,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaren Jackson Jr,3PM,1.5,Under,148,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,3PM,1.5,Over,-154,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Jaylen Wells,3PM,1.5,Under,117,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,3PM,1.5,Over,-127,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Cedric Coward,3PM,1.5,Under,-104,DraftKings,False
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,3PM,1.5,Over,-112,DraftKings,True
+2025-12-05,Los Angeles Clippers @ Memphis Grizzlies,Vincent Williams Jr,3PM,1.5,Under,-118,DraftKings,False
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Tyrese Maxey,PTS,30.5,Over,-111,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Tyrese Maxey,PTS,30.5,Under,-114,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kevin Porter Jr.,PTS,20.5,Over,-121,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kevin Porter Jr.,PTS,20.5,Under,-106,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Ryan Rollins,PTS,19.5,Over,-115,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Ryan Rollins,PTS,19.5,Under,-111,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Paul George,PTS,13.5,Over,-127,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Paul George,PTS,13.5,Under,-101,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,A.J. Green,PTS,12.5,Over,103,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,A.J. Green,PTS,12.5,Under,-131,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Myles Turner,PTS,11.5,Over,-129,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Myles Turner,PTS,11.5,Under,101,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kyle Kuzma,PTS,11.5,Over,-114,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kyle Kuzma,PTS,11.5,Under,-112,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,VJ Edgecombe,PTS,10.5,Over,-103,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,VJ Edgecombe,PTS,10.5,Under,-123,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Andre Drummond,PTS,8.5,Over,103,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Andre Drummond,PTS,8.5,Under,-131,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Andre Drummond,REB,11.5,Over,103,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Andre Drummond,REB,11.5,Under,-136,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Myles Turner,REB,5.5,Over,-148,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Myles Turner,REB,5.5,Under,112,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kevin Porter Jr.,REB,4.5,Over,-141,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kevin Porter Jr.,REB,4.5,Under,107,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,VJ Edgecombe,REB,4.5,Over,-138,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,VJ Edgecombe,REB,4.5,Under,105,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kyle Kuzma,REB,4.5,Over,-112,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kyle Kuzma,REB,4.5,Under,-117,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Ryan Rollins,REB,4.5,Over,100,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Ryan Rollins,REB,4.5,Under,-131,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Paul George,REB,4.5,Over,106,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Paul George,REB,4.5,Under,-139,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Tyrese Maxey,REB,3.5,Over,-160,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Tyrese Maxey,REB,3.5,Under,121,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,A.J. Green,REB,3.5,Over,107,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,A.J. Green,REB,3.5,Under,-140,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kevin Porter Jr.,AST,6.5,Over,-106,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kevin Porter Jr.,AST,6.5,Under,-124,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Ryan Rollins,AST,6.5,Over,114,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Ryan Rollins,AST,6.5,Under,-150,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Tyrese Maxey,AST,6.5,Over,116,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Tyrese Maxey,AST,6.5,Under,-152,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,VJ Edgecombe,AST,3.5,Over,-151,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,VJ Edgecombe,AST,3.5,Under,114,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Paul George,AST,2.5,Over,-135,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Paul George,AST,2.5,Under,102,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,A.J. Green,AST,2.5,Over,102,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,A.J. Green,AST,2.5,Under,-134,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kyle Kuzma,AST,2.5,Over,112,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kyle Kuzma,AST,2.5,Under,-148,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Tyrese Maxey,3PM,3.5,Over,-152,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Tyrese Maxey,3PM,3.5,Under,115,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,A.J. Green,3PM,3.5,Over,109,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,A.J. Green,3PM,3.5,Under,-144,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Ryan Rollins,3PM,2.5,Over,103,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Ryan Rollins,3PM,2.5,Under,-136,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Paul George,3PM,2.5,Over,113,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Paul George,3PM,2.5,Under,-149,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kevin Porter Jr.,3PM,2.5,Over,118,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Kevin Porter Jr.,3PM,2.5,Under,-156,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Myles Turner,3PM,1.5,Over,-148,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,Myles Turner,3PM,1.5,Under,112,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,VJ Edgecombe,3PM,1.5,Over,108,DraftKings,True
+2025-12-05,Philadelphia 76ers @ Milwaukee Bucks,VJ Edgecombe,3PM,1.5,Under,-143,DraftKings,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Chet Holmgren,PTS,17.5,Over,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Chet Holmgren,PTS,17.5,Under,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,P.J. Washington,PTS,13.5,Over,-125,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,P.J. Washington,PTS,13.5,Under,-106,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Max Christie,PTS,8.5,Over,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Max Christie,PTS,8.5,Under,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cooper Flagg,PTS,15.5,Over,-130,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cooper Flagg,PTS,15.5,Under,-102,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Klay Thompson,PTS,10.5,Over,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Klay Thompson,PTS,10.5,Under,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Aaron Wiggins,PTS,10.5,Over,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Aaron Wiggins,PTS,10.5,Under,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Shai Gilgeous-Alexander,PTS,32.5,Over,-104,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Shai Gilgeous-Alexander,PTS,32.5,Under,-128,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Isaiah Joe,PTS,9.5,Over,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Isaiah Joe,PTS,9.5,Under,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Jalen Williams,PTS,19.5,Over,-112,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Jalen Williams,PTS,19.5,Under,-118,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cason Wallace,PTS,7.5,Over,-125,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cason Wallace,PTS,7.5,Under,-106,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Naji Marshall,PTS,11.5,Over,104,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Naji Marshall,PTS,11.5,Under,-138,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Anthony Davis,PTS,21.5,Over,-120,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Anthony Davis,PTS,21.5,Under,-110,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,D'Angelo Russell,PTS,7.5,Over,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,D'Angelo Russell,PTS,7.5,Under,-114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Ajay Mitchell,PTS,14.5,Over,102,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Ajay Mitchell,PTS,14.5,Under,-136,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Aaron Wiggins,REB,2.5,Over,-182,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Aaron Wiggins,REB,2.5,Under,134,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Ajay Mitchell,REB,3.5,Over,-162,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Ajay Mitchell,REB,3.5,Under,122,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Jalen Williams,REB,5.5,Over,110,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Jalen Williams,REB,5.5,Under,-146,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cason Wallace,REB,3.5,Over,134,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cason Wallace,REB,3.5,Under,-180,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,P.J. Washington,REB,6.5,Over,-152,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,P.J. Washington,REB,6.5,Under,114,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Anthony Davis,REB,10.5,Over,-144,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Anthony Davis,REB,10.5,Under,108,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Naji Marshall,REB,5.5,Over,-106,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Naji Marshall,REB,5.5,Under,-125,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cooper Flagg,REB,6.5,Over,-106,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cooper Flagg,REB,6.5,Under,-125,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Max Christie,REB,2.5,Over,148,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Max Christie,REB,2.5,Under,-200,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Chet Holmgren,REB,9.5,Over,-108,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Chet Holmgren,REB,9.5,Under,-122,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Shai Gilgeous-Alexander,REB,4.5,Over,-162,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Shai Gilgeous-Alexander,REB,4.5,Under,122,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Naji Marshall,AST,2.5,Over,-108,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Naji Marshall,AST,2.5,Under,-122,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cooper Flagg,AST,2.5,Over,110,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cooper Flagg,AST,2.5,Under,-146,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Anthony Davis,AST,2.5,Over,104,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Anthony Davis,AST,2.5,Under,-138,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,D'Angelo Russell,AST,2.5,Over,124,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,D'Angelo Russell,AST,2.5,Under,-166,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Chet Holmgren,AST,1.5,Over,-154,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Chet Holmgren,AST,1.5,Under,116,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Jalen Williams,AST,4.5,Over,-162,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Jalen Williams,AST,4.5,Under,122,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cason Wallace,AST,2.5,Over,154,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cason Wallace,AST,2.5,Under,-210,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Ajay Mitchell,AST,3.5,Over,104,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Ajay Mitchell,AST,3.5,Under,-138,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Shai Gilgeous-Alexander,AST,6.5,Over,-118,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Shai Gilgeous-Alexander,AST,6.5,Under,-112,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Chet Holmgren,3PM,1.5,Over,140,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Chet Holmgren,3PM,1.5,Under,-188,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Aaron Wiggins,3PM,1.5,Over,-136,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Aaron Wiggins,3PM,1.5,Under,102,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cooper Flagg,3PM,1.5,Over,164,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cooper Flagg,3PM,1.5,Under,-225,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,P.J. Washington,3PM,1.5,Over,-104,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,P.J. Washington,3PM,1.5,Under,-128,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Max Christie,3PM,1.5,Over,-174,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Max Christie,3PM,1.5,Under,130,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Naji Marshall,3PM,1.5,Over,152,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Naji Marshall,3PM,1.5,Under,-205,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,D'Angelo Russell,3PM,1.5,Over,178,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,D'Angelo Russell,3PM,1.5,Under,-245,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Shai Gilgeous-Alexander,3PM,1.5,Over,-144,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Shai Gilgeous-Alexander,3PM,1.5,Under,108,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Jalen Williams,3PM,1.5,Over,178,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Jalen Williams,3PM,1.5,Under,-245,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Isaiah Joe,3PM,2.5,Over,116,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Isaiah Joe,3PM,2.5,Under,-154,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Klay Thompson,3PM,2.5,Over,-132,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Klay Thompson,3PM,2.5,Under,100,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cason Wallace,3PM,1.5,Over,164,FanDuel,True
+2025-12-05,Dallas Mavericks @ Oklahoma City Thunder,Cason Wallace,3PM,1.5,Under,-225,FanDuel,True

@@ -1,0 +1,4574 @@
+{
+  "PTS": {
+    "C": {
+      "SAC": {
+        "value": 27.3,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 25.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 25.4,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 25.0,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 24.4,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 24.2,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 23.3,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "GS": {
+        "value": 23.3,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 23.3,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "DEN": {
+        "value": 23.0,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 22.9,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 22.5,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 22.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 21.5,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 21.4,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 21.4,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 21.2,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 21.1,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 20.8,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 20.7,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "MIL": {
+        "value": 20.6,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 20.6,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "ATL": {
+        "value": 20.5,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 19.7,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 19.5,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 19.4,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 19.1,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 18.5,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 18.4,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 15.2,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PF": {
+      "CHI": {
+        "value": 28.6,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 26.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 26.2,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 25.7,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 25.3,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 25.3,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 24.8,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 24.6,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 24.4,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 24.2,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "LAL": {
+        "value": 24.1,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "NY": {
+        "value": 24.1,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 24.0,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "DAL": {
+        "value": 23.7,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "DET": {
+        "value": 23.7,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 23.6,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 23.4,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 22.2,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "IND": {
+        "value": 22.1,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 21.8,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 21.8,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 21.6,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 21.5,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 21.3,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "ATL": {
+        "value": 21.0,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 20.6,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 20.4,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 20.2,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 19.4,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 19.2,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PG": {
+      "ORL": {
+        "value": 28.6,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 28.3,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 28.3,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 26.8,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 26.4,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "SA": {
+        "value": 26.2,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "MIN": {
+        "value": 25.4,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 25.4,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 25.3,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 25.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 25.1,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 24.8,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 24.8,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 24.6,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 24.4,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 24.4,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 24.2,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 23.8,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "BKN": {
+        "value": 23.7,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 23.7,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 23.4,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 23.3,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 23.1,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "ATL": {
+        "value": 23.0,
+        "rank": 30,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 21.9,
+        "rank": 31,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 20.9,
+        "rank": 32,
+        "tier": "BEST"
+      },
+      "PHI": {
+        "value": 20.5,
+        "rank": 34,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 20.3,
+        "rank": 36,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 20.3,
+        "rank": 38,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 19.8,
+        "rank": 40,
+        "tier": "BEST"
+      }
+    },
+    "SF": {
+      "LAL": {
+        "value": 26.3,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 25.0,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 24.3,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 24.2,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 24.1,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 24.1,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 24.1,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 24.0,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 23.5,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 23.3,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 23.1,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 22.9,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 22.8,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 22.8,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 22.7,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 22.4,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 22.2,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 21.8,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 21.6,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 21.6,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 21.4,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "PHI": {
+        "value": 21.4,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "POR": {
+        "value": 21.3,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 21.0,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 21.0,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 20.6,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 20.3,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 20.3,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 20.1,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 19.7,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "SG": {
+      "UTA": {
+        "value": 26.8,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 26.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 25.4,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 25.4,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 25.4,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "PHO": {
+        "value": 25.1,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 25.0,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 25.0,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 25.0,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "DET": {
+        "value": 25.0,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 25.0,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "LAL": {
+        "value": 24.5,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "DAL": {
+        "value": 24.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 24.1,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 24.0,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 24.0,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 23.8,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 23.7,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "WAS": {
+        "value": 23.6,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "OKC": {
+        "value": 23.5,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "ORL": {
+        "value": 23.4,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 23.3,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 23.2,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 23.1,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 23.1,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 22.7,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 22.5,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 22.2,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "CHI": {
+        "value": 21.2,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 20.7,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    }
+  },
+  "REB": {
+    "C": {
+      "SAC": {
+        "value": 16.8,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 16.8,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 16.7,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 16.1,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 15.8,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 15.6,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "GS": {
+        "value": 15.5,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "BOS": {
+        "value": 15.2,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 15.1,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 14.7,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 14.6,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 14.4,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 14.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 14.2,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 14.2,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 14.0,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "NY": {
+        "value": 14.0,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "ORL": {
+        "value": 13.9,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 13.8,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 13.8,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 13.6,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 13.6,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 13.6,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "UTA": {
+        "value": 13.2,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 13.2,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 13.0,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 12.9,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 12.7,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 12.5,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 11.5,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PF": {
+      "WAS": {
+        "value": 13.0,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 12.9,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 12.2,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 12.2,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 11.6,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 11.3,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 11.2,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 11.0,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 11.0,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 10.7,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "DET": {
+        "value": 10.6,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "MEM": {
+        "value": 10.4,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 10.4,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 10.3,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "ORL": {
+        "value": 10.2,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "OKC": {
+        "value": 10.2,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 10.0,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 9.8,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 9.8,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "IND": {
+        "value": 9.8,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 9.7,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 9.7,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 9.7,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 9.6,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 9.5,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 9.4,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 9.3,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 9.3,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 9.0,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "DEN": {
+        "value": 8.8,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PG": {
+      "DAL": {
+        "value": 7.4,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 7.4,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "MIN": {
+        "value": 7.4,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 7.1,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 7.0,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "SA": {
+        "value": 6.9,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 6.8,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "GS": {
+        "value": 6.5,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "MEM": {
+        "value": 6.5,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "MIL": {
+        "value": 6.4,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "OKC": {
+        "value": 6.4,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 6.3,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 6.3,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 6.3,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "ORL": {
+        "value": 6.2,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "POR": {
+        "value": 6.2,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 6.1,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "UTA": {
+        "value": 6.1,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "BKN": {
+        "value": 6.1,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 6.0,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 6.0,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 5.9,
+        "rank": 30,
+        "tier": "BEST"
+      },
+      "NO": {
+        "value": 5.8,
+        "rank": 31,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 5.8,
+        "rank": 32,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 5.8,
+        "rank": 34,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 5.7,
+        "rank": 35,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 5.5,
+        "rank": 36,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 5.3,
+        "rank": 38,
+        "tier": "BEST"
+      },
+      "DEN": {
+        "value": 5.1,
+        "rank": 39,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 4.4,
+        "rank": 40,
+        "tier": "BEST"
+      }
+    },
+    "SF": {
+      "POR": {
+        "value": 9.7,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 9.2,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 9.0,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 8.9,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 8.7,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 8.7,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 8.7,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 8.5,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 8.5,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "BOS": {
+        "value": 8.4,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "MIN": {
+        "value": 8.3,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 8.3,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 8.1,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "OKC": {
+        "value": 8.0,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "MEM": {
+        "value": 7.9,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "LAL": {
+        "value": 7.6,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "SAC": {
+        "value": 7.6,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 7.5,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 7.4,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 7.3,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "DET": {
+        "value": 7.2,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 7.2,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 7.1,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 7.1,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 7.1,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 7.0,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 7.0,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "DEN": {
+        "value": 7.0,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "UTA": {
+        "value": 6.6,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 6.5,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "SG": {
+      "DAL": {
+        "value": 8.1,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 7.5,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 7.5,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "BOS": {
+        "value": 7.4,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 7.4,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 7.4,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "GS": {
+        "value": 7.3,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 7.1,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 6.9,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 6.9,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "ORL": {
+        "value": 6.8,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 6.6,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "OKC": {
+        "value": 6.6,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 6.5,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "MEM": {
+        "value": 6.5,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 6.4,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 6.4,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "WAS": {
+        "value": 6.3,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "NY": {
+        "value": 6.2,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "CLE": {
+        "value": 6.1,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "LAL": {
+        "value": 6.1,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "BKN": {
+        "value": 6.0,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 6.0,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 5.8,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "POR": {
+        "value": 5.8,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 5.8,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 5.8,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "CHI": {
+        "value": 5.7,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 5.3,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 5.0,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    }
+  },
+  "AST": {
+    "C": {
+      "MEM": {
+        "value": 5.3,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 5.0,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 4.9,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 4.9,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 4.9,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 4.9,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "PHO": {
+        "value": 4.8,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 4.8,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 4.7,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "SA": {
+        "value": 4.7,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "MIN": {
+        "value": 4.7,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 4.6,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 4.5,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 4.4,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 4.1,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 4.0,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 4.0,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "LAL": {
+        "value": 3.9,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 3.8,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 3.8,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "MIL": {
+        "value": 3.7,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "MIA": {
+        "value": 3.6,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 3.6,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 3.4,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "BKN": {
+        "value": 3.2,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 3.2,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 3.1,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 3.1,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "PHI": {
+        "value": 3.0,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 2.5,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PF": {
+      "CHA": {
+        "value": 5.3,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 5.3,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "LAL": {
+        "value": 5.3,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 5.1,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 5.0,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "SA": {
+        "value": 4.8,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 4.7,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 4.5,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 4.5,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 4.3,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "DEN": {
+        "value": 4.3,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 4.3,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 4.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 4.2,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "MEM": {
+        "value": 4.1,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 4.1,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "OKC": {
+        "value": 4.1,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 4.0,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 4.0,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 3.9,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "DET": {
+        "value": 3.9,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 3.9,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 3.8,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 3.6,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "MIA": {
+        "value": 3.5,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 3.4,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 3.3,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 3.2,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 3.2,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 3.2,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PG": {
+      "NY": {
+        "value": 9.3,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 9.2,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 9.2,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 9.1,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 9.0,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "LAL": {
+        "value": 8.9,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "DEN": {
+        "value": 8.8,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "ORL": {
+        "value": 8.5,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 8.5,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "CLE": {
+        "value": 8.5,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "DAL": {
+        "value": 8.4,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 8.4,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 8.4,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 8.4,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 8.4,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "MIL": {
+        "value": 8.3,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 8.2,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "UTA": {
+        "value": 8.2,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 8.1,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "ATL": {
+        "value": 8.1,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 8.0,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 7.9,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 7.9,
+        "rank": 30,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 7.8,
+        "rank": 32,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 7.7,
+        "rank": 33,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 7.7,
+        "rank": 34,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 7.5,
+        "rank": 35,
+        "tier": "BEST"
+      },
+      "POR": {
+        "value": 7.2,
+        "rank": 36,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 7.2,
+        "rank": 38,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 7.0,
+        "rank": 40,
+        "tier": "BEST"
+      }
+    },
+    "SF": {
+      "UTA": {
+        "value": 5.6,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 5.3,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 5.2,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 5.1,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 5.1,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "OKC": {
+        "value": 5.0,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 5.0,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 5.0,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 5.0,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 4.9,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 4.9,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 4.7,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 4.6,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 4.6,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "DAL": {
+        "value": 4.6,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 4.5,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 4.4,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 4.3,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "WAS": {
+        "value": 4.3,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "IND": {
+        "value": 4.2,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 4.1,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 4.1,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 4.1,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 4.0,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 3.9,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 3.8,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 3.6,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 3.4,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 3.2,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 2.9,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "SG": {
+      "SAC": {
+        "value": 7.3,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 6.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 5.9,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "GS": {
+        "value": 5.9,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 5.8,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "LAL": {
+        "value": 5.8,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 5.8,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "PHO": {
+        "value": 5.8,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 5.7,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 5.7,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 5.7,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 5.6,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 5.6,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 5.6,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 5.6,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 5.5,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 5.3,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 5.2,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 5.2,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 5.2,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "NY": {
+        "value": 5.1,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 5.1,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 5.1,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 5.1,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 5.1,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 5.1,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 5.0,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 4.9,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 4.7,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 4.4,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    }
+  },
+  "PR": {
+    "C": {
+      "SAC": {
+        "value": 44.1,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 42.2,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 41.7,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 40.8,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 39.5,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 38.9,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "GS": {
+        "value": 38.8,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 38.4,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 38.3,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 36.7,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "DEN": {
+        "value": 36.6,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 36.5,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 35.9,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 35.7,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 35.7,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 35.6,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 35.5,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 35.0,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 35.0,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 34.4,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 34.3,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 34.1,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 33.8,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 33.7,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 33.3,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 33.1,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 32.5,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 32.4,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 31.4,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 27.7,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PF": {
+      "CHI": {
+        "value": 41.5,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 39.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 37.9,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 37.8,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 36.8,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 35.6,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 35.6,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 35.1,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 35.0,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 34.5,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "DET": {
+        "value": 34.3,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 34.0,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 34.0,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "LAL": {
+        "value": 33.7,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 33.7,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 33.2,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "DAL": {
+        "value": 33.1,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 32.6,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "MIL": {
+        "value": 32.6,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 32.3,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 32.2,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 31.8,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 30.9,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 30.8,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 30.8,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "DEN": {
+        "value": 30.6,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 30.6,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 29.7,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 29.5,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 28.4,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PG": {
+      "WAS": {
+        "value": 35.2,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 34.9,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "ORL": {
+        "value": 34.8,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 33.5,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 33.3,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "SA": {
+        "value": 33.2,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "MIN": {
+        "value": 32.8,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 32.2,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 31.5,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 31.3,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 31.2,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 31.1,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 31.1,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 30.7,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 30.7,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 29.9,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "BKN": {
+        "value": 29.8,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 29.7,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 29.7,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "DEN": {
+        "value": 29.5,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 29.4,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 29.3,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 28.9,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 28.3,
+        "rank": 30,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 28.2,
+        "rank": 31,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 28.1,
+        "rank": 32,
+        "tier": "BEST"
+      },
+      "PHI": {
+        "value": 26.9,
+        "rank": 34,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 26.7,
+        "rank": 36,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 25.7,
+        "rank": 38,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 25.6,
+        "rank": 40,
+        "tier": "BEST"
+      }
+    },
+    "SF": {
+      "LAL": {
+        "value": 33.9,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 33.2,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 32.8,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 32.7,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 32.7,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 32.6,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 32.3,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 32.2,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 32.2,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 31.4,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 31.0,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 30.6,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 30.5,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 30.3,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 30.3,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "NY": {
+        "value": 30.1,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 29.9,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 29.8,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 29.8,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 29.2,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 29.1,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 29.0,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 28.8,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 28.8,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "UTA": {
+        "value": 28.5,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 28.2,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 27.9,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 27.6,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 27.1,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 26.9,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "SG": {
+      "UTA": {
+        "value": 33.9,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 33.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 32.9,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 32.4,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 32.3,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 31.8,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 31.7,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 31.6,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 31.2,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "PHO": {
+        "value": 31.1,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 31.1,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "DET": {
+        "value": 30.8,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 30.8,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "LAL": {
+        "value": 30.6,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "MIL": {
+        "value": 30.5,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "IND": {
+        "value": 30.5,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 30.5,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 30.4,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 30.2,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "ORL": {
+        "value": 30.2,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "OKC": {
+        "value": 30.1,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "BKN": {
+        "value": 30.0,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 29.9,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "WAS": {
+        "value": 29.9,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 29.7,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 29.1,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 28.3,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 27.7,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "CHI": {
+        "value": 26.9,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 26.1,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    }
+  },
+  "PA": {
+    "C": {
+      "SAC": {
+        "value": 32.2,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 30.3,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 30.3,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 30.0,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 29.3,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 28.7,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 28.1,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "GS": {
+        "value": 27.8,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 27.6,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 27.3,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "DEN": {
+        "value": 26.8,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 26.3,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 26.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 26.1,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 26.0,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 25.5,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 25.2,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 25.1,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "MEM": {
+        "value": 25.0,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 24.7,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 24.6,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 24.3,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "PHI": {
+        "value": 24.2,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 23.8,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 23.0,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 22.9,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 22.3,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 21.6,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 21.0,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 19.1,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PF": {
+      "CHI": {
+        "value": 32.9,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 31.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 30.7,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 30.6,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 30.6,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 30.4,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 29.9,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "LAL": {
+        "value": 29.4,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 28.5,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 28.4,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 28.3,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 28.1,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 27.7,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "DET": {
+        "value": 27.6,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 27.2,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "DAL": {
+        "value": 27.0,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 26.6,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 26.2,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 26.2,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 26.1,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "MIL": {
+        "value": 26.0,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 25.9,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 25.3,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "ATL": {
+        "value": 25.1,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 24.8,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 24.5,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 24.3,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 24.1,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 23.6,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 23.4,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PG": {
+      "WAS": {
+        "value": 37.5,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "ORL": {
+        "value": 37.1,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 36.0,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 35.1,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 34.4,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 34.3,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "SA": {
+        "value": 34.0,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 34.0,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 33.9,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 33.6,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 33.2,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 32.8,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 32.8,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "CLE": {
+        "value": 32.7,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "LAL": {
+        "value": 32.7,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 32.7,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 32.6,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "POR": {
+        "value": 32.5,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 32.5,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 31.8,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 31.3,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "ATL": {
+        "value": 31.1,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 31.0,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 30.5,
+        "rank": 30,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 30.4,
+        "rank": 31,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 29.3,
+        "rank": 32,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 29.1,
+        "rank": 34,
+        "tier": "BEST"
+      },
+      "PHI": {
+        "value": 28.9,
+        "rank": 36,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 28.7,
+        "rank": 38,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 27.3,
+        "rank": 40,
+        "tier": "BEST"
+      }
+    },
+    "SF": {
+      "LAL": {
+        "value": 30.3,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 30.3,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 29.5,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 29.3,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 29.1,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 29.1,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 28.4,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 28.4,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 28.3,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 27.7,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 27.5,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 27.4,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 27.3,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 26.9,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 26.9,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "NY": {
+        "value": 26.9,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 26.8,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 26.4,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 26.3,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 26.2,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 26.2,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 26.0,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 25.8,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 25.6,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 24.9,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 24.5,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 24.5,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 24.2,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 23.3,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 23.2,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "SG": {
+      "SAC": {
+        "value": 32.7,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 32.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 32.2,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 31.2,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "PHO": {
+        "value": 30.9,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 30.7,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 30.7,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 30.6,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 30.6,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "LAL": {
+        "value": 30.3,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 30.1,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "DET": {
+        "value": 30.1,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "MEM": {
+        "value": 30.1,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 29.7,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 29.6,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "WAS": {
+        "value": 29.5,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "MIA": {
+        "value": 29.4,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "DAL": {
+        "value": 29.3,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 29.0,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 28.8,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 28.7,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 28.4,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 28.4,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 27.9,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 27.8,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 27.8,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 27.7,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 27.2,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "CHI": {
+        "value": 26.4,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 26.0,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    }
+  },
+  "PRA": {
+    "C": {
+      "SAC": {
+        "value": 49.0,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 47.1,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 46.4,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 45.8,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 44.4,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 43.8,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "GS": {
+        "value": 43.3,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 42.9,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 41.9,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 40.5,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 40.5,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 40.4,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 40.3,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 40.3,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 40.1,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 39.8,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 39.1,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 38.9,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 38.8,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "MEM": {
+        "value": 38.6,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 38.5,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 38.2,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 37.7,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 37.7,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 37.6,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 36.2,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 35.8,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 35.1,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 34.6,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 31.7,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PF": {
+      "CHI": {
+        "value": 45.8,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 44.6,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "CLE": {
+        "value": 42.6,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 42.3,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 40.9,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 40.3,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "CHA": {
+        "value": 40.3,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "SAC": {
+        "value": 39.6,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 39.6,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "NY": {
+        "value": 39.5,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "LAL": {
+        "value": 39.0,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 38.4,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "DET": {
+        "value": 38.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "TOR": {
+        "value": 38.1,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "MIL": {
+        "value": 37.0,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 36.9,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 36.8,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 36.4,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "ATL": {
+        "value": 36.4,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "DAL": {
+        "value": 36.4,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 36.2,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 35.7,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "DEN": {
+        "value": 35.0,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 35.0,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 34.6,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 34.6,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 34.0,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "MEM": {
+        "value": 33.8,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 33.1,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 32.9,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "PG": {
+      "WAS": {
+        "value": 44.4,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "ORL": {
+        "value": 43.4,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 42.6,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 41.6,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 41.5,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 41.4,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "MIN": {
+        "value": 41.0,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "SA": {
+        "value": 41.0,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "LAC": {
+        "value": 40.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "NO": {
+        "value": 39.7,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "CHI": {
+        "value": 39.2,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 39.1,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 38.9,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 38.8,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 38.8,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "PHO": {
+        "value": 38.6,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "DEN": {
+        "value": 38.4,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 38.2,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "ATL": {
+        "value": 38.0,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 37.6,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "CHA": {
+        "value": 37.5,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "LAL": {
+        "value": 37.1,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 36.8,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 36.7,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 36.5,
+        "rank": 31,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 36.5,
+        "rank": 32,
+        "tier": "BEST"
+      },
+      "PHI": {
+        "value": 35.3,
+        "rank": 34,
+        "tier": "BEST"
+      },
+      "NY": {
+        "value": 34.9,
+        "rank": 36,
+        "tier": "BEST"
+      },
+      "BOS": {
+        "value": 34.1,
+        "rank": 38,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 33.8,
+        "rank": 40,
+        "tier": "BEST"
+      }
+    },
+    "SF": {
+      "CLE": {
+        "value": 38.3,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "LAL": {
+        "value": 37.9,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 37.6,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "MIL": {
+        "value": 37.6,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 37.4,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "CHI": {
+        "value": 37.2,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 37.1,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "WAS": {
+        "value": 37.0,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "IND": {
+        "value": 36.9,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 36.1,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "POR": {
+        "value": 35.9,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 35.4,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "PHI": {
+        "value": 35.2,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "BKN": {
+        "value": 35.2,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 34.3,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "UTA": {
+        "value": 34.1,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "MIN": {
+        "value": 34.1,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "OKC": {
+        "value": 34.0,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "HOU": {
+        "value": 34.0,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 34.0,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "NY": {
+        "value": 33.9,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "LAC": {
+        "value": 33.8,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 33.7,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "DAL": {
+        "value": 33.4,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "SA": {
+        "value": 33.3,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "GS": {
+        "value": 31.5,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "PHO": {
+        "value": 31.4,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 31.4,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "SAC": {
+        "value": 30.8,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "DET": {
+        "value": 30.5,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    },
+    "SG": {
+      "SAC": {
+        "value": 40.2,
+        "rank": 1,
+        "tier": "WORST"
+      },
+      "UTA": {
+        "value": 39.7,
+        "rank": 2,
+        "tier": "WORST"
+      },
+      "LAC": {
+        "value": 39.2,
+        "rank": 3,
+        "tier": "WORST"
+      },
+      "PHI": {
+        "value": 37.7,
+        "rank": 4,
+        "tier": "WORST"
+      },
+      "ATL": {
+        "value": 37.6,
+        "rank": 5,
+        "tier": "WORST"
+      },
+      "DAL": {
+        "value": 37.4,
+        "rank": 6,
+        "tier": "WORST"
+      },
+      "NO": {
+        "value": 37.4,
+        "rank": 7,
+        "tier": "WORST"
+      },
+      "PHO": {
+        "value": 36.9,
+        "rank": 8,
+        "tier": "WORST"
+      },
+      "MIA": {
+        "value": 36.8,
+        "rank": 9,
+        "tier": "WORST"
+      },
+      "MEM": {
+        "value": 36.6,
+        "rank": 10,
+        "tier": "WORST"
+      },
+      "BKN": {
+        "value": 36.6,
+        "rank": 11,
+        "tier": "MID"
+      },
+      "POR": {
+        "value": 36.5,
+        "rank": 12,
+        "tier": "MID"
+      },
+      "LAL": {
+        "value": 36.4,
+        "rank": 13,
+        "tier": "MID"
+      },
+      "NY": {
+        "value": 36.3,
+        "rank": 14,
+        "tier": "MID"
+      },
+      "CHA": {
+        "value": 36.1,
+        "rank": 15,
+        "tier": "MID"
+      },
+      "BOS": {
+        "value": 36.0,
+        "rank": 16,
+        "tier": "MID"
+      },
+      "DET": {
+        "value": 35.9,
+        "rank": 17,
+        "tier": "MID"
+      },
+      "WAS": {
+        "value": 35.8,
+        "rank": 18,
+        "tier": "MID"
+      },
+      "GS": {
+        "value": 35.6,
+        "rank": 19,
+        "tier": "MID"
+      },
+      "SA": {
+        "value": 35.5,
+        "rank": 20,
+        "tier": "MID"
+      },
+      "DEN": {
+        "value": 35.4,
+        "rank": 21,
+        "tier": "BEST"
+      },
+      "MIL": {
+        "value": 35.4,
+        "rank": 22,
+        "tier": "BEST"
+      },
+      "ORL": {
+        "value": 35.2,
+        "rank": 23,
+        "tier": "BEST"
+      },
+      "IND": {
+        "value": 35.2,
+        "rank": 24,
+        "tier": "BEST"
+      },
+      "TOR": {
+        "value": 34.6,
+        "rank": 25,
+        "tier": "BEST"
+      },
+      "OKC": {
+        "value": 34.5,
+        "rank": 26,
+        "tier": "BEST"
+      },
+      "CLE": {
+        "value": 33.4,
+        "rank": 27,
+        "tier": "BEST"
+      },
+      "MIN": {
+        "value": 32.8,
+        "rank": 28,
+        "tier": "BEST"
+      },
+      "CHI": {
+        "value": 32.1,
+        "rank": 29,
+        "tier": "BEST"
+      },
+      "HOU": {
+        "value": 31.4,
+        "rank": 30,
+        "tier": "BEST"
+      }
+    }
+  }
+}
