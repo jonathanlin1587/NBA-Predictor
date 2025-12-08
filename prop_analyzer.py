@@ -309,11 +309,17 @@ def merge_and_score(
 
 def filter_top_plays(
     plays: List[Play],
-    top_n: int = TOP_PLAYS_PER_CATEGORY
+    top_n: int = TOP_PLAYS_PER_CATEGORY,
+    max_per_player: int = 0  # 0 = no limit
 ) -> Dict[str, List[Play]]:
     """
     Filter and group top plays by category.
     Returns dict with 'overs' and 'unders' lists.
+    
+    Args:
+        plays: List of all plays
+        top_n: Number of top plays to return per category
+        max_per_player: Max plays allowed per player (0 = no limit)
     """
     # Filter out plays with no recent data or low games
     valid_plays = [
@@ -331,38 +337,62 @@ def filter_top_plays(
     overs.sort(key=lambda x: x.score, reverse=True)
     unders.sort(key=lambda x: x.score, reverse=True)
     
-    # Group by stat to get variety
-    def diversify(plays_list: List[Play], n: int) -> List[Play]:
-        """Get top plays with stat diversity."""
+    # Group by stat AND player to get variety
+    def diversify(plays_list: List[Play], n: int, max_player: int = 0) -> List[Play]:
+        """Get top plays with stat and player diversity."""
         result = []
         stat_counts = {}
+        player_counts = {}  # Track player occurrences
         
         for p in plays_list:
             stat = p.stat
+            player_key = p.player.lower()
+            
             stat_counts.setdefault(stat, 0)
+            player_counts.setdefault(player_key, 0)
+            
+            # Skip if player already at limit (when limit is set)
+            if max_player > 0 and player_counts[player_key] >= max_player:
+                continue
             
             # Allow up to 3 plays per stat initially
             if stat_counts[stat] < 3:
                 result.append(p)
                 stat_counts[stat] += 1
+                player_counts[player_key] += 1
             
             if len(result) >= n:
                 break
         
-        # If we don't have enough, add more
+        # If we don't have enough, add more (respecting player limit)
         if len(result) < n:
             for p in plays_list:
                 if p not in result:
+                    player_key = p.player.lower()
+                    # Respect player limit even in overflow
+                    if max_player > 0 and player_counts.get(player_key, 0) >= max_player:
+                        continue
                     result.append(p)
+                    player_counts[player_key] = player_counts.get(player_key, 0) + 1
                 if len(result) >= n:
                     break
         
         return result[:n]
     
     return {
-        "overs": diversify(overs, top_n),
-        "unders": diversify(unders, top_n),
+        "overs": diversify(overs, top_n, max_per_player),
+        "unders": diversify(unders, top_n, max_per_player),
     }
+
+
+def count_player_occurrences(plays: Dict[str, List[Play]]) -> Dict[str, int]:
+    """Count how many times each player appears across all plays."""
+    counts = {}
+    all_plays = plays.get("overs", []) + plays.get("unders", [])
+    for p in all_plays:
+        key = p.player.lower()
+        counts[key] = counts.get(key, 0) + 1
+    return counts
 
 
 # ---------------------------------------------------
