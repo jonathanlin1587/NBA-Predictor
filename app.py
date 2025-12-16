@@ -116,6 +116,7 @@ def parse_dvp_summary(filepath: str) -> Dict[str, Dict[str, Dict[str, Dict[str, 
 # ---------------------------------------------------
 PICKS_FILE = os.path.join(OUTPUT_DIR, "my_picks.json")
 PARLAYS_FILE = os.path.join(OUTPUT_DIR, "parlays.json")
+ANALYZED_PICKS_FILE = os.path.join(OUTPUT_DIR, "analyzed_picks.json")  # Tracks all analyzed plays, even if not bet
 
 # Scripts to run for data refresh
 DATA_SCRIPTS = [
@@ -239,6 +240,24 @@ def remove_pick(index: int):
         st.error(f"Error removing pick: {str(e)}")
 
 
+def edit_pick(index: int, updated_pick: Dict):
+    """Update a pick at the given index with new data"""
+    try:
+        picks = load_picks()
+        if 0 <= index < len(picks):
+            # Preserve original metadata
+            updated_pick["added_at"] = picks[index].get("added_at", datetime.now().strftime("%Y-%m-%d %H:%M"))
+            updated_pick["result"] = picks[index].get("result", "pending")
+            updated_pick["profit"] = picks[index].get("profit", 0)
+            picks[index] = updated_pick
+            save_picks(picks)
+            return True
+        return False
+    except Exception as e:
+        st.error(f"Error editing pick: {str(e)}")
+        return False
+
+
 def update_pick_result(index: int, result: str, profit: float):
     try:
         picks = load_picks()
@@ -252,6 +271,55 @@ def update_pick_result(index: int, result: str, profit: float):
 
 def clear_all_picks():
     save_picks([])
+
+
+def load_analyzed_picks() -> List[Dict]:
+    """Load all analyzed picks (plays that were viewed/analyzed but may not have been bet)"""
+    if os.path.exists(ANALYZED_PICKS_FILE):
+        try:
+            with open(ANALYZED_PICKS_FILE, "r") as f:
+                return json.load(f)
+        except:
+            return []
+    return []
+
+
+def save_analyzed_picks(analyzed_picks: List[Dict]):
+    """Save analyzed picks to file"""
+    try:
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        with open(ANALYZED_PICKS_FILE, "w") as f:
+            json.dump(analyzed_picks, f, indent=2)
+    except Exception as e:
+        st.error(f"Error saving analyzed picks: {str(e)}")
+
+
+def add_analyzed_pick(analyzed_pick: Dict):
+    """Track an analyzed pick (when viewing in Analyzer tab)"""
+    try:
+        if not analyzed_pick or not isinstance(analyzed_pick, dict):
+            return
+        analyzed_picks = load_analyzed_picks()
+        analyzed_pick["analyzed_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+        analyzed_pick["game_date"] = datetime.now().strftime("%Y-%m-%d")  # Assume analyzed on game day
+        analyzed_pick["was_bet"] = False  # Will be updated if user adds to picks
+        analyzed_pick["actual_result"] = None  # Will be filled when game results are loaded
+        analyzed_picks.append(analyzed_pick)
+        save_analyzed_picks(analyzed_picks)
+    except Exception as e:
+        pass  # Fail silently for tracking
+
+
+def get_actual_game_stat(player_name: str, stat: str, game_date: str, stats_db: Dict = None) -> Optional[float]:
+    """
+    Get the actual stat value from a specific game.
+    For now, this will need to use the next day's last_n_days data.
+    In the future, could scrape box scores for specific games.
+    """
+    # This is a placeholder - we'd need game-by-game data
+    # For MVP, we can use the difference between two days' last_n_days files
+    # Or scrape box scores
+    return None
 
 
 def load_parlays() -> List[Dict]:
@@ -744,6 +812,86 @@ def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, b
     
     st.divider()
     
+    # DVP Matchup Summary
+    if dvp_ratings and player_position and player_opponent:
+        st.markdown("### 🎯 DVP Matchup Summary")
+        st.caption(f"Defense vs Position ratings for {player_opponent} vs {player_position}s")
+        
+        # Show DVP for key stats
+        dvp_stats_to_show = ["PTS", "REB", "AST", "3PM", "STL", "BLK"]
+        dvp_data_rows = []
+        
+        for stat in dvp_stats_to_show:
+            if stat in dvp_ratings and player_position in dvp_ratings[stat]:
+                opp_dvp = dvp_ratings[stat][player_position].get(player_opponent)
+                if opp_dvp:
+                    dvp_value = opp_dvp.get("value", 0)
+                    dvp_tier = opp_dvp.get("tier", "MID")
+                    dvp_rank = opp_dvp.get("rank")
+                    
+                    # Determine emoji and label
+                    if dvp_tier == "WORST":
+                        emoji = "🔥"
+                        label = "SMASH"
+                        color = "green"
+                    elif dvp_tier == "BEST":
+                        emoji = "🧊"
+                        label = "FADE"
+                        color = "red"
+                    else:
+                        emoji = "⚪"
+                        label = "NEUTRAL"
+                        color = "gray"
+                    
+                    rank_text = f"#{dvp_rank}/30" if dvp_rank else "N/A"
+                    dvp_data_rows.append({
+                        "Stat": stat,
+                        "DVP Value": f"{dvp_value:.1f}",
+                        "Rank": rank_text,
+                        "Matchup": f"{emoji} {label}",
+                        "Tier": dvp_tier
+                    })
+        
+        if dvp_data_rows:
+            dvp_df = pd.DataFrame(dvp_data_rows)
+            # Style the dataframe
+            st.dataframe(
+                dvp_df[["Stat", "DVP Value", "Rank", "Matchup"]],
+                use_container_width=True,
+                hide_index=True
+            )
+            
+            # Show combined stats if available
+            combined_stats = []
+            if "PTS" in dvp_ratings and "REB" in dvp_ratings and "AST" in dvp_ratings:
+                pts_info = dvp_ratings["PTS"][player_position].get(player_opponent)
+                reb_info = dvp_ratings["REB"][player_position].get(player_opponent)
+                ast_info = dvp_ratings["AST"][player_position].get(player_opponent)
+                
+                if pts_info and reb_info and ast_info:
+                    pra_value = pts_info.get("value", 0) + reb_info.get("value", 0) + ast_info.get("value", 0)
+                    pts_tier = pts_info.get("tier", "MID")
+                    reb_tier = reb_info.get("tier", "MID")
+                    ast_tier = ast_info.get("tier", "MID")
+                    worst_count = sum(1 for t in [pts_tier, reb_tier, ast_tier] if t == "WORST")
+                    best_count = sum(1 for t in [pts_tier, reb_tier, ast_tier] if t == "BEST")
+                    pra_tier = "WORST" if worst_count >= 2 else "BEST" if best_count >= 2 else "MID"
+                    
+                    pra_emoji = "🔥" if pra_tier == "WORST" else "🧊" if pra_tier == "BEST" else "⚪"
+                    pra_label = "SMASH" if pra_tier == "WORST" else "FADE" if pra_tier == "BEST" else "NEUTRAL"
+                    combined_stats.append(f"**PRA**: {pra_value:.1f} ({pra_emoji} {pra_label})")
+            
+            if combined_stats:
+                st.markdown("**Combined Stats:** " + " | ".join(combined_stats))
+        else:
+            st.info(f"No DVP data available for {player_opponent} vs {player_position}s")
+    elif player_opponent and player_position:
+        st.warning(f"⚠️ DVP ratings not loaded. Run 'DVP Data' scraper to see matchup information.")
+    elif not player_opponent or not player_position:
+        st.info("ℹ️ Player opponent or position not found. DVP matchup data requires lineup information.")
+    
+    st.divider()
+    
     # Find player's plays from the system
     player_plays = [p for p in all_plays if player_name.lower() in p.player.lower()]
     
@@ -864,8 +1012,16 @@ def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, b
                 dvp_tier = dvp_info.get("tier")
                 dvp_rank = dvp_info.get("rank")
     
-    # Display stats with DVP info
-    col1, col2, col3 = st.columns(3)
+    # Calculate projection early so we can display it
+    has_dvp = dvp_value is not None and dvp_value > 0
+    player_mpg = mpg if mpg and mpg > 0 else None
+    if has_dvp and avg > 0:
+        projected = calculate_projection(avg, dvp_value, dvp_tier or "WORST", player_mpg=player_mpg)
+    else:
+        projected = avg if avg > 0 else 0.0
+    
+    # Display stats with DVP info and projection
+    col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric(f"L10 Avg {selected_stat}", f"{avg:.1f}")
     with col2:
@@ -896,6 +1052,18 @@ def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, b
                 st.caption("(Combined stat)")
         else:
             st.metric("Matchup", "N/A")
+    with col4:
+        if projected > 0:
+            st.metric(f"Projection", f"{projected:.1f}")
+            if has_dvp:
+                if player_mpg:
+                    st.caption(f"L10: {avg:.1f} + DVP: {dvp_value:.1f}")
+                else:
+                    st.caption(f"L10: {avg:.1f} + DVP: {dvp_value:.1f} (~30 MPG)")
+            else:
+                st.caption("L10 avg only")
+        else:
+            st.metric("Projection", "N/A")
     
     # Show DVP insight
     if dvp_info and dvp_value is not None:
@@ -930,32 +1098,7 @@ def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, b
         odds = st.number_input("Odds", value=default_odds, step=5, key="player_odds")
     
     if avg > 0 and line > 0:
-        # Calculate projection - blend L10 avg with DVP if available
-        # Check if we have valid DVP data (value > 0)
-        has_dvp = dvp_value is not None and dvp_value > 0
-        
-        if has_dvp:
-            # Use the calculate_projection function from prop_analyzer
-            # If mpg is not available, use None and let it default to ~30 MPG
-            player_mpg = mpg if mpg and mpg > 0 else None
-            projected = calculate_projection(avg, dvp_value, dvp_tier or "WORST", player_mpg=player_mpg)
-            if player_mpg:
-                st.caption(f"📊 Projection: {projected:.1f} (blended from L10 {avg:.1f} + DVP {dvp_value:.1f})")
-            else:
-                st.caption(f"📊 Projection: {projected:.1f} (blended from L10 {avg:.1f} + DVP {dvp_value:.1f}, ~30 MPG assumed)")
-        else:
-            projected = avg
-            # Debug: Show why DVP isn't available
-            if not dvp_ratings:
-                st.caption(f"📊 Projection: {projected:.1f} (L10 avg only - DVP ratings not loaded)")
-            elif not player_position:
-                st.caption(f"📊 Projection: {projected:.1f} (L10 avg only - player position unknown)")
-            elif not player_opponent:
-                st.caption(f"📊 Projection: {projected:.1f} (L10 avg only - opponent unknown)")
-            elif dvp_value is None:
-                st.caption(f"📊 Projection: {projected:.1f} (L10 avg only - no DVP data for {selected_stat})")
-            else:
-                st.caption(f"📊 Projection: {projected:.1f} (L10 avg only - DVP value invalid)")
+        # Projection already calculated above, use it here
         
         result = calculate_edge(projected, line, direction)
         edge_pct = result["edge_pct"]
@@ -1073,9 +1216,45 @@ def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, b
                 }
                 if bet_units_value is not None:
                     pick_data["bet_units"] = round(bet_units_value, 2)
+                
+                # Track as analyzed pick first, then mark as bet
+                analyzed_pick_data = pick_data.copy()
+                add_analyzed_pick(analyzed_pick_data)
+                
+                # Mark as bet in analyzed picks
+                analyzed_picks = load_analyzed_picks()
+                for ap in reversed(analyzed_picks):  # Check most recent
+                    if (ap.get("player") == player_name and 
+                        ap.get("stat") == selected_stat and 
+                        ap.get("direction") == direction and
+                        ap.get("line") == line and
+                        not ap.get("was_bet")):
+                        ap["was_bet"] = True
+                        save_analyzed_picks(analyzed_picks)
+                        break
+                
                 add_pick(pick_data)
                 st.success(f"✅ Added {player_name} {selected_stat} {direction}!")
                 st.balloons()
+        
+        # Track when play is analyzed (even if not added to picks)
+        # This happens when the page loads with analysis shown
+        if "last_analyzed" not in st.session_state:
+            st.session_state.last_analyzed = {}
+        
+        analyzed_key = f"{player_name}_{selected_stat}_{direction}_{line}"
+        if analyzed_key not in st.session_state.last_analyzed:
+            analyzed_pick_data = {
+                "player": player_name, "stat": selected_stat, "direction": direction,
+                "opponent": player_opponent, "projection": projected, "line": line,
+                "odds": int(odds), "edge_%": round(edge_pct, 1),
+                "recommendation": result["recommendation"],
+                "win_prob_%": round(win_prob * 100, 1),
+                "kelly_%": round(kelly['kelly_adjusted'], 2),
+                "kelly_bet": round(kelly_bet, 2),
+            }
+            add_analyzed_pick(analyzed_pick_data)
+            st.session_state.last_analyzed[analyzed_key] = True
         with col2:
             if st.button("🎰 Add to Parlay", key="player_add_parlay", use_container_width=True):
                 if "parlay_legs" not in st.session_state:
@@ -1285,7 +1464,7 @@ def main():
                 st.text_area("Copy for DK/FD", "\n".join(dk_format), height=150)
             else:
                 st.info("No picks to export")
-            
+        
             # Rating Guide
             st.divider()
             st.markdown("#### 📚 Rating Guide")
@@ -1884,8 +2063,8 @@ def main():
                     
                     # Get unit settings for Kelly display
                     unit_size = st.session_state.get("unit_size", 25.0)
-                if not unit_size or unit_size <= 0:
-                    unit_size = 25.0
+                    if not unit_size or unit_size <= 0:
+                        unit_size = 25.0
                     use_units = st.session_state.get("use_units", False)
                     
                     col1, col2, col3, col4, col5, col6 = st.columns(6)
@@ -1918,8 +2097,6 @@ def main():
                 # Bet amount and potential return (with unit support)
                 # Get unit settings from session state
                 unit_size = st.session_state.get("unit_size", 25.0)
-                if not unit_size or unit_size <= 0:
-                    unit_size = 25.0
                 if not unit_size or unit_size <= 0:
                     unit_size = 25.0
                 use_units = st.session_state.get("use_units", False)
@@ -2038,6 +2215,181 @@ def main():
     # Tab 6: My Picks
     with tab6:
         st.subheader("📋 My Picks")
+        
+        # Add Custom Pick Section
+        with st.expander("➕ Add Custom Pick (Spreads, MLs, etc.)", expanded=False):
+            pick_type = st.radio("Pick Type", ["Spread", "Money Line", "Total (O/U)", "Player Prop"], horizontal=True)
+            
+            col1, col2 = st.columns(2)
+            
+            if pick_type == "Spread":
+                with col1:
+                    team = st.text_input("Team", key="custom_team", placeholder="e.g., LAL, BOS, GSW", help="Enter team abbreviation")
+                    spread_side = st.radio("Side", ["Favorite (-)", "Underdog (+)"], horizontal=True, key="custom_spread_side")
+                with col2:
+                    spread_line = st.number_input("Spread Line", value=0.0, step=0.5, key="custom_spread_line", help="e.g., -7.5 or +3.5")
+                    odds = st.number_input("Odds", value=-110, step=5, key="custom_spread_odds", help="American odds (e.g., -110, +150)")
+                    
+            elif pick_type == "Money Line":
+                with col1:
+                    team = st.text_input("Team", key="custom_ml_team", placeholder="e.g., LAL, BOS, GSW", help="Enter team abbreviation")
+                with col2:
+                    odds = st.number_input("Odds", value=-110, step=5, key="custom_ml_odds", help="American odds (e.g., -110, +150)")
+                spread_line = None
+                spread_side = None
+                
+            elif pick_type == "Total (O/U)":
+                with col1:
+                    teams = st.text_input("Teams", key="custom_total_teams", placeholder="e.g., LAL vs BOS", help="Enter both teams")
+                    total_direction = st.radio("Direction", ["Over", "Under"], horizontal=True, key="custom_total_dir")
+                with col2:
+                    total_line = st.number_input("Total Line", value=220.0, step=0.5, key="custom_total_line", help="e.g., 220.5")
+                    odds = st.number_input("Odds", value=-110, step=5, key="custom_total_odds", help="American odds")
+                team = teams
+                spread_line = total_line
+                spread_side = total_direction
+                
+            else:  # Player Prop
+                with col1:
+                    player_name = st.text_input("Player Name", key="custom_player_name", placeholder="e.g., LeBron James")
+                    stat = st.selectbox("Stat", ["PTS", "REB", "AST", "3PM", "PRA", "PR", "PA", "RA", "STL", "BLK"], key="custom_stat")
+                with col2:
+                    direction = st.radio("Direction", ["OVER", "UNDER"], horizontal=True, key="custom_dir")
+                    line = st.number_input("Line", value=25.0, step=0.5, key="custom_line")
+                    odds = st.number_input("Odds", value=-110, step=5, key="custom_prop_odds")
+                team = player_name
+                spread_line = line
+                spread_side = direction
+            
+            # Bet amount section
+            st.divider()
+            col_bet1, col_bet2 = st.columns(2)
+            unit_size = st.session_state.get("unit_size", 25.0)
+            if not unit_size or unit_size <= 0:
+                unit_size = 25.0
+            use_units = st.session_state.get("use_units", False)
+            
+            with col_bet1:
+                if use_units:
+                    bet_units = st.number_input(
+                        f"📏 Units (1u = ${unit_size:.2f})",
+                        min_value=0.0,
+                        max_value=100.0,
+                        value=1.0,
+                        step=0.5,
+                        key="custom_bet_units"
+                    )
+                    bet_amount = bet_units * unit_size
+                    st.caption(f"💵 ${bet_amount:.2f}")
+                else:
+                    bet_amount = st.number_input(
+                        "💵 Bet Amount ($)",
+                        min_value=0.0,
+                        max_value=10000.0,
+                        value=25.0,
+                        step=5.0,
+                        key="custom_bet_amount"
+                    )
+                    if unit_size > 0:
+                        bet_units = bet_amount / unit_size
+                        st.caption(f"📏 {bet_units:.2f}u")
+            
+            with col_bet2:
+                if pick_type in ["Spread", "Money Line", "Total (O/U)"]:
+                    opponent = st.text_input("Opponent", key="custom_opponent", placeholder="e.g., BOS", help="Optional")
+                else:
+                    opponent = st.text_input("Opponent", key="custom_prop_opponent", placeholder="e.g., BOS", help="Optional")
+            
+            # Build pick data
+            if st.button("➕ Add Custom Pick", type="primary", key="add_custom_pick", use_container_width=True):
+                if pick_type == "Spread":
+                    if not team:
+                        st.error("Please enter a team")
+                    else:
+                        pick_data = {
+                            "type": "spread",
+                            "team": team.upper(),
+                            "spread_side": "favorite" if spread_side == "Favorite (-)" else "underdog",
+                            "line": spread_line,
+                            "direction": f"Spread {spread_line:+.1f}",
+                            "odds": odds,
+                            "bet_amount": bet_amount,
+                            "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                            "opponent": opponent.upper() if opponent else None,
+                            "player": team.upper(),  # For compatibility
+                            "stat": "Spread",
+                            "projection": None,
+                            "recommendation": "Manual Entry",
+                        }
+                        add_pick(pick_data)
+                        st.success(f"✅ Added {team} {spread_side[:4]} {spread_line:+.1f} @ {odds}")
+                        st.rerun()
+                        
+                elif pick_type == "Money Line":
+                    if not team:
+                        st.error("Please enter a team")
+                    else:
+                        pick_data = {
+                            "type": "money_line",
+                            "team": team.upper(),
+                            "direction": "ML",
+                            "odds": odds,
+                            "bet_amount": bet_amount,
+                            "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                            "opponent": opponent.upper() if opponent else None,
+                            "player": team.upper(),  # For compatibility
+                            "stat": "Money Line",
+                            "line": None,
+                            "projection": None,
+                            "recommendation": "Manual Entry",
+                        }
+                        add_pick(pick_data)
+                        st.success(f"✅ Added {team} ML @ {odds}")
+                        st.rerun()
+                        
+                elif pick_type == "Total (O/U)":
+                    if not teams:
+                        st.error("Please enter teams")
+                    else:
+                        pick_data = {
+                            "type": "total",
+                            "teams": teams,
+                            "direction": total_direction.upper(),
+                            "line": total_line,
+                            "odds": odds,
+                            "bet_amount": bet_amount,
+                            "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                            "player": teams,  # For compatibility
+                            "stat": "Total",
+                            "projection": None,
+                            "recommendation": "Manual Entry",
+                        }
+                        add_pick(pick_data)
+                        st.success(f"✅ Added {teams} {total_direction.upper()} {total_line}")
+                        st.rerun()
+                        
+                else:  # Player Prop
+                    if not player_name:
+                        st.error("Please enter a player name")
+                    else:
+                        pick_data = {
+                            "type": "player_prop",
+                            "player": player_name,
+                            "stat": stat,
+                            "direction": direction,
+                            "line": line,
+                            "odds": odds,
+                            "bet_amount": bet_amount,
+                            "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                            "opponent": opponent.upper() if opponent else None,
+                            "projection": None,
+                            "recommendation": "Manual Entry",
+                        }
+                        add_pick(pick_data)
+                        st.success(f"✅ Added {player_name} {stat} {direction} {line}")
+                        st.rerun()
+        
+        st.divider()
         picks = load_picks()
         
         if picks:
@@ -2117,11 +2469,34 @@ def main():
                         if bet_units is not None:
                             bet_display += f" ({bet_units:.2f}u)"
                         
+                        # Format display based on pick type
+                        pick_type = pick.get('type', 'player_prop')
+                        if pick_type == 'spread':
+                            player_display = pick.get('team', pick.get('player', ''))
+                            stat_display = "Spread"
+                            dir_display = f"{pick.get('line', '?')}" if isinstance(pick.get('line'), (int, float)) else str(pick.get('line', '?'))
+                            line_display = ""
+                        elif pick_type == 'money_line':
+                            player_display = pick.get('team', pick.get('player', ''))
+                            stat_display = "ML"
+                            dir_display = ""
+                            line_display = ""
+                        elif pick_type == 'total':
+                            player_display = pick.get('teams', pick.get('player', ''))
+                            stat_display = "Total"
+                            dir_display = pick.get('direction', '')
+                            line_display = pick.get('line', '')
+                        else:
+                            player_display = pick.get("player", "")
+                            stat_display = pick.get("stat", "")
+                            dir_display = pick.get("direction", "")
+                            line_display = pick.get("line", "")
+                        
                         table_data.append({
-                            "Player": pick.get("player", ""),
-                            "Stat": pick.get("stat", ""),
-                            "Dir": pick.get("direction", ""),
-                            "Line": pick.get("line", ""),
+                            "Player": player_display,
+                            "Stat": stat_display,
+                            "Dir": dir_display,
+                            "Line": line_display if line_display != "" else (pick.get('line', '') if pick_type != 'spread' else ''),
                             "Odds": pick.get("odds", -110),
                             "Edge%": f"{pick.get('edge_%', 0):+.1f}",
                             "Win%": f"{pick.get('win_prob_%', '')}",
@@ -2157,94 +2532,424 @@ def main():
                     
                     # Quick result update buttons
                     st.markdown("#### Quick Update Results")
-                    pending_picks = [(i, p) for i, p in pick_indices if p.get("result") == "pending"]
-                    if pending_picks:
-                        for orig_idx, pick in pending_picks[:10]:  # Show first 10 pending
-                            col1, col2, col3, col4, col5 = st.columns([3, 1, 1, 1, 1])
-                            with col1:
-                                st.write(f"{pick['player']} {pick['stat']} {pick['direction']}")
-                            with col2:
-                                if st.button("✅", key=f"tbl_won_{orig_idx}"):
-                                    update_pick_result(orig_idx, "won", calculate_profit({**pick, "result": "won"}))
-                                    st.rerun()
-                            with col3:
-                                if st.button("❌", key=f"tbl_lost_{orig_idx}"):
-                                    update_pick_result(orig_idx, "lost", calculate_profit({**pick, "result": "lost"}))
-                                    st.rerun()
-                            with col4:
-                                if st.button("➖", key=f"tbl_push_{orig_idx}"):
-                                    update_pick_result(orig_idx, "push", 0.0)
-                                    st.rerun()
-                            with col5:
-                                if st.button("🗑️", key=f"tbl_del_{orig_idx}"):
-                                    remove_pick(orig_idx)
-                                    st.rerun()
-                    else:
-                        st.success("✅ All picks have been graded!")
+                    all_picks_display = [(i, p) for i, p in pick_indices]
+                    if all_picks_display:
+                        for orig_idx, pick in all_picks_display[:15]:  # Show first 15
+                            editing_key = f"tbl_editing_{orig_idx}"
+                            is_editing = st.session_state.get(editing_key, False)
+                            
+                            if is_editing:
+                                # Edit mode in table
+                                st.markdown(f"**✏️ Editing Pick #{orig_idx + 1}**")
+                                pick_type = pick.get('type', 'player_prop')
+                                
+                                col1, col2 = st.columns(2)
+                                if pick_type == 'spread':
+                                    with col1:
+                                        team = st.text_input("Team", value=pick.get('team', pick.get('player', '')), key=f"tbl_edit_team_{orig_idx}")
+                                        spread_line = st.number_input("Spread Line", value=float(pick.get('line', 0)), step=0.5, key=f"tbl_edit_line_{orig_idx}")
+                                    with col2:
+                                        odds = st.number_input("Odds", value=int(pick.get('odds', -110)), step=5, key=f"tbl_edit_odds_{orig_idx}")
+                                        opponent = st.text_input("Opponent", value=pick.get('opponent', ''), key=f"tbl_edit_opp_{orig_idx}")
+                                elif pick_type == 'money_line':
+                                    with col1:
+                                        team = st.text_input("Team", value=pick.get('team', pick.get('player', '')), key=f"tbl_edit_team_{orig_idx}")
+                                        opponent = st.text_input("Opponent", value=pick.get('opponent', ''), key=f"tbl_edit_opp_{orig_idx}")
+                                    with col2:
+                                        odds = st.number_input("Odds", value=int(pick.get('odds', -110)), step=5, key=f"tbl_edit_odds_{orig_idx}")
+                                elif pick_type == 'total':
+                                    with col1:
+                                        teams = st.text_input("Teams", value=pick.get('teams', pick.get('player', '')), key=f"tbl_edit_teams_{orig_idx}")
+                                        total_line = st.number_input("Total Line", value=float(pick.get('line', 220)), step=0.5, key=f"tbl_edit_line_{orig_idx}")
+                                    with col2:
+                                        total_direction = st.radio("Direction", ["Over", "Under"],
+                                                                  index=0 if pick.get('direction', '').upper() == 'OVER' else 1,
+                                                                  horizontal=True, key=f"tbl_edit_dir_{orig_idx}")
+                                        odds = st.number_input("Odds", value=int(pick.get('odds', -110)), step=5, key=f"tbl_edit_odds_{orig_idx}")
+                                else:  # Player Prop
+                                    with col1:
+                                        player_name = st.text_input("Player", value=pick.get('player', ''), key=f"tbl_edit_player_{orig_idx}")
+                                        stat = st.selectbox("Stat", ["PTS", "REB", "AST", "3PM", "PRA", "PR", "PA", "RA", "STL", "BLK"],
+                                                           index=["PTS", "REB", "AST", "3PM", "PRA", "PR", "PA", "RA", "STL", "BLK"].index(pick.get('stat', 'PTS')),
+                                                           key=f"tbl_edit_stat_{orig_idx}")
+                                    with col2:
+                                        direction = st.radio("Direction", ["OVER", "UNDER"],
+                                                            index=0 if pick.get('direction') == 'OVER' else 1,
+                                                            horizontal=True, key=f"tbl_edit_dir_{orig_idx}")
+                                        line = st.number_input("Line", value=float(pick.get('line', 25)), step=0.5, key=f"tbl_edit_line_{orig_idx}")
+                                        odds = st.number_input("Odds", value=int(pick.get('odds', -110)), step=5, key=f"tbl_edit_odds_{orig_idx}")
+                                
+                                unit_size = st.session_state.get("unit_size", 25.0)
+                                if not unit_size or unit_size <= 0:
+                                    unit_size = 25.0
+                                use_units = st.session_state.get("use_units", False)
+                                current_bet = pick.get('bet_amount', 25.0)
+                                
+                                if use_units:
+                                    current_units = pick.get('bet_units')
+                                    if current_units is None and unit_size > 0:
+                                        current_units = current_bet / unit_size
+                                    bet_units = st.number_input(f"Units (1u = ${unit_size:.2f})",
+                                                               min_value=0.0, max_value=100.0,
+                                                               value=float(current_units) if current_units else 1.0,
+                                                               step=0.5, key=f"tbl_edit_bet_units_{orig_idx}")
+                                    bet_amount = bet_units * unit_size
+                                else:
+                                    bet_amount = st.number_input("Bet Amount ($)",
+                                                                min_value=0.0, max_value=10000.0,
+                                                                value=float(current_bet), step=5.0, key=f"tbl_edit_bet_amount_{orig_idx}")
+                                    if unit_size > 0:
+                                        bet_units = bet_amount / unit_size
+                                
+                                col_save, col_cancel = st.columns(2)
+                                with col_save:
+                                    if st.button("✅ Save", key=f"tbl_save_{orig_idx}", type="primary"):
+                                        # Build updated pick
+                                        if pick_type == 'spread':
+                                            updated_pick = {
+                                                "type": "spread", "team": team.upper(), "line": spread_line,
+                                                "spread_side": pick.get('spread_side', 'favorite'),
+                                                "direction": f"Spread {spread_line:+.1f}", "odds": odds,
+                                                "bet_amount": bet_amount, "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                                                "opponent": opponent.upper() if opponent else None, "player": team.upper(),
+                                                "stat": "Spread", "projection": pick.get('projection'), "recommendation": pick.get('recommendation', 'Manual Entry'),
+                                            }
+                                        elif pick_type == 'money_line':
+                                            updated_pick = {
+                                                "type": "money_line", "team": team.upper(), "direction": "ML", "odds": odds,
+                                                "bet_amount": bet_amount, "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                                                "opponent": opponent.upper() if opponent else None, "player": team.upper(),
+                                                "stat": "Money Line", "line": None, "projection": pick.get('projection'), "recommendation": pick.get('recommendation', 'Manual Entry'),
+                                            }
+                                        elif pick_type == 'total':
+                                            updated_pick = {
+                                                "type": "total", "teams": teams, "direction": total_direction.upper(), "line": total_line, "odds": odds,
+                                                "bet_amount": bet_amount, "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                                                "player": teams, "stat": "Total", "projection": pick.get('projection'), "recommendation": pick.get('recommendation', 'Manual Entry'),
+                                            }
+                                        else:
+                                            updated_pick = {
+                                                "type": "player_prop", "player": player_name, "stat": stat, "direction": direction, "line": line, "odds": odds,
+                                                "bet_amount": bet_amount, "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                                                "opponent": pick.get('opponent'), "projection": pick.get('projection'), "recommendation": pick.get('recommendation', 'Manual Entry'),
+                                            }
+                                        
+                                        for key in ['edge_%', 'win_prob_%', 'kelly_%', 'kelly_bet']:
+                                            if key in pick:
+                                                updated_pick[key] = pick[key]
+                                        
+                                        if edit_pick(orig_idx, updated_pick):
+                                            st.session_state[editing_key] = False
+                                            st.success("✅ Pick updated!")
+                                            st.rerun()
+                                with col_cancel:
+                                    if st.button("❌ Cancel", key=f"tbl_cancel_{orig_idx}"):
+                                        st.session_state[editing_key] = False
+                                        st.rerun()
+                                st.divider()
+                            else:
+                                # Display mode with action buttons
+                                col1, col2, col3, col4, col5, col6 = st.columns([3, 1, 1, 1, 1, 1])
+                                with col1:
+                                    # Format display based on pick type
+                                    pick_type = pick.get('type', 'player_prop')
+                                    if pick_type == 'spread':
+                                        team = pick.get('team', pick.get('player', '?'))
+                                        line = pick.get('line', '?')
+                                        side = pick.get('spread_side', '')
+                                        display = f"{team} {line:+.1f}" if isinstance(line, (int, float)) else f"{team} {line}"
+                                    elif pick_type == 'money_line':
+                                        team = pick.get('team', pick.get('player', '?'))
+                                        display = f"{team} ML"
+                                    elif pick_type == 'total':
+                                        teams = pick.get('teams', pick.get('player', '?'))
+                                        direction = pick.get('direction', '?')
+                                        line = pick.get('line', '?')
+                                        display = f"{teams} {direction} {line}"
+                                    else:
+                                        display = f"{pick['player']} {pick['stat']} {pick['direction']}"
+                                    result = pick.get("result", "pending")
+                                    result_emoji = {"won": "✅", "lost": "❌", "push": "➖", "pending": "⏳"}.get(result, "⏳")
+                                    st.write(f"{result_emoji} {display} | ${pick.get('bet_amount', 0):.2f} @ {pick.get('odds', -110)}")
+                                with col2:
+                                    if st.button("✅", key=f"tbl_won_{orig_idx}", help="Mark as Won"):
+                                        update_pick_result(orig_idx, "won", calculate_profit({**pick, "result": "won"}))
+                                        st.rerun()
+                                with col3:
+                                    if st.button("❌", key=f"tbl_lost_{orig_idx}", help="Mark as Lost"):
+                                        update_pick_result(orig_idx, "lost", calculate_profit({**pick, "result": "lost"}))
+                                        st.rerun()
+                                with col4:
+                                    if st.button("➖", key=f"tbl_push_{orig_idx}", help="Mark as Push"):
+                                        update_pick_result(orig_idx, "push", 0.0)
+                                        st.rerun()
+                                with col5:
+                                    if st.button("✏️", key=f"tbl_edit_{orig_idx}", help="Edit Pick"):
+                                        st.session_state[editing_key] = True
+                                        st.rerun()
+                                with col6:
+                                    if st.button("🗑️", key=f"tbl_del_{orig_idx}", help="Delete Pick"):
+                                        remove_pick(orig_idx)
+                                        st.rerun()
             else:
                 # Card view (original expander view)
                 for orig_idx, pick in pick_indices:
                     result = pick.get("result", "pending")
                     profit = calculate_profit(pick)
-                    emoji = "🟢" if pick.get("direction") == "OVER" else "🔴"
                     result_emoji = {"won": "✅", "lost": "❌", "push": "➖", "pending": "⏳"}.get(result, "⏳")
                     added_date = pick.get("added_at", "")[:10] if pick.get("added_at") else ""
                     
-                    with st.expander(f"{result_emoji} {emoji} {pick['player']} {pick['stat']} {pick['direction']} @ {pick.get('line', '?')} | P/L: ${profit:+.2f} | {added_date}"):
-                        col1, col2, col3 = st.columns(3)
-                        with col1:
-                            st.markdown("**📋 Pick Details**")
-                            st.write(f"Opponent: {pick.get('opponent', '?')}")
-                            st.write(f"Projection: {pick.get('projection', '?')}")
-                            st.write(f"Line: {pick.get('line', '?')}")
-                            st.write(f"Odds: {pick.get('odds', -110)}")
-                        with col2:
-                            st.markdown("**📊 Kelly Analysis**")
-                            st.write(f"Win Prob: {pick.get('win_prob_%', '?')}%")
-                            st.write(f"Edge: {pick.get('edge_%', 0):+.1f}%")
-                            st.write(f"Kelly %: {pick.get('kelly_%', '?')}%")
-                            st.write(f"Kelly Bet: ${pick.get('kelly_bet', '?')}")
-                        with col3:
-                            st.markdown("**💰 Bet Info**")
-                            bet_amt = pick.get('bet_amount', 0)
-                            bet_units = pick.get('bet_units')
+                    # Format display title based on pick type
+                    pick_type = pick.get('type', 'player_prop')
+                    if pick_type == 'spread':
+                        team = pick.get('team', pick.get('player', '?'))
+                        line = pick.get('line', '?')
+                        emoji = "🏀"
+                        title = f"{result_emoji} {emoji} {team} {line:+.1f} @ {pick.get('odds', '?')} | P/L: ${profit:+.2f} | {added_date}" if isinstance(line, (int, float)) else f"{result_emoji} {emoji} {team} {line} | P/L: ${profit:+.2f} | {added_date}"
+                    elif pick_type == 'money_line':
+                        team = pick.get('team', pick.get('player', '?'))
+                        emoji = "💰"
+                        title = f"{result_emoji} {emoji} {team} ML @ {pick.get('odds', '?')} | P/L: ${profit:+.2f} | {added_date}"
+                    elif pick_type == 'total':
+                        teams = pick.get('teams', pick.get('player', '?'))
+                        direction = pick.get('direction', '?')
+                        line = pick.get('line', '?')
+                        emoji = "📊"
+                        title = f"{result_emoji} {emoji} {teams} {direction} {line} @ {pick.get('odds', '?')} | P/L: ${profit:+.2f} | {added_date}"
+                    else:
+                        emoji = "🟢" if pick.get("direction") == "OVER" else "🔴"
+                        title = f"{result_emoji} {emoji} {pick['player']} {pick['stat']} {pick['direction']} @ {pick.get('line', '?')} | P/L: ${profit:+.2f} | {added_date}"
+                    
+                    with st.expander(title):
+                        # Check if this pick is being edited
+                        editing_key = f"editing_{orig_idx}"
+                        is_editing = st.session_state.get(editing_key, False)
+                        
+                        if is_editing:
+                            # Edit mode
+                            st.markdown("**✏️ Edit Pick**")
+                            pick_type = pick.get('type', 'player_prop')
+                            
+                            if pick_type == 'spread':
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    team = st.text_input("Team", value=pick.get('team', pick.get('player', '')), key=f"edit_team_{orig_idx}")
+                                    spread_side = st.radio("Side", ["Favorite (-)", "Underdog (+)"], 
+                                                          index=0 if pick.get('spread_side') == 'favorite' else 1,
+                                                          horizontal=True, key=f"edit_spread_side_{orig_idx}")
+                                with col2:
+                                    spread_line = st.number_input("Spread Line", value=float(pick.get('line', 0)), step=0.5, key=f"edit_spread_line_{orig_idx}")
+                                    odds = st.number_input("Odds", value=int(pick.get('odds', -110)), step=5, key=f"edit_odds_{orig_idx}")
+                                opponent = st.text_input("Opponent", value=pick.get('opponent', ''), key=f"edit_opponent_{orig_idx}")
+                                
+                            elif pick_type == 'money_line':
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    team = st.text_input("Team", value=pick.get('team', pick.get('player', '')), key=f"edit_team_{orig_idx}")
+                                with col2:
+                                    odds = st.number_input("Odds", value=int(pick.get('odds', -110)), step=5, key=f"edit_odds_{orig_idx}")
+                                opponent = st.text_input("Opponent", value=pick.get('opponent', ''), key=f"edit_opponent_{orig_idx}")
+                                spread_line = None
+                                spread_side = None
+                                
+                            elif pick_type == 'total':
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    teams = st.text_input("Teams", value=pick.get('teams', pick.get('player', '')), key=f"edit_teams_{orig_idx}")
+                                    total_direction = st.radio("Direction", ["Over", "Under"],
+                                                              index=0 if pick.get('direction', '').upper() == 'OVER' else 1,
+                                                              horizontal=True, key=f"edit_total_dir_{orig_idx}")
+                                with col2:
+                                    total_line = st.number_input("Total Line", value=float(pick.get('line', 220)), step=0.5, key=f"edit_total_line_{orig_idx}")
+                                    odds = st.number_input("Odds", value=int(pick.get('odds', -110)), step=5, key=f"edit_odds_{orig_idx}")
+                                team = teams
+                                spread_line = total_line
+                                spread_side = total_direction
+                                opponent = None
+                                
+                            else:  # Player Prop
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    player_name = st.text_input("Player Name", value=pick.get('player', ''), key=f"edit_player_{orig_idx}")
+                                    stat = st.selectbox("Stat", ["PTS", "REB", "AST", "3PM", "PRA", "PR", "PA", "RA", "STL", "BLK"],
+                                                       index=["PTS", "REB", "AST", "3PM", "PRA", "PR", "PA", "RA", "STL", "BLK"].index(pick.get('stat', 'PTS')),
+                                                       key=f"edit_stat_{orig_idx}")
+                                with col2:
+                                    direction = st.radio("Direction", ["OVER", "UNDER"],
+                                                        index=0 if pick.get('direction') == 'OVER' else 1,
+                                                        horizontal=True, key=f"edit_dir_{orig_idx}")
+                                    line = st.number_input("Line", value=float(pick.get('line', 25)), step=0.5, key=f"edit_line_{orig_idx}")
+                                    odds = st.number_input("Odds", value=int(pick.get('odds', -110)), step=5, key=f"edit_odds_{orig_idx}")
+                                opponent = st.text_input("Opponent", value=pick.get('opponent', ''), key=f"edit_opponent_{orig_idx}")
+                                team = player_name
+                                spread_line = line
+                                spread_side = direction
+                            
+                            # Bet amount
+                            st.divider()
                             unit_size = st.session_state.get("unit_size", 25.0)
                             if not unit_size or unit_size <= 0:
                                 unit_size = 25.0
-                            if bet_units is None and unit_size > 0:
-                                bet_units = bet_amt / unit_size
+                            use_units = st.session_state.get("use_units", False)
+                            
+                            col_bet1, col_bet2 = st.columns(2)
+                            with col_bet1:
+                                current_bet = pick.get('bet_amount', 25.0)
+                                if use_units:
+                                    current_units = pick.get('bet_units')
+                                    if current_units is None and unit_size > 0:
+                                        current_units = current_bet / unit_size
+                                    bet_units = st.number_input(f"📏 Units (1u = ${unit_size:.2f})",
+                                                               min_value=0.0, max_value=100.0,
+                                                               value=float(current_units) if current_units else 1.0,
+                                                               step=0.5, key=f"edit_bet_units_{orig_idx}")
+                                    bet_amount = bet_units * unit_size
+                                    st.caption(f"💵 ${bet_amount:.2f}")
+                                else:
+                                    bet_amount = st.number_input("💵 Bet Amount ($)",
+                                                                min_value=0.0, max_value=10000.0,
+                                                                value=float(current_bet), step=5.0, key=f"edit_bet_amount_{orig_idx}")
+                                    if unit_size > 0:
+                                        bet_units = bet_amount / unit_size
+                                        st.caption(f"📏 {bet_units:.2f}u")
+                            
+                            col1, col2 = st.columns(2)
+                            with col1:
+                                if st.button("✅ Save Changes", key=f"save_edit_{orig_idx}", type="primary"):
+                                    # Build updated pick data
+                                    if pick_type == 'spread':
+                                        updated_pick = {
+                                            "type": "spread",
+                                            "team": team.upper(),
+                                            "spread_side": "favorite" if spread_side == "Favorite (-)" else "underdog",
+                                            "line": spread_line,
+                                            "direction": f"Spread {spread_line:+.1f}",
+                                            "odds": odds,
+                                            "bet_amount": bet_amount,
+                                            "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                                            "opponent": opponent.upper() if opponent else None,
+                                            "player": team.upper(),
+                                            "stat": "Spread",
+                                            "projection": pick.get('projection'),
+                                            "recommendation": pick.get('recommendation', 'Manual Entry'),
+                                        }
+                                    elif pick_type == 'money_line':
+                                        updated_pick = {
+                                            "type": "money_line",
+                                            "team": team.upper(),
+                                            "direction": "ML",
+                                            "odds": odds,
+                                            "bet_amount": bet_amount,
+                                            "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                                            "opponent": opponent.upper() if opponent else None,
+                                            "player": team.upper(),
+                                            "stat": "Money Line",
+                                            "line": None,
+                                            "projection": pick.get('projection'),
+                                            "recommendation": pick.get('recommendation', 'Manual Entry'),
+                                        }
+                                    elif pick_type == 'total':
+                                        updated_pick = {
+                                            "type": "total",
+                                            "teams": teams,
+                                            "direction": total_direction.upper(),
+                                            "line": total_line,
+                                            "odds": odds,
+                                            "bet_amount": bet_amount,
+                                            "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                                            "player": teams,
+                                            "stat": "Total",
+                                            "projection": pick.get('projection'),
+                                            "recommendation": pick.get('recommendation', 'Manual Entry'),
+                                        }
+                                    else:  # Player Prop
+                                        updated_pick = {
+                                            "type": "player_prop",
+                                            "player": player_name,
+                                            "stat": stat,
+                                            "direction": direction,
+                                            "line": line,
+                                            "odds": odds,
+                                            "bet_amount": bet_amount,
+                                            "bet_units": bet_units if use_units else (bet_amount / unit_size if unit_size > 0 else None),
+                                            "opponent": opponent.upper() if opponent else None,
+                                            "projection": pick.get('projection'),
+                                            "recommendation": pick.get('recommendation', 'Manual Entry'),
+                                        }
+                                    
+                                    # Preserve Kelly analysis if exists
+                                    for key in ['edge_%', 'win_prob_%', 'kelly_%', 'kelly_bet']:
+                                        if key in pick:
+                                            updated_pick[key] = pick[key]
+                                    
+                                    if edit_pick(orig_idx, updated_pick):
+                                        st.session_state[editing_key] = False
+                                        st.success("✅ Pick updated!")
+                                        st.rerun()
+                            with col2:
+                                if st.button("❌ Cancel", key=f"cancel_edit_{orig_idx}"):
+                                    st.session_state[editing_key] = False
+                                    st.rerun()
+                        else:
+                            # Display mode
+                            col1, col2, col3 = st.columns(3)
+                            with col1:
+                                st.markdown("**📋 Pick Details**")
+                                st.write(f"Opponent: {pick.get('opponent', '?')}")
+                                st.write(f"Projection: {pick.get('projection', '?')}")
+                                st.write(f"Line: {pick.get('line', '?')}")
+                                st.write(f"Odds: {pick.get('odds', -110)}")
+                            with col2:
+                                st.markdown("**📊 Kelly Analysis**")
+                                st.write(f"Win Prob: {pick.get('win_prob_%', '?')}%")
+                                st.write(f"Edge: {pick.get('edge_%', 0):+.1f}%")
+                                st.write(f"Kelly %: {pick.get('kelly_%', '?')}%")
+                                st.write(f"Kelly Bet: ${pick.get('kelly_bet', '?')}")
+                            with col3:
+                                st.markdown("**💰 Bet Info**")
+                                bet_amt = pick.get('bet_amount', 0)
+                                bet_units = pick.get('bet_units')
+                                unit_size = st.session_state.get("unit_size", 25.0)
+                                if not unit_size or unit_size <= 0:
+                                    unit_size = 25.0
+                                if bet_units is None and unit_size > 0:
+                                    bet_units = bet_amt / unit_size
 
-                            bet_display = f"${bet_amt:.2f}"
-                            if bet_units is not None:
-                                bet_display += f" ({bet_units:.2f}u)"
-                            st.write(f"Your Bet: {bet_display}")
-                            st.write(f"Rec: {pick.get('recommendation', '?')}")
-                            st.write(f"Added: {pick.get('added_at', '?')}")
-                            potential = bet_amt * (american_to_decimal(pick.get('odds', -110)) - 1)
-                            potential_display = f"${potential:.2f}"
-                            if bet_units is not None and unit_size > 0:
-                                potential_units = potential / unit_size
-                                potential_display += f" ({potential_units:.2f}u)"
-                            st.write(f"Potential: {potential_display}")
-
-                        st.divider()
-                        col1, col2, col3, col4 = st.columns(4)
-                        with col1:
-                            if st.button("✅ Won", key=f"won_{orig_idx}"):
-                                update_pick_result(orig_idx, "won", calculate_profit({**pick, "result": "won"}))
-                                st.rerun()
-                        with col2:
-                            if st.button("❌ Lost", key=f"lost_{orig_idx}"):
-                                update_pick_result(orig_idx, "lost", calculate_profit({**pick, "result": "lost"}))
-                                st.rerun()
-                        with col3:
-                            if st.button("➖ Push", key=f"push_{orig_idx}"):
-                                update_pick_result(orig_idx, "push", 0.0)
-                                st.rerun()
-                        with col4:
-                            if st.button("🗑️", key=f"del_{orig_idx}"):
-                                remove_pick(orig_idx)
-                                st.rerun()
+                                bet_display = f"${bet_amt:.2f}"
+                                if bet_units is not None:
+                                    bet_display += f" ({bet_units:.2f}u)"
+                                st.write(f"Your Bet: {bet_display}")
+                                st.write(f"Rec: {pick.get('recommendation', '?')}")
+                                st.write(f"Added: {pick.get('added_at', '?')}")
+                                potential = bet_amt * (american_to_decimal(pick.get('odds', -110)) - 1)
+                                potential_display = f"${potential:.2f}"
+                                if bet_units is not None and unit_size > 0:
+                                    potential_units = potential / unit_size
+                                    potential_display += f" ({potential_units:.2f}u)"
+                                st.write(f"Potential: {potential_display}")
+                            
+                            st.divider()
+                            col1, col2, col3, col4, col5 = st.columns(5)
+                            with col1:
+                                if st.button("✅ Won", key=f"won_{orig_idx}"):
+                                    update_pick_result(orig_idx, "won", calculate_profit({**pick, "result": "won"}))
+                                    st.rerun()
+                            with col2:
+                                if st.button("❌ Lost", key=f"lost_{orig_idx}"):
+                                    update_pick_result(orig_idx, "lost", calculate_profit({**pick, "result": "lost"}))
+                                    st.rerun()
+                            with col3:
+                                if st.button("➖ Push", key=f"push_{orig_idx}"):
+                                    update_pick_result(orig_idx, "push", 0.0)
+                                    st.rerun()
+                            with col4:
+                                if st.button("✏️ Edit", key=f"edit_{orig_idx}"):
+                                    st.session_state[editing_key] = True
+                                    st.rerun()
+                            with col5:
+                                if st.button("🗑️", key=f"del_{orig_idx}"):
+                                    remove_pick(orig_idx)
+                                    st.rerun()
             
             st.divider()
             
@@ -2289,14 +2994,24 @@ def main():
         st.subheader("📊 Analytics Dashboard")
         picks = load_picks()
         
-        if picks:
+        # Create sub-tabs for Analytics
+        analytics_tab1, analytics_tab2, analytics_tab3, analytics_tab4, analytics_tab5 = st.tabs([
+            "📈 Overview", "🎯 Performance", "📊 Projection Accuracy", "💰 Kelly Analysis", "📉 Trends"
+        ])
+        
+        if not picks:
+            st.info("No picks yet to analyze.")
+            st.stop()
+        
             won = [p for p in picks if p.get("result") == "won"]
             lost = [p for p in picks if p.get("result") == "lost"]
             pending = [p for p in picks if p.get("result") == "pending"]
-            graded_picks = [p for p in picks if p.get("result") in ["won", "lost"]]
-            total_profit = sum(calculate_profit(p) for p in picks)
-            total_wagered = sum(p.get("bet_amount", 0) for p in picks if p.get("result") in ["won", "lost"])
+        graded_picks = [p for p in picks if p.get("result") in ["won", "lost"]]
+        total_profit = sum(calculate_profit(p) for p in picks)
+        total_wagered = sum(p.get("bet_amount", 0) for p in picks if p.get("result") in ["won", "lost"])
             
+        # Tab 1: Overview
+        with analytics_tab1:
             # Summary Stats
             col1, col2, col3, col4, col5 = st.columns(5)
             with col1:
@@ -2375,78 +3090,9 @@ def main():
                         br_df = pd.concat([starting_point, br_df], ignore_index=True)
                         
                         st.line_chart(br_df.set_index("Date")[["Bankroll"]])
-            
-            st.divider()
-            
-            # Kelly Analysis Section
-            st.markdown("### 📈 Kelly Criterion Performance")
-            st.caption("💡 Compares your actual betting vs. Kelly Criterion recommendations on **your graded picks**")
-            
-            # Compare actual bets vs Kelly suggestions
-            if graded_picks:
-                kelly_suggested_total = sum(p.get("kelly_bet", 0) for p in graded_picks)
-                actual_bet_total = sum(p.get("bet_amount", 0) for p in graded_picks)
-                
-                # Calculate what profit would have been with Kelly
-                # This recalculates P/L using Kelly bet amounts instead of your actual bet amounts
-                kelly_profit = 0
-                for p in graded_picks:
-                    kelly_bet = p.get("kelly_bet", p.get("bet_amount", 0))
-                    if p.get("result") == "won":
-                        kelly_profit += kelly_bet * (american_to_decimal(p.get("odds", -110)) - 1)
-                    else:
-                        kelly_profit -= kelly_bet
-                
-                # Calculate actual profit for comparison
-                actual_profit = sum(calculate_profit(p) for p in graded_picks)
-                
-                col1, col2, col3, col4 = st.columns(4)
-                with col1:
-                    st.metric("Your Total Wagered", f"${actual_bet_total:.2f}")
-                    st.caption(f"Your P/L: ${actual_profit:+.2f}")
-                with col2:
-                    st.metric("Kelly Suggested Total", f"${kelly_suggested_total:.2f}")
-                    diff_wagered = kelly_suggested_total - actual_bet_total
-                    st.caption(f"${diff_wagered:+.2f} vs yours")
-                with col3:
-                    st.metric("Kelly P/L (if followed)", f"${kelly_profit:+.2f}")
-                    diff_profit = kelly_profit - actual_profit
-                    st.caption(f"${diff_profit:+.2f} vs yours")
-                with col4:
-                    # Show efficiency metric - compare ROI
-                    if actual_bet_total > 0:
-                        your_roi = (actual_profit / actual_bet_total) * 100
-                        kelly_roi = (kelly_profit / kelly_suggested_total) * 100 if kelly_suggested_total > 0 else 0
-                        st.metric("Your ROI", f"{your_roi:+.1f}%")
-                        st.caption(f"Kelly ROI: {kelly_roi:+.1f}%")
-                    else:
-                        st.metric("Your ROI", "N/A")
-                
-                # Win prob accuracy
-                st.markdown("#### 🎯 Win Probability Accuracy")
-                probs_with_results = [(p.get("win_prob_%", 50), p.get("result")) for p in graded_picks if p.get("win_prob_%")]
-                if probs_with_results:
-                    # Group by probability ranges
-                    ranges = {"45-50%": [], "50-55%": [], "55-60%": [], "60-65%": [], "65%+": []}
-                    for prob, result in probs_with_results:
-                        if prob < 50:
-                            ranges["45-50%"].append(1 if result == "won" else 0)
-                        elif prob < 55:
-                            ranges["50-55%"].append(1 if result == "won" else 0)
-                        elif prob < 60:
-                            ranges["55-60%"].append(1 if result == "won" else 0)
-                        elif prob < 65:
-                            ranges["60-65%"].append(1 if result == "won" else 0)
-                        else:
-                            ranges["65%+"].append(1 if result == "won" else 0)
-                    
-                    for range_name, results in ranges.items():
-                        if results:
-                            actual_wr = sum(results) / len(results) * 100
-                            st.write(f"**{range_name}**: {sum(results)}W-{len(results)-sum(results)}L (Actual: {actual_wr:.0f}%)")
-            
-            st.divider()
-            
+        
+        # Tab 2: Performance
+        with analytics_tab2:
             # Edge Effectiveness Analysis
             st.markdown("### 🎯 Performance by Edge % Range")
             edge_ranges = {
@@ -2521,6 +3167,8 @@ def main():
                         total = data["won"] + data["lost"]
                         wr = data["won"] / total * 100 if total > 0 else 0
                         st.write(f"**{player}**: {data['won']}W-{data['lost']}L ({wr:.0f}%) — ${data['profit']:+.2f}")
+            else:
+                st.info("No graded picks yet to show player performance.")
             
             st.divider()
             
@@ -2576,16 +3224,29 @@ def main():
             
             # Performance by direction
             st.markdown("### ⬆️⬇️ Performance by Direction")
-            dir_perf = {"OVER": {"won": 0, "lost": 0, "profit": 0}, "UNDER": {"won": 0, "lost": 0, "profit": 0}}
+            dir_perf = {"OVER": {"won": 0, "lost": 0, "profit": 0}, "UNDER": {"won": 0, "lost": 0, "profit": 0}, "OTHER": {"won": 0, "lost": 0, "profit": 0}}
             for p in picks:
+                pick_type = p.get("type", "player_prop")
                 direction = p.get("direction", "OVER")
+                
+                # Only track OVER/UNDER for player props and totals
+                # For spreads and MLs, use "OTHER" category
+                if pick_type in ["spread", "money_line"]:
+                    direction_key = "OTHER"
+                elif pick_type == "total":
+                    # Total direction should be "OVER" or "UNDER"
+                    direction_key = direction.upper() if direction.upper() in ["OVER", "UNDER"] else "OTHER"
+                else:
+                    # Player prop - use direction if it's OVER/UNDER, otherwise OTHER
+                    direction_key = direction.upper() if direction.upper() in ["OVER", "UNDER"] else "OTHER"
+                
                 if p.get("result") == "won":
-                    dir_perf[direction]["won"] += 1
+                    dir_perf[direction_key]["won"] += 1
                 elif p.get("result") == "lost":
-                    dir_perf[direction]["lost"] += 1
-                dir_perf[direction]["profit"] += calculate_profit(p)
+                    dir_perf[direction_key]["lost"] += 1
+                dir_perf[direction_key]["profit"] += calculate_profit(p)
             
-            col1, col2 = st.columns(2)
+            col1, col2, col3 = st.columns(3)
             with col1:
                 data = dir_perf["OVER"]
                 total = data["won"] + data["lost"]
@@ -2598,10 +3259,196 @@ def main():
                 wr = data["won"] / total * 100 if total > 0 else 0
                 st.metric("🔴 UNDERS", f"{data['won']}W-{data['lost']}L ({wr:.0f}%)")
                 st.caption(f"P/L: ${data['profit']:+.2f}")
+            with col3:
+                data = dir_perf["OTHER"]
+                total = data["won"] + data["lost"]
+                wr = data["won"] / total * 100 if total > 0 else 0
+                if total > 0:
+                    st.metric("🏀 Other (Spreads/MLs)", f"{data['won']}W-{data['lost']}L ({wr:.0f}%)")
+                st.caption(f"P/L: ${data['profit']:+.2f}")
+        
+        # Tab 3: Projection Accuracy
+        with analytics_tab3:
+            st.markdown("### 📊 Projection Accuracy (Analyzed Picks)")
+            st.caption("💡 Compare your projections vs actual player performance for analyzed plays")
             
+            analyzed_picks = load_analyzed_picks()
+            if analyzed_picks:
+                # Filter to picks from yesterday (to compare with today's stats)
+                from datetime import timedelta
+                yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+                yesterday_analyzed = [ap for ap in analyzed_picks if ap.get("game_date") == yesterday or ap.get("analyzed_at", "").startswith(yesterday)]
+                
+                if yesterday_analyzed:
+                    st.info(f"Found {len(yesterday_analyzed)} analyzed plays from {yesterday}")
+                    
+                    # Try to load yesterday's stats and today's stats to compare
+                    try:
+                        today = datetime.now().strftime("%Y-%m-%d")
+                        today_stats_file = find_latest_file("last_", OUTPUT_DIR)
+                        
+                        if today_stats_file:
+                            today_stats = load_last_n_days(today_stats_file)
+                            
+                            comparison_data = []
+                            for ap in yesterday_analyzed:
+                                player_name = ap.get("player", "")
+                                stat = ap.get("stat", "")
+                                projection = ap.get("projection")
+                                line = ap.get("line")
+                                direction = ap.get("direction", "")
+                                
+                                if player_name and player_name in today_stats:
+                                    player_data = today_stats[player_name]
+                                    # Get the stat value
+                                    if stat == "PTS":
+                                        actual = player_data.get("pts_per_g") or player_data.get("pts") or 0
+                                    elif stat == "REB":
+                                        actual = player_data.get("trb_per_g") or player_data.get("trb") or 0
+                                    elif stat == "AST":
+                                        actual = player_data.get("ast_per_g") or player_data.get("ast") or 0
+                                    elif stat == "PRA":
+                                        pts = player_data.get("pts_per_g") or player_data.get("pts") or 0
+                                        reb = player_data.get("trb_per_g") or player_data.get("trb") or 0
+                                        ast = player_data.get("ast_per_g") or player_data.get("ast") or 0
+                                        actual = pts + reb + ast
+                                    elif stat == "PR":
+                                        pts = player_data.get("pts_per_g") or player_data.get("pts") or 0
+                                        reb = player_data.get("trb_per_g") or player_data.get("trb") or 0
+                                        actual = pts + reb
+                                    elif stat == "PA":
+                                        pts = player_data.get("pts_per_g") or player_data.get("pts") or 0
+                                        ast = player_data.get("ast_per_g") or player_data.get("ast") or 0
+                                        actual = pts + ast
+                                    elif stat == "RA":
+                                        reb = player_data.get("trb_per_g") or player_data.get("trb") or 0
+                                        ast = player_data.get("ast_per_g") or player_data.get("ast") or 0
+                                        actual = reb + ast
+                                    elif stat == "3PM":
+                                        actual = player_data.get("fg3_per_g") or player_data.get("fg3") or 0
+                                    elif stat == "STL":
+                                        actual = player_data.get("stl_per_g") or player_data.get("stl") or 0
+                                    elif stat == "BLK":
+                                        actual = player_data.get("blk_per_g") or player_data.get("blk") or 0
+                                    else:
+                                        actual = None
+                                    
+                                    if actual is not None and projection:
+                                        hit = False
+                                        if direction == "OVER" and actual > line:
+                                            hit = True
+                                        elif direction == "UNDER" and actual < line:
+                                            hit = True
+                                        
+                                        comparison_data.append({
+                                            "Player": player_name,
+                                            "Stat": stat,
+                                            "Direction": direction,
+                                            "Line": line,
+                                            "Projection": projection,
+                                            "Actual": round(actual, 1),
+                                            "Diff": round(actual - projection, 1),
+                                            "Hit": "✅" if hit else "❌",
+                                            "Was Bet": "💰" if ap.get("was_bet") else "👁️"
+                                        })
+                            
+                            if comparison_data:
+                                comp_df = pd.DataFrame(comparison_data)
+                                st.dataframe(comp_df, use_container_width=True, hide_index=True)
+                                
+                                # Summary stats
+                                total = len(comparison_data)
+                                hits = sum(1 for d in comparison_data if d["Hit"] == "✅")
+                                hit_rate = (hits / total * 100) if total > 0 else 0
+                                avg_diff = sum(d["Diff"] for d in comparison_data) / total if total > 0 else 0
+                                
+                                col1, col2, col3 = st.columns(3)
+                                with col1:
+                                    st.metric("Total Analyzed", total)
+                                with col2:
+                                    st.metric("Hit Rate", f"{hit_rate:.1f}%", f"{hits}/{total}")
+                                with col3:
+                                    st.metric("Avg Projection Error", f"{avg_diff:+.1f}")
+                    except Exception as e:
+                        st.warning(f"Could not load comparison data: {str(e)}")
+                else:
+                    st.info(f"No analyzed picks found from {yesterday}. Analyze some plays today and check back tomorrow!")
+            else:
+                st.info("No analyzed picks yet. Start analyzing plays in the Analyzer or Search tabs!")
+        
+        # Tab 4: Kelly Analysis
+        with analytics_tab4:
+            st.markdown("### 📈 Kelly Criterion Performance")
+            st.caption("💡 Compares your actual betting vs. Kelly Criterion recommendations on **your graded picks**")
+            
+            # Compare actual bets vs Kelly suggestions
+            if graded_picks:
+                kelly_suggested_total = sum(p.get("kelly_bet", 0) for p in graded_picks)
+                actual_bet_total = sum(p.get("bet_amount", 0) for p in graded_picks)
+                
+                # Calculate what profit would have been with Kelly
+                kelly_profit = 0
+                for p in graded_picks:
+                    kelly_bet = p.get("kelly_bet", p.get("bet_amount", 0))
+                    if p.get("result") == "won":
+                        kelly_profit += kelly_bet * (american_to_decimal(p.get("odds", -110)) - 1)
+                    else:
+                        kelly_profit -= kelly_bet
+                
+                # Calculate actual profit for comparison
+                actual_profit = sum(calculate_profit(p) for p in graded_picks)
+                
+                col1, col2, col3, col4 = st.columns(4)
+                with col1:
+                    st.metric("Your Total Wagered", f"${actual_bet_total:.2f}")
+                    st.caption(f"Your P/L: ${actual_profit:+.2f}")
+                with col2:
+                    st.metric("Kelly Suggested Total", f"${kelly_suggested_total:.2f}")
+                    diff_wagered = kelly_suggested_total - actual_bet_total
+                    st.caption(f"${diff_wagered:+.2f} vs yours")
+                with col3:
+                    st.metric("Kelly P/L (if followed)", f"${kelly_profit:+.2f}")
+                    diff_profit = kelly_profit - actual_profit
+                    st.caption(f"${diff_profit:+.2f} vs yours")
+                with col4:
+                    # Show efficiency metric - compare ROI
+                    if actual_bet_total > 0:
+                        your_roi = (actual_profit / actual_bet_total) * 100
+                        kelly_roi = (kelly_profit / kelly_suggested_total) * 100 if kelly_suggested_total > 0 else 0
+                        st.metric("Your ROI", f"{your_roi:+.1f}%")
+                        st.caption(f"Kelly ROI: {kelly_roi:+.1f}%")
+                    else:
+                        st.metric("Your ROI", "N/A")
+                
+                # Win prob accuracy
+                st.markdown("#### 🎯 Win Probability Accuracy")
+                probs_with_results = [(p.get("win_prob_%", 50), p.get("result")) for p in graded_picks if p.get("win_prob_%")]
+                if probs_with_results:
+                    # Group by probability ranges
+                    ranges = {"45-50%": [], "50-55%": [], "55-60%": [], "60-65%": [], "65%+": []}
+                    for prob, result in probs_with_results:
+                        if prob < 50:
+                            ranges["45-50%"].append(1 if result == "won" else 0)
+                        elif prob < 55:
+                            ranges["50-55%"].append(1 if result == "won" else 0)
+                        elif prob < 60:
+                            ranges["55-60%"].append(1 if result == "won" else 0)
+                        elif prob < 65:
+                            ranges["60-65%"].append(1 if result == "won" else 0)
+                        else:
+                            ranges["65%+"].append(1 if result == "won" else 0)
+                    
+                    for range_name, results in ranges.items():
+                        if results:
+                            actual_wr = sum(results) / len(results) * 100
+                            st.write(f"**{range_name}**: {sum(results)}W-{len(results)-sum(results)}L (Actual: {actual_wr:.0f}%)")
+            else:
+                st.info("No graded picks yet to analyze Kelly performance.")
+        
+        # Tab 5: Trends
+        with analytics_tab5:
             # Weekly/Monthly Trends
             if len(graded_picks) > 5:
-                st.divider()
                 st.markdown("### 📅 Performance Trends")
                 
                 # Parse dates and group by week
@@ -2634,9 +3481,12 @@ def main():
                                 wr = data["won"] / total * 100 if total > 0 else 0
                                 st.metric(week[-5:], f"{data['won']}W-{data['lost']}L")
                                 st.caption(f"${data['profit']:+.0f}")
+            else:
+                st.info("Need at least 6 graded picks to show trends.")
+            
+            st.divider()
             
             # Bankroll tracking
-            st.divider()
             st.markdown("### 💰 Bankroll Simulation")
             starting_br = st.number_input("Starting Bankroll", value=500.0, step=50.0, key="sim_bankroll")
             
@@ -2657,8 +3507,6 @@ def main():
                 change = running_br - starting_br
                 pct_change = (change / starting_br) * 100 if starting_br > 0 else 0
                 st.metric("Change", f"${change:+.2f}", f"{pct_change:+.1f}%")
-        else:
-            st.info("No picks yet to analyze.")
 
 
 if __name__ == "__main__":
