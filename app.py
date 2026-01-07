@@ -935,6 +935,37 @@ def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, b
     else:
         avg = 0.0
     
+    # Optional manual DVP override (lets you paste numbers like the source site)
+    with st.expander("Manual DVP override (optional)", expanded=False):
+        st.caption("Use this if the scraped DVP is missing or off. Values should match the per-position allowed stats on the source site.")
+        use_manual_dvp = st.checkbox(
+            "Use manual DVP for this stat",
+            value=False,
+            key=f"use_manual_dvp_{selected_stat}",
+        )
+        manual_dvp_value = st.number_input(
+            "Manual DVP value allowed (per game)",
+            min_value=0.0,
+            max_value=200.0,
+            step=0.1,
+            value=0.0,
+            key=f"manual_dvp_value_{selected_stat}",
+        )
+        manual_dvp_tier = st.selectbox(
+            "Manual matchup tier",
+            ["WORST", "MID", "BEST"],
+            index=0,
+            key=f"manual_dvp_tier_{selected_stat}",
+        )
+        manual_dvp_rank = st.number_input(
+            "Manual rank (1-30, optional)",
+            min_value=1,
+            max_value=30,
+            value=10,
+            step=1,
+            key=f"manual_dvp_rank_{selected_stat}",
+        )
+    
     # Look up DVP rating for this matchup
     dvp_info = None
     dvp_value = None
@@ -1003,7 +1034,7 @@ def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, b
                 dvp_rank = None
                 dvp_info = {"value": dvp_value, "tier": dvp_tier, "rank": None}
         else:
-            # For individual stats, look up directly
+            # For individual stats, look up directly from DVP ratings
             stat_dvp = dvp_ratings.get(dvp_stat, {})
             pos_dvp = stat_dvp.get(player_position, {})
             dvp_info = pos_dvp.get(player_opponent)
@@ -1011,6 +1042,13 @@ def show_player_analyzer(player_name: str, player_data: Dict, all_plays: List, b
                 dvp_value = dvp_info.get("value")
                 dvp_tier = dvp_info.get("tier")
                 dvp_rank = dvp_info.get("rank")
+    
+    # Apply manual DVP override if requested
+    if use_manual_dvp and manual_dvp_value and manual_dvp_value > 0:
+        dvp_value = float(manual_dvp_value)
+        dvp_tier = manual_dvp_tier
+        dvp_rank = int(manual_dvp_rank) if manual_dvp_rank else None
+        dvp_info = {"value": dvp_value, "tier": dvp_tier, "rank": dvp_rank}
     
     # Calculate projection early so we can display it
     has_dvp = dvp_value is not None and dvp_value > 0
